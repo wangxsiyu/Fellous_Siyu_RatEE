@@ -1,0 +1,19 @@
+Wednesday, June 10, 2020	1:41:14 PM	Game1.txt	66233282
+Cued	Now	66257259
+9	BlinkStart	66257293
+9	BlinkEnd	66281381
+2	BlinkStart	66281480
+2	BlinkEnd	66343422
+2	Feed	66343502
+4	BlinkStart	66343601
+4	BlinkEnd	66738585
+4	Feed	66738665
+2	BlinkStart	66738757
+2	BlinkEnd	67046055
+2	Feed	67046135
+8	BlinkStart	67046222
+8	BlinkEnd	67912514
+8	Feed	67912595
+6	BlinkStart	67912685
+6	BlinkEnd	68174218
+0	StopTraining	68174298

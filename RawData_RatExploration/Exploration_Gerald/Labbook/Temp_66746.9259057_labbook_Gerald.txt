@@ -1,0 +1,16 @@
+"Ver1.2",5,"","C:\Users\LabMember\AppData\Local\LabBook\ButtonConfig.txt","C:\Users\LabMember\AppData\Local\LabBook\SoundConfig.txt","C:\Users\LabMember\AppData\Local\LabBook\Announce.txt","C:\Users\LabMember\AppData\Local\LabBook\DefaultNoteBookConfig.txt"
+1
+0,#2020-06-01 16:55:24#,#2020-06-01 18:32:00#,"day 0, room adaptation/bucket training","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;\red144\green238\blue144;\red255\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 06-01-2020\par
+Experimenter: Siyu\par
+Time: 16:54\par
+Weight: 296 (0.880952380952381 %, 336g)\cf2\par
+ [17:53:39.389\tab ] Timer1:(0:57:7) -> \cf3\par
+17:53:47.355\tab  -> Stop Sleep1\par
+[1700113168]  18:0:8.421\tab  -> Start Sleep2\par
+\par
+ [[1702019202]  18:31:54.435\tab ] Timer1:(0:31:48) -> \par
+[1702020538]  18:31:55.746\tab  -> Stop Sleep2\par
+}
+",0

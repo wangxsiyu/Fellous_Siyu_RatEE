@@ -1,0 +1,127 @@
+"Ver1.2",5,"","C:\Users\LabMember\AppData\Local\LabBook\ButtonConfig.txt","C:\Users\LabMember\AppData\Local\LabBook\SoundConfig.txt","C:\Users\LabMember\AppData\Local\LabBook\Announce.txt","C:\Users\LabMember\AppData\Local\LabBook\DefaultNoteBookConfig.txt"
+5
+0,#2019-05-24 14:04:14#,#2019-05-27 16:50:32#,"(day 1) room adaptation","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;\red144\green238\blue144;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 05-24-2019\par
+Experimenter: Siyu\par
+Weight: 296\par
+\cf0\par
+\cf2 14:2:17.177\tab  -> Room adaptation with main lights and overhead LED lights on, together with Hachi\par
+\cf0  [14:10:1.895\tab ] Timer1:(0:6:35) -> Turn the main lights off\par
+\par
+ [15:8:1.125\tab ] Timer2:(0:57:39) -> End recording\par
+\par
+\cf2\par
+\cf0\par
+}
+",0
+0,#2019-05-25 16:41:04#,#2019-05-27 16:50:58#,"(day 2) bucket training","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 05-25-2019\par
+Experimenter: Siyu\par
+Weight: 294\par
+Time: 16:38\par
+\par
+Pick him up for a short walk first, he seems okay\par
+\par
+16:38:39.141\tab  -> In cage\par
+ [16:42:40.81\tab ] Timer1:(0:4:2) -> \cf0\par
+\par
+Also during Hachi's training (25 minutes)\par
+\par
+17:31:18.357\tab  -> Start Sleep1\cf1\par
+\par
+ [17:40:6.251\tab ] Timer1:(0:8:42) -> \par
+\par
+Jumped off the bucket 3 times, always wan't as calm when he was in my arms. \par
+\par
+weighted him in the colony room, put him back to cage.\par
+\par
+\par
+}
+",0
+0,#2019-05-26 19:55:20#,#2019-05-27 16:51:10#,"(day 3) bucket training - day 2","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 05-26-2019\par
+Experimenter: Siyu\par
+Time: 19:52\par
+Weight: 297\par
+\par
+19:53:23.11\tab  -> In cage\par
+\par
+Pick Tianqi up for a short walk\par
+\cf0\par
+20:32:5.482\tab  -> Start Sleep1 - put him in the glass wall (two layers of buckets so he can peek over the glass), he is still peeking over and trying to jump, i went in and took away one layer of bucket. The wall is now very high and he can't put his paws on the top of the wall. (When i put him back to the cage, he was trying to pull himself out of the cage.\par
+\par
+ [20:37:18.569\tab ] Timer1:(0:5:28) -> Restart timer (continue from 5:28)\par
+\par
+ [20:41:56.321\tab ] Timer1:(0:10:5) -> He tried to knock the door open. The is a gap between glasses.\par
+ \par
+ [20:43:51.216\tab ] Timer1:(0:12:0) -> Interupt and get Hachi back to cage.\par
+ [21:5:52.8\tab ] Timer1:(0:34:0) -> Stop training (20 minutes + )\par
+\par
+Walked him after the bucket training, he still seems nervous\par
+}
+",0
+0,#2019-05-27 15:26:18#,#2019-05-28 17:39:37#,"(day 4) bucket training - day 3","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 05-27-2019\par
+Experimenter: Siyu\par
+Time: 15:26\par
+Weight: 296\par
+\par
+\par
+15:26:23.54\tab  -> Start Sleep1 - wigth glass\par
+ [[1030541578]  15:53:10.780\tab ] Timer1:(0:24:48) -> take the glass off\par
+\par
+ [[1030875019]  15:58:44.197\tab ] Timer1:(0:30:22) -> He is still peeking over the edge, put the glass wall back on\par
+\par
+\par
+ [[1033129493]  16:36:18.659\tab ] Timer1:(1:7:56) -> pull the glass wall off\par
+ [[1033339533]  16:39:48.739\tab a] Timer1:(1:11:26) -> Stopped training\cf0\par
+}
+",0
+0,#2019-05-28 17:41:05#,#2019-05-28 19:36:03#,"(day 5) bucket training - day 4","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 05-28-2019\par
+Experimenter: Siyu\par
+Time: 17:40\par
+Weight: 293\par
+\f1\par
+17:39:39.624\tab  -> Start Sleep1\f0  - with glass\par
+\cf0\par
+ [[1125283843]  18:12:13.44\tab ] Timer1:(0:28:47) -> take the glass off\par
+\par
+\par
+ [[1126715369]  18:36:4.524\tab ] Timer2:(0:22:14) -> He didn't jump for 20 minutes, good job!\par
+\par
+Got anxious right after i typed this, and peeked over the edges again\par
+\par
+He jumped to the side, grabed the edge of the second layer of the bucket, didn't drop to the ground, not sure whether he is afraid of height. Put him back on top:\par
+\par
+ [[1126993095]  18:40:42.291\tab ] Timer2:(0:26:52) ->\par
+\par
+Cotinue a third session of bucket training\par
+\par
+ [[1128266624]  19:1:55.810\tab ] Timer3:(0:20:48) -> End bucket training\par
+\par
+put on the jacket\par
+\par
+\b Sugar water on boat, 2-5-7 flashing\f1\par
+19:15:10.370\tab  -> Start Task\b0  \cf1\par
+\cf0\f0 He explores extensively\par
+\par
+Stops at one point by the edge after 10 minutes to try to take the jacket off and failed.\par
+\par
+Go to the same spot and stopped (near feeder 1), not sure what he is doing this time.\par
+\par
+Moved and stopped at a different place.\par
+\par
+\par
+\par
+\par
+\par
+\b\f1\par
+19:35:57.449\tab  -> Stop Task\b0  \f0\par
+}
+",0

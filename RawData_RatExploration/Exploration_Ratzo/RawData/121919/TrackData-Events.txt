@@ -1,0 +1,5 @@
+3197366243	Thursday, December 19, 2019	6:25:33 PM	E:\BehavioralExperiments\Ratzo\RatData_Ratzo\Rawdata\121919\TrackData-Events.txt	3197366249	640 X 480
+3197398344	StartFile	0	3197398344
+3197412811	Start Sleep1	0	3197412811
+3200054269	Stop Sleep1	0	3200054269
+3200061970	EndFile	Thursday, December 19, 2019	7:10:29 PM	3200061974

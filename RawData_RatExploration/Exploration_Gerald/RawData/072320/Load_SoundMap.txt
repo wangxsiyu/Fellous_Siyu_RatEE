@@ -1,0 +1,10 @@
+Header - Sound map - Version 2
+0, Ignored, 2
+1, NoSound, 2
+2, File_beep1, 2
+3, NoSound, 2
+4, File_beep1, 2
+5, NoSound, 2
+6, File_beep1, 2
+7, NoSound, 2
+8, File_beep1, 2

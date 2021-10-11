@@ -1,0 +1,17 @@
+Saturday, January 25, 2020	11:52:00 AM	Ratzo_alter17_20200125.txt	1706215
+cued	now	1755300
+7	BlinkStart	1755380
+7	BlinkEnd	1872532
+0	NoFeedLowProb	1872612
+5	BlinkStart	1872842
+5	BlinkEnd	1896313
+5	NoFeedLowProb	1896393
+8	BlinkStart	1896624
+8	BlinkEnd	1916693
+8	Feed	1916773
+5	BlinkStart	1917003
+5	BlinkEnd	2295818
+5	NoFeedLowProb	2295898
+2	BlinkStart	2296128
+2	BlinkEnd	2383953
+0	StopTraining	2384033

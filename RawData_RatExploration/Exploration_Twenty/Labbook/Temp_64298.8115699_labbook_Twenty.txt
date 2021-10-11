@@ -1,0 +1,98 @@
+"Ver1.2",5,"","C:\Users\LabMember\AppData\Local\LabBook\ButtonConfig.txt","C:\Users\LabMember\AppData\Local\LabBook\SoundConfig.txt","C:\Users\LabMember\AppData\Local\LabBook\Announce.txt","C:\Users\LabMember\AppData\Local\LabBook\DefaultNoteBookConfig.txt"
+6
+0,#2020-06-01 16:52:38#,#2020-06-01 19:50:33#,"day 0, room adaptation","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 06-01-2020\par
+Experimenter: Siyu\par
+Time: 16:54\par
+Weight: 286 (0.888198757763975 %, 322g)\par
+ [17:53:42.508\tab ] Timer1:(0:57:12) -> \par
+17:53:43.452\tab  -> Stop Sleep1\par
+\par
+[1702506340]  18:40:1.548\tab  -> Start Sleep2\par
+ [[1702822329]  18:45:17.562\tab ] Timer1:(0:5:13) -> jumped picked him up\par
+ [[1702886527]  18:46:21.722\tab ] Timer1:(0:6:17) -> tried again, stopped him\par
+ [[1702980505]  18:47:55.698\tab ] Timer2:(0:1:31) -> added glass\par
+[1706734728]  19:50:29.967\tab  -> Stop Sleep2\par
+ [[1706735811]  19:50:31.24\tab ] Timer1:(1:10:26) -> \par
+}
+",0
+0,#2020-06-02 11:45:56#,#2020-06-02 12:24:37#,"day 0, room adaptation 2","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 06-02-2020\par
+Experimenter: Blake\par
+Time: 11:50\par
+Weight: 283 (0.87888198757764%, 322g)\par
+[1764551161]  11:54:6.378\tab  -> Start Sleep1\par
+ [[1766361609]  12:24:16.794\tab ] Timer1:(0:30:8) -> \par
+[1766372198]  12:24:27.417\tab  -> Stop Sleep1\cf0\par
+}
+",0
+0,#2020-06-03 09:43:15#,#2020-06-03 10:27:43#,"day 0, room adaptation 3","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 06-03-2020\par
+Experimenter: Blake\par
+Time: 09:50\par
+Weight: 285 (0.885093167701863 %, 322g)\par
+\cf0\par
+[73657329]  9:55:28.561\tab  -> Start Sleep1\par
+ [[75580805]  10:27:32.45\tab ] Timer1:(0:32:1) -> \par
+[75584014]  10:27:35.237\tab  -> Stop Sleep1\par
+}
+",0
+0,#2020-06-04 14:53:53#,#2020-06-04 15:32:10#,"day 0, room adaptation 3","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 06-04-2020\par
+Experimenter: Blake\par
+Time: 14:55\par
+Weight: 269 (0.835403726708075 %, 322g)\par
+\cf0\par
+[178370755]  15:0:41.993\tab  -> Start Sleep1\par
+ [[180253821]  15:32:5.16\tab ] Timer1:(0:30:57) -> \par
+[180255565]  15:32:6.798\tab  -> Stop Sleep1\par
+}
+",0
+0,#2020-06-06 17:30:30#,#2020-06-06 18:13:55#,"random, day 1 (2 lights)","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 06-06-2020\par
+Experimenter: Siyu\par
+Time: 17:30\par
+Weight: 279 (0.866459627329193 %, 322g)\par
+[360141665]  17:30:12.915\tab  -> Start Sleep1\par
+ [[360863535]  17:42:14.769\tab ] Timer1:(0:12:0) -> \par
+[360864616]  17:42:15.848\tab  -> Stop Sleep1\b\f1\par
+[360905710]  17:42:56.904\tab  -> Start Task\b0  \par
+ [[361143364]  17:46:54.560\tab ] Timer2:(0:3:59) -> \f0 triggered first light himself...\par
+ [[361550926]  17:53:42.160\tab ] Timer2:(0:10:47) -> check in...\par
+ [[361771313]  17:57:22.552\tab ] Timer2:(0:14:27) -> he triggered 6 himself...\par
+ [[361917397]  17:59:48.623\tab ] Timer2:(0:16:53) -> check in...\par
+ [[361967814]  18:0:39.15\tab ] Timer2:(0:17:43) -> give him 10 more minutes... sprayed some leftover sugar water from the overnight bottle on the floor towards the blinking feeder... \par
+ [[362344090]  18:6:55.303\tab ] Timer2:(0:24:0) -> \b\f1\par
+[362346437]  18:6:57.639\tab  -> Stop Task\b0  \par
+[362406728]  18:7:57.966\tab  -> Start Sleep2\par
+ [[362635177]  18:11:46.421\tab ] Timer3:(0:3:50) -> \par
+[362636497]  18:11:47.733\tab  -> Stop Sleep2\par
+ [[362637519]  18:11:48.750\tab ] Timer1:(0:41:34) -> \f0 peed near center, pooped by 7\cf0\par
+}
+",0
+0,#2020-06-08 17:01:56#,#2020-06-08 17:51:38#,"random, day 2 (2 lights)","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 06-08-2020\par
+Experimenter: Blake\par
+Time: 17:05\par
+Weight: 267 (0.866459627329193 %, 322g)\par
+[531739915]  17:10:11.141\tab  -> Start Sleep1\par
+ [[532050249]  17:15:21.476\tab ] Timer1:(0:5:7) -> \par
+[532053017]  17:15:24.235\tab  -> Stop Sleep1\b\f1\par
+[532092486]  17:16:3.739\tab  -> Start Task\b0  \par
+ [[532110957]  17:16:22.180\tab ] Timer2:(0:0:21) -> \f0 triggered first on his own set radius to 30\par
+ [[532785355]  17:27:36.570\tab ] Timer2:(0:11:35) -> guided to a feeder, he is not intrested in exploring right now\par
+ [[533781878]  17:44:13.88\tab ] Timer2:(0:28:11) -> stopped exploring, try again tommorow\b\f1\par
+[533821347]  17:44:52.560\tab  -> Stop Task\b0  \par
+ [[533826582]  17:44:57.808\tab ] Timer1:(0:34:43) -> \par
+[533914364]  17:46:25.600\tab  -> Start Sleep2\par
+ [[534216336]  17:51:27.552\tab ] Timer3:(0:5:4) -> \par
+[534221209]  17:51:32.456\tab  -> Stop Sleep2\par
+ [[534222832]  17:51:34.40\tab ] Timer1:(0:41:19) -> \cf0\f0\par
+}
+",0

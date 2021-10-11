@@ -1,0 +1,434 @@
+"Ver1.2",5,"","C:\Users\LabMember\AppData\Local\LabBook\ButtonConfig.txt","C:\Users\LabMember\AppData\Local\LabBook\SoundConfig.txt","C:\Users\LabMember\AppData\Local\LabBook\Announce.txt","C:\Users\LabMember\AppData\Local\LabBook\DefaultNoteBookConfig.txt"
+12
+0,#2019-05-24 14:04:14#,#2019-05-27 16:50:32#,"(day 1) room adaptation","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;\red144\green238\blue144;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 05-24-2019\par
+Experimenter: Siyu\par
+Weight: 296\par
+\cf0\par
+\cf2 14:2:17.177\tab  -> Room adaptation with main lights and overhead LED lights on, together with Hachi\par
+\cf0  [14:10:1.895\tab ] Timer1:(0:6:35) -> Turn the main lights off\par
+\par
+ [15:8:1.125\tab ] Timer2:(0:57:39) -> End recording\par
+\par
+\cf2\par
+\cf0\par
+}
+",0
+0,#2019-05-25 16:41:04#,#2019-05-27 16:50:58#,"(day 2) bucket training","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 05-25-2019\par
+Experimenter: Siyu\par
+Weight: 294\par
+Time: 16:38\par
+\par
+Pick him up for a short walk first, he seems okay\par
+\par
+16:38:39.141\tab  -> In cage\par
+ [16:42:40.81\tab ] Timer1:(0:4:2) -> \cf0\par
+\par
+Also during Hachi's training (25 minutes)\par
+\par
+17:31:18.357\tab  -> Start Sleep1\cf1\par
+\par
+ [17:40:6.251\tab ] Timer1:(0:8:42) -> \par
+\par
+Jumped off the bucket 3 times, always wan't as calm when he was in my arms. \par
+\par
+weighted him in the colony room, put him back to cage.\par
+\par
+\par
+}
+",0
+0,#2019-05-26 19:55:20#,#2019-05-27 16:51:10#,"(day 3) bucket training - day 2","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 05-26-2019\par
+Experimenter: Siyu\par
+Time: 19:52\par
+Weight: 297\par
+\par
+19:53:23.11\tab  -> In cage\par
+\par
+Pick Tianqi up for a short walk\par
+\cf0\par
+20:32:5.482\tab  -> Start Sleep1 - put him in the glass wall (two layers of buckets so he can peek over the glass), he is still peeking over and trying to jump, i went in and took away one layer of bucket. The wall is now very high and he can't put his paws on the top of the wall. (When i put him back to the cage, he was trying to pull himself out of the cage.\par
+\par
+ [20:37:18.569\tab ] Timer1:(0:5:28) -> Restart timer (continue from 5:28)\par
+\par
+ [20:41:56.321\tab ] Timer1:(0:10:5) -> He tried to knock the door open. The is a gap between glasses.\par
+ \par
+ [20:43:51.216\tab ] Timer1:(0:12:0) -> Interupt and get Hachi back to cage.\par
+ [21:5:52.8\tab ] Timer1:(0:34:0) -> Stop training (20 minutes + )\par
+\par
+Walked him after the bucket training, he still seems nervous\par
+}
+",0
+0,#2019-05-27 15:26:18#,#2019-05-28 17:39:37#,"(day 4) bucket training - day 3","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 05-27-2019\par
+Experimenter: Siyu\par
+Time: 15:26\par
+Weight: 296\par
+\par
+\par
+15:26:23.54\tab  -> Start Sleep1 - wigth glass\par
+ [[1030541578]  15:53:10.780\tab ] Timer1:(0:24:48) -> take the glass off\par
+\par
+ [[1030875019]  15:58:44.197\tab ] Timer1:(0:30:22) -> He is still peeking over the edge, put the glass wall back on\par
+\par
+\par
+ [[1033129493]  16:36:18.659\tab ] Timer1:(1:7:56) -> pull the glass wall off\par
+ [[1033339533]  16:39:48.739\tab a] Timer1:(1:11:26) -> Stopped training\cf0\par
+}
+",0
+0,#2019-05-28 17:41:05#,#2019-05-28 19:36:03#,"(day 5) bucket training - day 4","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 05-28-2019\par
+Experimenter: Siyu\par
+Time: 17:40\par
+Weight: 293\par
+\f1\par
+17:39:39.624\tab  -> Start Sleep1\f0  - with glass\par
+\cf0\par
+ [[1125283843]  18:12:13.44\tab ] Timer1:(0:28:47) -> take the glass off\par
+\par
+\par
+ [[1126715369]  18:36:4.524\tab ] Timer2:(0:22:14) -> He didn't jump for 20 minutes, good job!\par
+\par
+Got anxious right after i typed this, and peeked over the edges again\par
+\par
+He jumped to the side, grabed the edge of the second layer of the bucket, didn't drop to the ground, not sure whether he is afraid of height. Put him back on top:\par
+\par
+ [[1126993095]  18:40:42.291\tab ] Timer2:(0:26:52) ->\par
+\par
+Cotinue a third session of bucket training\par
+\par
+ [[1128266624]  19:1:55.810\tab ] Timer3:(0:20:48) -> End bucket training\par
+\par
+put on the jacket\par
+\par
+\b Sugar water on boat, 2-5-7 flashing\f1\par
+19:15:10.370\tab  -> Start Task\b0  \cf1\par
+\cf0\f0 He explores extensively\par
+\par
+Stops at one point by the edge after 10 minutes to try to take the jacket off and failed.\par
+\par
+Go to the same spot and stopped (near feeder 1), not sure what he is doing this time.\par
+\par
+Moved and stopped at a different place.\par
+\par
+\par
+\par
+\par
+\par
+\b\f1\par
+19:35:57.449\tab  -> Stop Task\b0  \f0\par
+}
+",0
+0,#2019-05-29 17:12:19#,#2019-05-29 19:06:21#,"random training day 1","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 05-29-2019\par
+Experimenter: Siyu\par
+Time: 17:12\par
+Weight: 286\par
+\f1\par
+\f0 He drank up the sugar bottle last evening.\f1\par
+17:11:24.586\tab  -> Start Sleep1\par
+\par
+ [17:16:32.969\tab ] Timer1:(0:5:4) -> \par
+17:16:35.592\tab  -> Stop Sleep1\b\par
+17:17:27.136\tab  -> Start Task\b0  \par
+\par
+\f0 Tracker did not successfully track the first trial.\par
+\par
+He stops near feeder 1, not sure what he is doing. (Messing with the belt?)\par
+\par
+He took off the jacket, put it back on...(stopped again by feeder 1)\par
+\par
+Stopped by feeder 1 (the belt felt there, the rat was not)\par
+\cf0\par
+ [17:41:2.144\tab ] Timer1:(0:0:0) -> \cf1 Take off the jacket again. \par
+\par
+\par
+ [17:43:23.983\tab ] Timer1:(0:0:0) -> Take off the jacket again, put him on the bucket for 5 minutes\par
+\par
+\par
+17:43:50.631\tab  -> Start Sleep1\par
+\par
+ [18:3:52.919\tab ] Timer1:(0:20:5) -> \par
+18:3:59.791\tab  -> Stop Sleep1\b\f1\par
+18:4:0.407\tab  -> Start Task\b0  \f0 6\par
+\par
+He will follow a kim wipe, but is not interested in sugar water. Stayed at one place\par
+\par
+Will turn off the light and have sugar water in all 3 weables.\par
+\par
+Stay still against a wall, put him back on center\par
+\par
+He stayed at another corner for a while, and then i think he is exploring feeder 7\par
+\par
+He finally started to explore the table, went to feeder 5 and then 2, stayed at feeder 2.\par
+\par
+\par
+\cf0\par
+ [18:44:33.30\tab ] Timer2:(0:21:2) -> No lights training finish\par
+\par
+Turn the light back on:\par
+\par
+Go to feeder 5, and stayed there\par
+\par
+Checked out feeder 2, then go to feeder 7 and stayed there.\par
+\par
+\b\f1\par
+19:0:1.309\tab  -> Stop Task\b0  \cf1\par
+ [19:0:3.917\tab ] Timer3:(0:15:29) -> \f0 Finish training\par
+\par
+He took the belt off, when i picked him up, he tried biting me again (the first time was the first day I tried to pick him up from the cage, probably the 2nd or 3rd day I interacted with him) \par
+\par
+19:0:13.757\tab  -> Start Sleep1\par
+Put him on the bucket\par
+\par
+\par
+\cf0\par
+19:6:20.285\tab  -> Stop Sleep1\par
+}
+",0
+0,#2019-05-30 19:14:39#,#2019-05-31 17:47:22#,"random (jacket training)","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 05-30-2019\par
+Experimenter: Siyu\par
+Time: 19:14\par
+Weight: ?\par
+\par
+\par
+19:14:42.714\tab  -> Start Sleep1\par
+\par
+19:16:20.640\tab  -> Stop Sleep1\par
+\b\f1\par
+19:16:24.144\tab  -> Start Task\b0  \par
+\par
+\f0 stayed near the corner trying to ghet off the belt\par
+\par
+# feeder 2 dont know why released all the sugar water\par
+\par
+\cf0\b\f1\par
+19:28:15.767\tab  -> Stop Task\b0  \par
+\par
+\f0 took the belt off\par
+\par
+\cf1\f1\par
+19:28:17.288\tab  -> Start Sleep1\b\par
+19:32:2.919\tab  -> Start Task\b0  \par
+\b\par
+19:33:6.359\tab  -> Stop Task\b0  \cf0\f0\par
+}
+",0
+0,#2019-05-31 17:48:03#,#2019-05-31 18:33:06#,"random day 2","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 05-31-2019\par
+Experimenter: Siyu\par
+Time: 17:47\par
+Weight: 270\par
+\f1\par
+[161985976]  17:47:48.432\tab  -> Start Sleep1\par
+ [[1383683611]  17:58:52.806\tab ] Timer1:(0:11:1) -> \par
+[1383680300]  17:58:49.469\tab  -> Stop Sleep1\par
+\cf0\b\par
+[1383691192]  17:59:0.349\tab  -> Start Task\b0  \par
+\f0 Clever rat. got the first 4 rewards pretty quickly\par
+\par
+Wandered among the 3 feeders,  stopped at 7, not for long\par
+\par
+He walked by feeder 5, but didn't seem to stop and drink the water\par
+\par
+Manually give a drop at 7 and then stops at 7, plays with bell, can hardly see him\par
+\par
+Took the belt off, put it back on 6:13\par
+\par
+Went over feeder 5, the tracker did not give reward... (after that he didn't stop at any feeder...)\par
+\par
+\par
+\par
+\par
+\par
+\par
+ [[1384849145]  18:18:18.357\tab ] Timer1:(0:15:50) -> moved him to center, he ran to 7 and stopped between 6 and 7\par
+\par
+Moved him to center again, stopped before 5 (4 and 5)\par
+\par
+ [[1385250090]  18:24:59.300\tab ] Timer1:(0:22:31) -> Went over 11 trials \par
+\par
+bite me for the third time\par
+\par
+\par
+\par
+\b\f1\par
+[1385718301]  18:33:4.180\tab  -> Stop Task\b0  \f0\par
+}
+",0
+0,#2019-06-04 23:04:05#,#2019-06-05 15:48:44#,"bucket training","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 06-04-2019\par
+Experimenter: Siyu\par
+Time: 23:03\par
+Weight: 255ish\par
+\par
+Bucket training for 5 minutes.\par
+\par
+It's been 4 days before he comes in this room...\par
+\par
+\par
+\cf0\par
+}
+",0
+0,#2019-06-05 15:48:50#,#2019-06-17 19:27:22#,"random","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 06-04-2019\par
+Experimenter: Siyu\par
+Time: 23:03\par
+Weight: 255\par
+\par
+\par
+15:48:55.251\tab  -> Start Sleep1\par
+15:51:29.490\tab  -> Stop Sleep1\b\f1\par
+15:51:31.129\tab  -> Start Task\b0  \par
+\f0 Took the belt off, help him wear it again...\par
+\par
+\par
+ [16:1:54.354\tab ] Timer2:(0:2:34) -> Stops between 3 and 4 against the wall, not sure what he is doing...\par
+\par
+\par
+ [16:2:29.577\tab ] Timer2:(0:3:9) -> r2\par
+\par
+ [16:3:18.697\tab ] Timer2:(0:3:58) -> Stayed at 2\par
+\par
+\cf0\par
+ [16:4:5.1\tab ] Timer2:(0:4:44) -> led him to 7, he didn't trigger it, between 7 and 8\par
+\par
+\par
+ [16:6:4.849\tab ] Timer2:(0:6:44) -> Dimed the light, accidentally triggered 7, he stays at 7\par
+\par
+\par
+ [16:7:8.905\tab ] Timer2:(0:7:48) -> Left 7, waited at 5 for a short while, then go between 5 and 4\par
+\par
+\par
+ [16:8:0.433\tab ] Timer2:(0:8:40) -> r2\par
+\par
+ [16:9:21.176\tab ] Timer2:(0:10:0) -> Stayed at 2\par
+\par
+ [16:12:46.449\tab ] Timer2:(0:13:26) -> Leave for feeder 7 and then 5\par
+\par
+ [16:13:5.521\tab ] Timer2:(0:13:45) -> skipped 2, go to 7 again... 7and 8, messing with the belt\par
+\par
+\par
+ [16:15:41.400\tab ] Timer2:(0:16:21) -> Took the belt off, stopped task\b\f1\par
+16:15:46.554\tab  -> Stop Task\b0  \cf1\par
+16:15:47.393\tab  -> Start Sleep1\par
+\par
+16:19:39.192\tab  -> Stop Sleep1\cf0\f0\par
+}
+",0
+0,#2019-06-17 19:27:33#,#2019-06-18 20:31:50#,"random","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 06-17-2019\par
+Experimenter: Siyu\par
+Time: 19:30\par
+Weight: 272\par
+\par
+\par
+19:27:35.531\tab  -> Start Sleep1\par
+\par
+ [19:37:51.128\tab ] Timer1:(0:3:55) -> Took the belt off, refuse to wear it\par
+\par
+ [19:43:13.319\tab ] Timer2:(0:4:58) -> A lot of peeking...  let him on belt for a little longer\par
+ [19:48:33.991\tab ] Timer2:(0:10:18) -> Check on him again\par
+\par
+\par
+ [19:51:28.630\tab ] Timer2:(0:13:13) -> Put the belt back on (not firm), he can take off if he wants...\par
+\par
+\cf0\par
+ [19:52:11.886\tab ] Timer1:(0:0:6) -> Restart timer, more bucket training...\par
+\par
+\par
+ [19:56:35.237\tab ] Timer1:(0:4:30) -> Took the belt off again\par
+\par
+\par
+ [20:1:32.173\tab ] Timer1:(0:9:27) -> Put the belt back on...\par
+\par
+ [20:1:43.565\tab ] Timer1:(0:9:38) -> Used a smaller belt (white one), not sure whether he is comfortable...\par
+\par
+\par
+ [20:16:51.667\tab ] Timer1:(0:24:46) -> Stopped, try to start a task\par
+\b\f1\par
+\cf1\b0 20:17:4.180\tab  -> Stop Sleep1\b\par
+20:17:8.443\tab  -> Start Task\b0  \par
+\f0 Took belt off again, put it back on, feeder 2\par
+\par
+\par
+ [20:28:58.826\tab ] Timer1:(0:0:5) -> my bad, set it to auto feed, the feeders released a lot of sugar water... 16 rewards....\par
+\par
+\par
+ [20:30:1.569\tab ] Timer1:(0:1:8) -> Took off the belt\par
+\par
+ [20:35:36.400\tab ] Timer1:(0:6:43) -> put it back on, black belt...\par
+\par
+\par
+ [20:36:46.369\tab ] Timer1:(0:7:53) -> Messing  with the belt again.\par
+\par
+\b\f1\par
+20:36:58.640\tab  -> Stop Task\b0  \par
+20:36:59.352\tab  -> Start Sleep2\par
+20:52:23.358\tab  -> Stop Sleep2\f0  (back from the colony room)\cf0\par
+}
+",0
+0,#2019-06-18 20:32:06#,#2019-06-18 21:14:34#,"random","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 06-18-2019\par
+Experimenter: Siyu\par
+Time: 20:31\par
+\pard Weight: 262?\par
+\par
+\par
+20:32:9.839\tab  -> Start Sleep1 (3 minutes from the beginning)\par
+\par
+ [20:32:13.574\tab ] Timer1:(0:3:21) -> belt may not be tight enough...\par
+\par
+ [20:34:2.357\tab ] Timer1:(0:5:10) -> \par
+20:34:3.821\tab  -> Stop Sleep1\par
+\b\f1\par
+20:35:31.549\tab  -> Start Task\b0  \par
+ [20:35:41.460\tab ] Timer2:(0:0:1) -> \f0 went to 5 first\par
+ [20:35:51.309\tab ] Timer2:(0:0:11) -> 2x (along the wall to 2)\par
+ [20:35:56.644\tab ] Timer2:(0:0:16) -> \par
+ [20:36:15.101\tab ] Timer2:(0:0:34) -> 1\par
+ [20:36:33.133\tab ] Timer2:(0:0:52) -> around 8\par
+ [20:36:40.781\tab ] Timer2:(0:1:0) -> check on hi\par
+ [20:41:28.116\tab ] Timer2:(0:5:47) -> put belt back on, got feeder 7 & 5\par
+\par
+ [20:41:44.748\tab ] Timer2:(0:6:4) -> messing with belt again\par
+\par
+ [20:42:16.308\tab ] Timer2:(0:6:36) -> Checked on him, stayed against the wall, belt still on\par
+\cf0\par
+ [20:43:12.732\tab ] Timer2:(0:7:32) -> 4x (seem)\par
+ [20:43:29.299\tab ] Timer2:(0:7:49) -> between 4 and 5\par
+ [20:43:37.948\tab ] Timer2:(0:7:57) -> 5x\par
+ [20:43:42.772\tab ] Timer2:(0:8:2) -> \par
+ [20:44:14.565\tab ] Timer2:(0:8:34) -> back to 4 and 5\par
+ [20:44:20.492\tab ] Timer2:(0:8:40) -> check on him again\par
+ [20:46:19.915\tab ] Timer2:(0:10:39) -> Not moving at the corner, not interested in paper towel\par
+ [20:46:32.155\tab ] Timer2:(0:10:52) -> \par
+ [20:52:17.419\tab ] Timer2:(0:16:37) -> still not moving(checked on him)\par
+\par
+ [20:55:47.179\tab ] Timer2:(0:20:7) -> wait 2 \par
+ [20:56:6.227\tab ] Timer2:(0:20:26) -> 8\par
+ [20:56:20.194\tab ] Timer2:(0:20:40) -> wait 7\par
+ [20:56:24.802\tab ] Timer2:(0:20:44) -> \par
+ [20:57:11.482\tab ] Timer2:(0:21:31) -> not sure what he is doing around feeder 7\par
+ [20:57:22.666\tab ] Timer2:(0:21:42) -> check on him again\b\f1\par
+20:58:35.603\tab  -> Stop Task\b0  \cf1\par
+21:2:28.946\tab  -> Start Sleep2\par
+\par
+21:14:24.544\tab  -> Stop Sleep2\par
+ [21:14:28.562\tab ] Timer1:(0:11:47) -> \cf0\f0\par
+}
+",0

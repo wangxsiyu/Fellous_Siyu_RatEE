@@ -1,0 +1,14 @@
+Set of Sample sounds (Vogt)
+NoSound, Null ,1,1,40
+PureTone-1kHz , a*sin((w-w*t/2)*t) , 1000, 1000, 40
+PureTone-3kHz , a*sin((w-w*t/3)*t) , 1000, 3000, 40
+PureTone-5kHz , a*sin((w-w*t/5)*t) , 1000, 5000, 40
+PureTone-7kHz , a*sin((w-w*t/7)*t) , 1000, 7000, 40
+PureTone-9kHz , a*sin((w-w*t/9)*t) , 1000, 9000, 40
+PureTone-11kHz , a*sin((w-w*t/11)*t) , 1000, 11000, 40
+PureTone-13kHz , a*sin((w-w*t/13)*t) , 1000, 13000, 40
+Wrong, 2*(rand(-1)-0.5) , 10000, 1000, 40
+File_GuidedSound, D:\BackupArea\SoundPlayerConfigurationFiles\SiyuSound\Guided.wav , 500, 1000, 40
+File_StopSound, D:\BackupArea\SoundPlayerConfigurationFiles\SiyuSound\Stop.wav , 500, 1000, 40
+StopSoundShort , a*sin(w*t/2*t/8) , 8000, 3000, 40
+StopSoundLong , a*sin(w*t/2*t/8) , 8000, 13000, 40

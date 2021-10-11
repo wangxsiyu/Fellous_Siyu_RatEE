@@ -1,0 +1,8 @@
+Monday, August 26, 2019	1:58:46 PM	zerorewardtrainingfile46_4.txt	1090285748
+cued	now	1090343281
+1	BlinkStart	1090343361
+1	BlinkEnd	1091407639
+0	NoFeed	1091407720
+4	BlinkStart	1091407951
+4	BlinkEnd	1091408222
+0	NoFeed	1091408302

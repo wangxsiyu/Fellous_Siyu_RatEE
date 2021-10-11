@@ -1,0 +1,4 @@
+3208681458	Thursday, December 19, 2019	9:34:09 PM	E:\BehavioralExperiments\Rizzo\RatData_Rizzo\Rawdata\121919\TrackData-Events.txt	3208681462	640 X 480
+3208709770	StartFile	0	3208709770
+3210940746	Stop Sleep1	0	3210940746
+3210945491	EndFile	Thursday, December 19, 2019	10:11:53 PM	3210945495

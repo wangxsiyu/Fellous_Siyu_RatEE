@@ -1,0 +1,57 @@
+"Ver1.2",5,"","C:\Users\LabMember\AppData\Local\LabBook\ButtonConfig.txt","C:\Users\LabMember\AppData\Local\LabBook\SoundConfig.txt","C:\Users\LabMember\AppData\Local\LabBook\Announce.txt","C:\Users\LabMember\AppData\Local\LabBook\DefaultNoteBookConfig.txt"
+4
+0,#2019-12-17 21:10:46#,#2019-12-17 21:47:03#,"bucket training, day 1","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;\red144\green238\blue144;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 12-17-2019\par
+Experimenter: Siyu\par
+Time: 21:11\par
+Weight: 321 (0.944117647058824 %, 340g)\cf2\f1\par
+21:10:23.132\tab  -> Start Sleep1\par
+21:11:19.650\tab  -> Start Sleep1\par
+ [21:46:51.177\tab ] Timer1:(0:35:29) -> \par
+21:46:53.991\tab  -> Stop Sleep1\par
+21:47:0.959\tab  -> Stop Sleep1\cf0\f0\par
+}
+",0
+0,#2019-12-18 18:05:31#,#2019-12-18 18:42:55#,"bucket training, day 2","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 12-18-2019\par
+Experimenter: Siyu\par
+Time: 18:05\par
+Weight: 321 (0.944117647058824 %, 340g)\par
+18:5:17.470\tab  -> Start Sleep1\par
+ [18:14:16.220\tab ] Timer1:(0:8:57) -> get belt on today...\par
+ [18:42:45.290\tab ] Timer1:(0:37:26) -> \par
+18:42:50.154\tab  -> Stop Sleep1\cf0\par
+}
+",0
+0,#2019-12-19 21:33:59#,#2019-12-20 21:03:35#,"bucket training, day 3","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 12-19-2019\par
+Experimenter: Siyu\par
+Time: 21:34\par
+Weight: 315 (0.926470588235294 %, 340g)\par
+[3208676645]  21:34:3.870\tab  -> Start Sleep1\par
+ [[3210937939]  22:11:45.164\tab ] Timer1:(0:37:2) -> \par
+[3210940613]  22:11:47.851\tab  -> Stop Sleep1\cf0\par
+}
+",0
+0,#2019-12-20 21:04:27#,#2019-12-20 22:10:35#,"light, day 0","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 12-20-2019\par
+Experimenter: Siyu\par
+Time: 21:04\par
+Weight: 333 (0.979411764705882 %, 340g)\par
+[3293289175]  21:4:16.417\tab  -> Start Sleep1\par
+ [[3293867081]  21:13:54.297\tab ] Timer1:(0:9:33) -> \par
+[3293868218]  21:13:55.441\tab  -> Stop Sleep1\b\f1\par
+[3293928640]  21:14:55.881\tab  -> Start Task\b0  \par
+ [[3296175832]  21:52:23.15\tab ] Timer2:(0:37:28) -> \b\par
+[3296178771]  21:52:25.967\tab  -> Stop Task\b0  \par
+[3296293338]  21:54:20.567\tab  -> Start Sleep2\par
+ [[3296295477]  21:54:22.695\tab ] Timer2:(0:0:4) -> \f0 he seemed to drink the water as well, but i didn't see him pause at the feeders.\par
+ [[3297061941]  22:7:9.135\tab ] Timer2:(0:12:50) -> \par
+[3297064347]  22:7:11.558\tab  -> Stop Sleep2\par
+ [[3297066753]  22:7:13.974\tab ] Timer1:(1:2:52) -> No reward was released, wrong task file.\cf0\par
+}
+",0

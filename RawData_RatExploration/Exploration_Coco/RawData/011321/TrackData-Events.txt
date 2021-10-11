@@ -1,0 +1,9 @@
+38973297	Wednesday, January 13, 2021	10:20:06 AM	E:\BehavioralExperiments\Coco\RawData\011321\TrackData-Events.txt	38973303	640 X 480
+38988978	StartFile	0	38988978
+38995019	Start Sleep1	0	38995019
+39307300	Stop Sleep1	0	39307300
+39353687	Start Task	0	39353687
+39411705	skipped first feeder since there was no reward	0	39411705
+41181985	Stop Task	0	41181985
+41233519	Start Sleep2	0	41233519
+41599606	Stop Sleep2	0	41599606

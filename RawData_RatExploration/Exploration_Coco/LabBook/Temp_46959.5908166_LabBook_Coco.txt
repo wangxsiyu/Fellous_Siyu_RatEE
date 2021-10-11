@@ -1,0 +1,77 @@
+"Ver1.2",5,"","C:\Users\LabMember\AppData\Local\LabBook\ButtonConfig.txt","C:\Users\LabMember\AppData\Local\LabBook\SoundConfig.txt","C:\Users\LabMember\AppData\Local\LabBook\Announce.txt","C:\Users\LabMember\AppData\Local\LabBook\DefaultNoteBookConfig.txt"
+6
+0,#2020-09-23 16:49:59#,#2020-09-23 18:32:10#,"room adaptation","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil Arial;}{\f1\fnil\fcharset0 Arial;}}
+{\colortbl ;\red144\green238\blue144;\red0\green0\blue0;\red255\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs24\par
+16:49:1.396\tab  -> Start Sleep1\cf2\par
+ [18:32:5.299\tab ] Timer1:(1:43:9) -> \cf3\par
+18:32:6.609\tab  -> Stop Sleep1\cf0\f1\par
+}
+",0
+0,#2020-10-03 19:01:49#,#2020-10-04 17:17:14#,"bucket training, session 1","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 10-3-2020\par
+Experimenter: Siyu\par
+Time: 19:01\par
+Weight: 292 (0.887537993920973 %, 329g) \par
+[431441997]  19:1:42.384\tab  -> Start Sleep1\par
+ [[436351350]  20:23:31.713\tab ] Timer1:(1:21:47) -> \par
+[436352492]  20:23:32.888\tab  -> Stop Sleep1\cf0\par
+}
+",0
+0,#2020-10-04 17:17:31#,#2020-10-04 17:44:33#,"bucket training, session 2","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 10-4-2020\par
+Experimenter: Siyu\par
+Time: 17:17\par
+Weight: 283 (0.860182370820669 %, 329g) \par
+[511572113]  17:17:15.168\tab  -> Start Sleep1\par
+ [[511572113]  17:20:24.999\tab ] Timer1:(0:3:7) -> tried to jump off the bucket, opened the door, he stopped...\par
+ [[511572113]  17:23:2.621\tab ] Timer1:(0:5:45) -> he jumped, picked him up...\par
+ [[511572113]  17:26:7.638\tab ] Timer1:(0:8:50) -> jumped twice, tried to jump 3 times\par
+ [[511572113]  17:36:42.182\tab ] Timer1:(0:19:25) -> jumped one more time, picked him up immediately\par
+ [[511572113]  17:40:17.469\tab ] Timer1:(0:23:0) -> \par
+[511572113]  17:40:19.476\tab  -> Stop Sleep1\cf0\par
+}
+",0
+0,#2020-10-04 20:51:17#,#2020-10-04 21:11:03#,"bucket training, session 3","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 10-4-2020\par
+Experimenter: Siyu\par
+Time: 20:51\par
+Weight: 279 (0.848024316109423 %, 329g) \par
+[524377252]  20:50:37.674\tab  -> Start Sleep1\par
+ [[525005505]  21:1:5.889\tab ] Timer1:(0:10:26) -> tracker attracted the edge...\par
+ [[525596516]  21:10:56.904\tab ] Timer1:(0:20:17) -> \par
+[525597718]  21:10:58.137\tab  -> Stop Sleep1\cf0\par
+}
+",0
+0,#2020-10-05 18:53:04#,#2020-10-05 19:46:08#,"water boat training","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 10-5-2020\par
+Experimenter: Siyu\par
+Time: 18:52\par
+Weight: 286 (0.869300911854103 %, 329g) \par
+[603705496]  18:52:45.912\tab  -> Start Sleep1\par
+ [[603972393]  18:57:12.783\tab ] Timer1:(0:4:23) -> forget to prepare the sugar water, come in while purge...\par
+ [[604159079]  19:0:19.487\tab ] Timer1:(0:7:30) -> water is ready, put him down....\par
+ [[604190093]  19:0:50.527\tab ] Timer1:(0:8:1) -> \par
+[604191630]  19:0:52.46\tab  -> Stop Sleep1\b\f1\par
+[604240290]  19:1:40.686\tab  -> Start Task\b0  \par
+ [[606568359]  19:40:28.783\tab ] Timer2:(0:38:46) -> \b\par
+[606569629]  19:40:30.39\tab  -> Stop Task\b0  \par
+[606602850]  19:41:3.254\tab  -> Start Sleep2\par
+ [[606902096]  19:46:2.527\tab ] Timer3:(0:5:0) -> \par
+[606904770]  19:46:5.143\tab  -> Stop Sleep2\par
+ [[606906107]  19:46:6.535\tab ] Timer1:(0:53:17) -> \cf0\f0\par
+}
+",0
+0,#2020-11-27 12:20:38#,#2020-11-27 13:02:39#," ","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 11-30-2020\par
+Experimenter: Blake\par
+Time: 18:52\par
+Weight:  ( %, 363g) \par
+\pard\cf0\par
+}
+",0

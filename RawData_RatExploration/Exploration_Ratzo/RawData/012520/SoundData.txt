@@ -1,0 +1,51 @@
+Ver1.2	3809537	StartFile	1/25/2020	12:27:04 PM	E:\BehavioralExperiments\Ratzo\RatData_Ratzo\Rawdata\012520\SoundData.txt	3809537
+3811957	Triggered	5	 Modulated Tone	25	2	3811957
+3833479	Triggered	8	 NoSound	50	2	3833479
+3949843	Triggered	5	 Modulated Tone	25	2	3949843
+3958271	Triggered	8	 NoSound	50	2	3958271
+4037807	Triggered	2	 NoSound	50	2	4037807
+4053047	Triggered	5	 Modulated Tone	25	2	4053047
+4064277	Triggered	8	 NoSound	50	2	4064277
+4101307	Triggered	5	 Modulated Tone	25	2	4101307
+4109062	Triggered	2	 NoSound	50	2	4109062
+4182926	Triggered	5	 Modulated Tone	25	2	4182926
+4189674	Triggered	8	 NoSound	50	2	4189674
+4251832	Triggered	5	 Modulated Tone	25	2	4251832
+4254240	Triggered	4	 NoSound	50	2	4254240
+4268475	Triggered	2	 NoSound	50	2	4268475
+4280776	Triggered	5	 Modulated Tone	25	2	4280776
+4287861	Triggered	8	 NoSound	50	2	4287861
+4323552	Triggered	5	 Modulated Tone	25	2	4323552
+4333312	Triggered	8	 NoSound	50	2	4333312
+4365192	Triggered	5	 Modulated Tone	25	2	4365192
+4373013	Triggered	8	 NoSound	50	2	4373013
+4410711	Triggered	8	 NoSound	50	2	4410711
+4474546	Triggered	2	 NoSound	50	2	4474547
+4546335	Triggered	5	 Modulated Tone	25	2	4546335
+4556023	Triggered	8	 NoSound	50	2	4556023
+4614174	Triggered	5	 Modulated Tone	25	2	4614174
+4626006	Triggered	8	 NoSound	50	2	4626006
+4687039	Triggered	6	 NoSound	50	2	4687039
+4696195	Triggered	5	 Modulated Tone	25	2	4696195
+4704887	Triggered	8	 NoSound	50	2	4704887
+4869705	Triggered	5	 Modulated Tone	25	2	4869705
+4883885	Triggered	1	 Modulated Tone	25	2	4883885
+4890364	Triggered	4	 NoSound	50	2	4890364
+4945508	Triggered	1	 Modulated Tone	25	2	4945508
+4972446	Triggered	6	 NoSound	50	2	4972446
+4990422	Triggered	5	 Modulated Tone	25	2	4990422
+5113075	Triggered	1	 Modulated Tone	25	2	5113075
+5123100	Triggered	4	 NoSound	50	2	5123100
+5168752	Triggered	1	 Modulated Tone	25	2	5168752
+5181390	Triggered	6	 NoSound	50	2	5181390
+5201711	Triggered	1	 Modulated Tone	25	2	5201711
+5410851	Triggered	4	 NoSound	50	2	5410851
+5464329	Triggered	5	 Modulated Tone	25	2	5464329
+5473952	Triggered	2	 NoSound	50	2	5473952
+5512316	Triggered	8	 NoSound	50	2	5512316
+5542126	Triggered	5	 Modulated Tone	25	2	5542126
+5569061	Triggered	1	 Modulated Tone	25	2	5569061
+5577483	Triggered	6	 NoSound	50	2	5577483
+5592523	Triggered	1	 Modulated Tone	25	2	5592523
+5842174	Triggered	4	 NoSound	50	2	5842174
+6392865	EndFile	Saturday, January 25, 2020	1:10:07 PM	EndFile	EndFile	6392865

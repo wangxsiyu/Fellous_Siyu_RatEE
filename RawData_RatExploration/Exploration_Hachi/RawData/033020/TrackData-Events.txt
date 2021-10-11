@@ -1,0 +1,2 @@
+1459393949	Monday, March 30, 2020	3:57:29 PM	E:\BehavioralExperiments\Hachi\RatData_Hachi\RawData\033020\TrackData-Events.txt	1459393953	640 X 480
+1459401815	StartFile	0	1459401815

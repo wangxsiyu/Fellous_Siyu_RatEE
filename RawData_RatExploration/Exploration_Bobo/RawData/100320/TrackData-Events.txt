@@ -1,0 +1,4 @@
+428505002	Saturday, October 3, 2020	6:12:45 PM	E:\BehavioralExperiments\Bobo\RawData\100320\TrackData-Events.txt	428505006	640 X 480
+428542562	StartFile	0	428542562
+430999958	Stop Sleep1	0	430999958
+431005494	EndFile	Saturday, October 3, 2020	6:54:26 PM	431005497

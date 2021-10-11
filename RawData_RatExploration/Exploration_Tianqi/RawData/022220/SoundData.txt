@@ -1,0 +1,391 @@
+Ver1.2	643981870	StartFile	2/22/2020	1:33:54 PM	E:\BehavioralExperiments\Tianqi\RatData_Tianqi\RawData\022220\SoundData.txt	643981870
+644335557	Triggered	8	 NoSound	50	2	644335557
+644340368	Triggered	1	 Modulated Tone	25	2	644340368
+644345115	Triggered	6	 NoSound	50	2	644345115
+644352218	Triggered	1	 Modulated Tone	25	2	644352218
+644356278	Triggered	6	 NoSound	50	2	644356278
+644363897	Triggered	1	 Modulated Tone	25	2	644363897
+644368241	Triggered	4	 NoSound	50	2	644368241
+644380607	Triggered	1	 Modulated Tone	25	2	644380607
+644386088	Triggered	6	 NoSound	50	2	644386088
+644395646	Triggered	1	 Modulated Tone	25	2	644395646
+644399457	Triggered	4	 NoSound	50	2	644399457
+644408818	Triggered	1	 Modulated Tone	25	2	644408818
+644412489	Triggered	4	 NoSound	50	2	644412489
+644423320	Triggered	1	 Modulated Tone	25	2	644423320
+644427930	Triggered	4	 NoSound	50	2	644427930
+644437354	Triggered	1	 Modulated Tone	25	2	644437354
+644440763	Triggered	4	 NoSound	50	2	644440763
+644450056	Triggered	1	 Modulated Tone	25	2	644450056
+644453534	Triggered	4	 NoSound	50	2	644453535
+644461752	Triggered	1	 Modulated Tone	25	2	644461752
+644465171	Triggered	4	 NoSound	50	2	644465171
+644473116	Triggered	1	 Modulated Tone	25	2	644473116
+644476458	Triggered	4	 NoSound	50	2	644476458
+644487819	Triggered	1	 Modulated Tone	25	2	644487819
+644491298	Triggered	4	 NoSound	50	2	644491298
+644499050	Triggered	1	 Modulated Tone	25	2	644499050
+644502993	Triggered	5	 Modulated Tone	25	2	644502993
+644506668	Triggered	8	 NoSound	50	2	644506668
+644516695	Triggered	5	 Modulated Tone	25	2	644516695
+644520037	Triggered	8	 NoSound	50	2	644520037
+644527792	Triggered	5	 Modulated Tone	25	2	644527792
+644531200	Triggered	8	 NoSound	50	2	644531200
+644539489	Triggered	5	 Modulated Tone	25	2	644539489
+644543171	Triggered	2	 NoSound	50	2	644543171
+644548312	Triggered	5	 Modulated Tone	25	2	644548312
+644555337	Triggered	1	 Modulated Tone	25	2	644555337
+644559405	Triggered	2	 NoSound	50	2	644559405
+644563884	Triggered	5	 Modulated Tone	25	2	644563884
+644571639	Triggered	5	 Modulated Tone	25	2	644571639
+644576452	Triggered	1	 Modulated Tone	25	2	644576452
+644581601	Triggered	2	 NoSound	50	2	644581601
+644587284	Triggered	5	 Modulated Tone	25	2	644587284
+644591225	Triggered	8	 NoSound	50	2	644591225
+644598844	Triggered	5	 Modulated Tone	25	2	644598844
+644601851	Triggered	8	 NoSound	50	2	644601851
+644609937	Triggered	5	 Modulated Tone	25	2	644609937
+644613080	Triggered	8	 NoSound	50	2	644613080
+644619897	Triggered	5	 Modulated Tone	25	2	644619897
+644623708	Triggered	8	 NoSound	50	2	644623708
+644630859	Triggered	5	 Modulated Tone	25	2	644630859
+644634008	Triggered	8	 NoSound	50	2	644634008
+644642021	Triggered	5	 Modulated Tone	25	2	644642021
+644645166	Triggered	8	 NoSound	50	2	644645166
+644653585	Triggered	5	 Modulated Tone	25	2	644653585
+644657195	Triggered	1	 Modulated Tone	25	2	644657195
+644660478	Triggered	6	 NoSound	50	2	644660478
+644669962	Triggered	1	 Modulated Tone	25	2	644669962
+644673437	Triggered	6	 NoSound	50	2	644673437
+644683263	Triggered	1	 Modulated Tone	25	2	644683263
+644687677	Triggered	4	 NoSound	50	2	644687677
+644691350	Triggered	1	 Modulated Tone	25	2	644691350
+644694830	Triggered	6	 NoSound	50	2	644694830
+644703451	Triggered	1	 Modulated Tone	25	2	644703451
+644709730	Triggered	4	 NoSound	50	2	644709730
+644714075	Triggered	1	 Modulated Tone	25	2	644714075
+644719693	Triggered	5	 Modulated Tone	25	2	644719693
+644723102	Triggered	4	 NoSound	50	2	644723102
+644726244	Triggered	1	 Modulated Tone	25	2	644726244
+644729522	Triggered	6	 NoSound	50	2	644729522
+644739285	Triggered	1	 Modulated Tone	25	2	644739285
+644742549	Triggered	6	 NoSound	50	2	644742549
+644752443	Triggered	1	 Modulated Tone	25	2	644752443
+644755518	Triggered	6	 NoSound	50	2	644755518
+644764875	Triggered	1	 Modulated Tone	25	2	644764875
+644768288	Triggered	6	 NoSound	50	2	644768288
+644777508	Triggered	1	 Modulated Tone	25	2	644777508
+644780917	Triggered	6	 NoSound	50	2	644780917
+644789874	Triggered	1	 Modulated Tone	25	2	644789874
+644793150	Triggered	6	 NoSound	50	2	644793150
+644802173	Triggered	1	 Modulated Tone	25	2	644802173
+644805783	Triggered	6	 NoSound	50	2	644805783
+644810528	Triggered	5	 Modulated Tone	25	2	644810528
+644813804	Triggered	8	 NoSound	50	2	644813804
+644822826	Triggered	5	 Modulated Tone	25	2	644822826
+644826102	Triggered	2	 NoSound	50	2	644826102
+644830988	Triggered	5	 Modulated Tone	25	2	644830988
+644837999	Triggered	2	 NoSound	50	2	644837999
+644842946	Triggered	5	 Modulated Tone	25	2	644842946
+644847495	Triggered	1	 Modulated Tone	25	2	644847495
+644853374	Triggered	1	 Modulated Tone	25	2	644853374
+644858389	Triggered	2	 NoSound	50	2	644858389
+644863467	Triggered	5	 Modulated Tone	25	2	644863467
+644866339	Triggered	8	 NoSound	50	2	644866339
+644874568	Triggered	5	 Modulated Tone	25	2	644874568
+644878239	Triggered	8	 NoSound	50	2	644878239
+644886995	Triggered	1	 Modulated Tone	25	2	644886995
+644891272	Triggered	5	 Modulated Tone	25	2	644891272
+644894212	Triggered	8	 NoSound	50	2	644894212
+644902238	Triggered	5	 Modulated Tone	25	2	644902238
+644905174	Triggered	8	 NoSound	50	2	644905174
+644913530	Triggered	5	 Modulated Tone	25	2	644913530
+644916336	Triggered	8	 NoSound	50	2	644916336
+644924959	Triggered	5	 Modulated Tone	25	2	644924959
+644927902	Triggered	8	 NoSound	50	2	644927902
+644935921	Triggered	5	 Modulated Tone	25	2	644935921
+644939464	Triggered	8	 NoSound	50	2	644939464
+644947351	Triggered	5	 Modulated Tone	25	2	644947351
+644950559	Triggered	8	 NoSound	50	2	644950560
+644959717	Triggered	1	 Modulated Tone	25	2	644959717
+644963927	Triggered	5	 Modulated Tone	25	2	644963927
+644968071	Triggered	1	 Modulated Tone	25	2	644968071
+644971413	Triggered	6	 NoSound	50	2	644971413
+644982310	Triggered	1	 Modulated Tone	25	2	644982310
+644986721	Triggered	4	 NoSound	50	2	644986721
+644992137	Triggered	1	 Modulated Tone	25	2	644992137
+644996547	Triggered	4	 NoSound	50	2	644996547
+645001157	Triggered	1	 Modulated Tone	25	2	645001157
+645004634	Triggered	4	 NoSound	50	2	645004634
+645009446	Triggered	1	 Modulated Tone	25	2	645009446
+645012721	Triggered	6	 NoSound	50	2	645012721
+645022613	Triggered	1	 Modulated Tone	25	2	645022613
+645026022	Triggered	6	 NoSound	50	2	645026022
+645035783	Triggered	1	 Modulated Tone	25	2	645035783
+645039266	Triggered	6	 NoSound	50	2	645039266
+645049958	Triggered	1	 Modulated Tone	25	2	645049958
+645053426	Triggered	6	 NoSound	50	2	645053426
+645063720	Triggered	1	 Modulated Tone	25	2	645063720
+645067269	Triggered	6	 NoSound	50	2	645067269
+645076891	Triggered	1	 Modulated Tone	25	2	645076891
+645080505	Triggered	6	 NoSound	50	2	645080505
+645089721	Triggered	1	 Modulated Tone	25	2	645089721
+645093606	Triggered	6	 NoSound	50	2	645093606
+645104032	Triggered	1	 Modulated Tone	25	2	645104032
+645107702	Triggered	6	 NoSound	50	2	645107702
+645117395	Triggered	1	 Modulated Tone	25	2	645117395
+645121871	Triggered	5	 Modulated Tone	25	2	645121871
+645125349	Triggered	2	 NoSound	50	2	645125349
+645130567	Triggered	5	 Modulated Tone	25	2	645130567
+645133904	Triggered	8	 NoSound	50	2	645133904
+645142793	Triggered	5	 Modulated Tone	25	2	645142793
+645147479	Triggered	2	 NoSound	50	2	645147479
+645152619	Triggered	5	 Modulated Tone	25	2	645152619
+645156093	Triggered	8	 NoSound	50	2	645156093
+645166523	Triggered	5	 Modulated Tone	25	2	645166523
+645169731	Triggered	8	 NoSound	50	2	645169731
+645179695	Triggered	5	 Modulated Tone	25	2	645179695
+645185438	Triggered	2	 NoSound	50	2	645185438
+645189320	Triggered	5	 Modulated Tone	25	2	645189320
+645192656	Triggered	8	 NoSound	50	2	645192656
+645202282	Triggered	5	 Modulated Tone	25	2	645202282
+645205290	Triggered	8	 NoSound	50	2	645205291
+645215517	Triggered	5	 Modulated Tone	25	2	645215517
+645218525	Triggered	8	 NoSound	50	2	645218525
+645228216	Triggered	5	 Modulated Tone	25	2	645228216
+645231493	Triggered	8	 NoSound	50	2	645231493
+645240917	Triggered	5	 Modulated Tone	25	2	645240917
+645244057	Triggered	8	 NoSound	50	2	645244057
+645253615	Triggered	5	 Modulated Tone	25	2	645253615
+645257030	Triggered	8	 NoSound	50	2	645257030
+645267318	Triggered	5	 Modulated Tone	25	2	645267318
+645271195	Triggered	1	 Modulated Tone	25	2	645271195
+645275079	Triggered	6	 NoSound	50	2	645275079
+645285433	Triggered	1	 Modulated Tone	25	2	645285433
+645289441	Triggered	6	 NoSound	50	2	645289441
+645300606	Triggered	1	 Modulated Tone	25	2	645300606
+645304485	Triggered	6	 NoSound	50	2	645304485
+645314377	Triggered	1	 Modulated Tone	25	2	645314377
+645319120	Triggered	4	 NoSound	50	2	645319120
+645322729	Triggered	1	 Modulated Tone	25	2	645322729
+645328278	Triggered	5	 Modulated Tone	25	2	645328278
+645335896	Triggered	1	 Modulated Tone	25	2	645335896
+645343248	Triggered	5	 Modulated Tone	25	2	645343249
+645349866	Triggered	1	 Modulated Tone	25	2	645349866
+645355150	Triggered	5	 Modulated Tone	25	2	645355150
+645360032	Triggered	4	 NoSound	50	2	645360032
+645363701	Triggered	3	 NoSound	50	2	645363701
+645366646	Triggered	1	 Modulated Tone	25	2	645366646
+645370330	Triggered	6	 NoSound	50	2	645370330
+645376871	Triggered	4	 NoSound	50	2	645376871
+645380012	Triggered	1	 Modulated Tone	25	2	645380012
+645383219	Triggered	6	 NoSound	50	2	645383219
+645396254	Triggered	1	 Modulated Tone	25	2	645396254
+645399596	Triggered	6	 NoSound	50	2	645399596
+645410491	Triggered	1	 Modulated Tone	25	2	645410491
+645414635	Triggered	6	 NoSound	50	2	645414635
+645425864	Triggered	1	 Modulated Tone	25	2	645425864
+645429541	Triggered	6	 NoSound	50	2	645429541
+645440440	Triggered	1	 Modulated Tone	25	2	645440440
+645444313	Triggered	6	 NoSound	50	2	645444313
+645453807	Triggered	1	 Modulated Tone	25	2	645453807
+645457683	Triggered	6	 NoSound	50	2	645457683
+645468308	Triggered	1	 Modulated Tone	25	2	645468308
+645474190	Triggered	5	 Modulated Tone	25	2	645474190
+645479075	Triggered	1	 Modulated Tone	25	2	645479075
+645484885	Triggered	2	 NoSound	50	2	645484885
+645499123	Triggered	5	 Modulated Tone	25	2	645499123
+645502999	Triggered	2	 NoSound	50	2	645502999
+645511488	Triggered	5	 Modulated Tone	25	2	645511488
+645514840	Triggered	8	 NoSound	50	2	645514840
+645521383	Triggered	5	 Modulated Tone	25	2	645521383
+645524656	Triggered	8	 NoSound	50	2	645524656
+645529400	Triggered	5	 Modulated Tone	25	2	645529400
+645533214	Triggered	2	 NoSound	50	2	645533214
+645544373	Triggered	5	 Modulated Tone	25	2	645544373
+645547850	Triggered	8	 NoSound	50	2	645547850
+645553397	Triggered	5	 Modulated Tone	25	2	645553397
+645560148	Triggered	2	 NoSound	50	2	645560148
+645570441	Triggered	5	 Modulated Tone	25	2	645570441
+645575721	Triggered	1	 Modulated Tone	25	2	645575721
+645623783	Triggered	8	 NoSound	50	2	645623783
+645628660	Triggered	7	 NoSound	50	2	645628660
+645631804	Triggered	5	 Modulated Tone	25	2	645631804
+645636413	Triggered	2	 NoSound	50	2	645636413
+645646372	Triggered	5	 Modulated Tone	25	2	645646372
+645651385	Triggered	2	 NoSound	50	2	645651385
+645665289	Triggered	5	 Modulated Tone	25	2	645665289
+645669433	Triggered	2	 NoSound	50	2	645669433
+645679263	Triggered	5	 Modulated Tone	25	2	645679263
+645683470	Triggered	2	 NoSound	50	2	645683470
+645701649	Triggered	5	 Modulated Tone	25	2	645701649
+645708334	Triggered	1	 Modulated Tone	25	2	645708334
+645713749	Triggered	4	 NoSound	50	2	645713749
+645725111	Triggered	1	 Modulated Tone	25	2	645725111
+645729789	Triggered	4	 NoSound	50	2	645729789
+645741624	Triggered	1	 Modulated Tone	25	2	645741624
+645745631	Triggered	6	 NoSound	50	2	645745631
+645752248	Triggered	1	 Modulated Tone	25	2	645752248
+645756526	Triggered	6	 NoSound	50	2	645756526
+645762810	Triggered	1	 Modulated Tone	25	2	645762810
+645767555	Triggered	4	 NoSound	50	2	645767555
+645778717	Triggered	1	 Modulated Tone	25	2	645778717
+645783463	Triggered	6	 NoSound	50	2	645783463
+645787942	Triggered	1	 Modulated Tone	25	2	645787942
+645792753	Triggered	4	 NoSound	50	2	645792753
+645804518	Triggered	1	 Modulated Tone	25	2	645804518
+645809798	Triggered	4	 NoSound	50	2	645809799
+645820492	Triggered	1	 Modulated Tone	25	2	645820492
+645824838	Triggered	4	 NoSound	50	2	645824838
+645836538	Triggered	1	 Modulated Tone	25	2	645836538
+645840811	Triggered	4	 NoSound	50	2	645840811
+645851840	Triggered	1	 Modulated Tone	25	2	645851840
+645856058	Triggered	4	 NoSound	50	2	645856058
+645866478	Triggered	1	 Modulated Tone	25	2	645866479
+645871964	Triggered	4	 NoSound	50	2	645871964
+645883056	Triggered	1	 Modulated Tone	25	2	645883056
+645889138	Triggered	5	 Modulated Tone	25	2	645889138
+645895690	Triggered	2	 NoSound	50	2	645895690
+645911731	Triggered	5	 Modulated Tone	25	2	645911731
+645915540	Triggered	8	 NoSound	50	2	645915540
+645922091	Triggered	5	 Modulated Tone	25	2	645922091
+645925833	Triggered	2	 NoSound	50	2	645925833
+645936328	Triggered	5	 Modulated Tone	25	2	645936328
+645945157	Triggered	5	 Modulated Tone	25	2	645945157
+645951500	Triggered	1	 Modulated Tone	25	2	645951500
+645957316	Triggered	8	 NoSound	50	2	645957316
+645968612	Triggered	5	 Modulated Tone	25	2	645968612
+645972696	Triggered	2	 NoSound	50	2	645972696
+645986058	Triggered	5	 Modulated Tone	25	2	645986058
+645993945	Triggered	5	 Modulated Tone	25	2	645993945
+646000763	Triggered	1	 Modulated Tone	25	2	646000763
+646004973	Triggered	8	 NoSound	50	2	646004973
+646010454	Triggered	5	 Modulated Tone	25	2	646010454
+646015472	Triggered	2	 NoSound	50	2	646015472
+646027365	Triggered	5	 Modulated Tone	25	2	646027365
+646031779	Triggered	2	 NoSound	50	2	646031779
+646043209	Triggered	5	 Modulated Tone	25	2	646043209
+646047421	Triggered	2	 NoSound	50	2	646047421
+646056448	Triggered	5	 Modulated Tone	25	2	646056448
+646060523	Triggered	2	 NoSound	50	2	646060523
+646071352	Triggered	5	 Modulated Tone	25	2	646071352
+646075892	Triggered	2	 NoSound	50	2	646075892
+646088859	Triggered	5	 Modulated Tone	25	2	646088859
+646093403	Triggered	2	 NoSound	50	2	646093403
+646103963	Triggered	5	 Modulated Tone	25	2	646103963
+646110115	Triggered	1	 Modulated Tone	25	2	646110115
+646114458	Triggered	6	 NoSound	50	2	646114458
+646128162	Triggered	1	 Modulated Tone	25	2	646128162
+646134378	Triggered	4	 NoSound	50	2	646134378
+646141602	Triggered	1	 Modulated Tone	25	2	646141602
+646147078	Triggered	6	 NoSound	50	2	646147078
+646176353	Triggered	1	 Modulated Tone	25	2	646176353
+646183842	Triggered	4	 NoSound	50	2	646183842
+646190859	Triggered	1	 Modulated Tone	25	2	646190859
+646196138	Triggered	6	 NoSound	50	2	646196138
+646212514	Triggered	1	 Modulated Tone	25	2	646212514
+646220000	Triggered	4	 NoSound	50	2	646220000
+646258776	Triggered	1	 Modulated Tone	25	2	646258776
+646265656	Triggered	6	 NoSound	50	2	646265656
+646277217	Triggered	1	 Modulated Tone	25	2	646277217
+646282096	Triggered	6	 NoSound	50	2	646282096
+646295734	Triggered	1	 Modulated Tone	25	2	646295734
+646301013	Triggered	6	 NoSound	50	2	646301013
+646316451	Triggered	1	 Modulated Tone	25	2	646316451
+646321732	Triggered	6	 NoSound	50	2	646321732
+646335903	Triggered	1	 Modulated Tone	25	2	646335903
+646353080	Triggered	6	 NoSound	50	2	646353080
+646370994	Triggered	1	 Modulated Tone	25	2	646370994
+646376608	Triggered	6	 NoSound	50	2	646376608
+646392784	Triggered	1	 Modulated Tone	25	2	646392784
+646400675	Triggered	5	 Modulated Tone	25	2	646400675
+646405083	Triggered	8	 NoSound	50	2	646405083
+646418785	Triggered	5	 Modulated Tone	25	2	646418785
+646423197	Triggered	8	 NoSound	50	2	646423197
+646435763	Triggered	5	 Modulated Tone	25	2	646435763
+646440641	Triggered	2	 NoSound	50	2	646440641
+646452341	Triggered	5	 Modulated Tone	25	2	646452341
+646456885	Triggered	2	 NoSound	50	2	646456885
+646463033	Triggered	5	 Modulated Tone	25	2	646463033
+646468516	Triggered	2	 NoSound	50	2	646468516
+646475073	Triggered	5	 Modulated Tone	25	2	646475073
+646479209	Triggered	8	 NoSound	50	2	646479209
+646490841	Triggered	5	 Modulated Tone	25	2	646490841
+646494918	Triggered	8	 NoSound	50	2	646494918
+646507484	Triggered	5	 Modulated Tone	25	2	646507484
+646511693	Triggered	8	 NoSound	50	2	646511693
+646526065	Triggered	5	 Modulated Tone	25	2	646526065
+646530478	Triggered	8	 NoSound	50	2	646530478
+646543912	Triggered	5	 Modulated Tone	25	2	646543912
+646548589	Triggered	8	 NoSound	50	2	646548589
+646562961	Triggered	5	 Modulated Tone	25	2	646562961
+646567239	Triggered	8	 NoSound	50	2	646567239
+646587091	Triggered	5	 Modulated Tone	25	2	646587091
+646591501	Triggered	8	 NoSound	50	2	646591501
+646606275	Triggered	5	 Modulated Tone	25	2	646606275
+646613633	Triggered	1	 Modulated Tone	25	2	646613633
+647334371	Triggered	4	 NoSound	50	2	647334371
+647362177	Triggered	1	 Modulated Tone	25	2	647362177
+647367992	Triggered	4	 NoSound	50	2	647367992
+647385571	Triggered	1	 Modulated Tone	25	2	647385571
+647390717	Triggered	6	 NoSound	50	2	647390717
+647408164	Triggered	8	 NoSound	50	2	647408164
+647425207	Triggered	1	 Modulated Tone	25	2	647425207
+647430956	Triggered	4	 NoSound	50	2	647430956
+647440715	Triggered	3	 NoSound	50	2	647440715
+647444593	Triggered	2	 NoSound	50	2	647444593
+647461970	Triggered	5	 Modulated Tone	25	2	647461970
+647469457	Triggered	1	 Modulated Tone	25	2	647469457
+647473734	Triggered	6	 NoSound	50	2	647473734
+647486367	Triggered	1	 Modulated Tone	25	2	647486367
+647490781	Triggered	6	 NoSound	50	2	647490781
+647507161	Triggered	1	 Modulated Tone	25	2	647507161
+647511699	Triggered	6	 NoSound	50	2	647511699
+647526672	Triggered	1	 Modulated Tone	25	2	647526672
+647531151	Triggered	6	 NoSound	50	2	647531151
+647546457	Triggered	1	 Modulated Tone	25	2	647546457
+647550871	Triggered	6	 NoSound	50	2	647550871
+647567447	Triggered	1	 Modulated Tone	25	2	647567447
+647571724	Triggered	6	 NoSound	50	2	647571724
+647584895	Triggered	1	 Modulated Tone	25	2	647584895
+647589301	Triggered	6	 NoSound	50	2	647589301
+647603012	Triggered	1	 Modulated Tone	25	2	647603012
+647607286	Triggered	6	 NoSound	50	2	647607286
+647620651	Triggered	1	 Modulated Tone	25	2	647620651
+647627942	Triggered	5	 Modulated Tone	25	2	647627942
+647632616	Triggered	2	 NoSound	50	2	647632616
+647643175	Triggered	5	 Modulated Tone	25	2	647643175
+647647721	Triggered	8	 NoSound	50	2	647647721
+647655340	Triggered	5	 Modulated Tone	25	2	647655340
+647659753	Triggered	8	 NoSound	50	2	647659753
+647665166	Triggered	5	 Modulated Tone	25	2	647665166
+647669712	Triggered	2	 NoSound	50	2	647669712
+647681610	Triggered	5	 Modulated Tone	25	2	647681610
+647686155	Triggered	2	 NoSound	50	2	647686155
+647700660	Triggered	5	 Modulated Tone	25	2	647700660
+647707213	Triggered	1	 Modulated Tone	25	2	647707213
+647712890	Triggered	8	 NoSound	50	2	647712890
+647722182	Triggered	5	 Modulated Tone	25	2	647722182
+647726994	Triggered	2	 NoSound	50	2	647726994
+647742436	Triggered	1	 Modulated Tone	25	2	647742436
+647748317	Triggered	5	 Modulated Tone	25	2	647748317
+647755473	Triggered	2	 NoSound	50	2	647755473
+647768837	Triggered	5	 Modulated Tone	25	2	647768837
+647773724	Triggered	2	 NoSound	50	2	647773724
+647782274	Triggered	5	 Modulated Tone	25	2	647782274
+647786750	Triggered	2	 NoSound	50	2	647786750
+647798314	Triggered	6	 NoSound	50	2	647798314
+647823312	Triggered	5	 Modulated Tone	25	2	647823312
+647827926	Triggered	2	 NoSound	50	2	647827926
+647837816	Triggered	5	 Modulated Tone	25	2	647837816
+647842433	Triggered	2	 NoSound	50	2	647842433
+647854259	Triggered	5	 Modulated Tone	25	2	647854259
+647859807	Triggered	1	 Modulated Tone	25	2	647859807
+647864820	Triggered	4	 NoSound	50	2	647864820
+647878991	Triggered	1	 Modulated Tone	25	2	647878991
+647884072	Triggered	4	 NoSound	50	2	647884072
+647896038	Triggered	1	 Modulated Tone	25	2	647896038
+647901851	Triggered	6	 NoSound	50	2	647901851
+647907599	Triggered	1	 Modulated Tone	25	2	647907599
+647913347	Triggered	6	 NoSound	50	2	647913347
+647918763	Triggered	1	 Modulated Tone	25	2	647918763

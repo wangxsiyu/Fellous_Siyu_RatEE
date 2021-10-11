@@ -1,0 +1,6 @@
+Ver1.2	754745444	StartFile	4/25/2020	10:31:44 AM	E:\BehavioralExperiments\Hachi\RawData\042520\SoundData.txt	754745444
+754976879	Triggered	5	 Modulated Tone	25	2	754976879
+755386442	Triggered	8	 NoSound	50	2	755386443
+755403086	Triggered	7	 NoSound	50	2	755403086
+755414451	Triggered	6	 NoSound	50	2	755414451
+755434171	Triggered	5	 Modulated Tone	25	2	755434171

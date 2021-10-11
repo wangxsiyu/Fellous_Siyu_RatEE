@@ -1,0 +1,2 @@
+Ver1.2	2604089631	StartFile	4/12/2020	9:55:45 PM	E:\BehavioralExperiments\Hachi\RatData_Hachi\RawData\041220C\SoundData.txt	2604089631
+2604157114	Triggered	8	 NoSound	50	2	2604157114

@@ -1,0 +1,662 @@
+"Ver1.2",5,"","C:\Users\LabMember\AppData\Local\LabBook\ButtonConfig.txt","C:\Users\LabMember\AppData\Local\LabBook\SoundConfig.txt","C:\Users\LabMember\AppData\Local\LabBook\Announce.txt","C:\Users\LabMember\AppData\Local\LabBook\DefaultNoteBookConfig.txt"
+13
+0,#2019-05-24 14:03:00#,#2019-05-27 16:49:25#,"(day 1) room adaptation","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;\red144\green238\blue144;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 05-24-2019\par
+Experimenter: Siyu\par
+Weight: 310\par
+\cf2\par
+14:2:17.177\tab  -> Room adaptation with main lights and overhead LED lights on, together with Tianqi\cf0\par
+ [14:10:1.895\tab ] Timer1:(0:6:35) -> Turn the main lights off\par
+\par
+ [15:8:1.125\tab ] Timer2:(0:57:39) -> End recording\par
+}
+",0
+0,#2019-05-25 16:38:57#,#2019-05-27 16:49:40#,"(day 2) bucket training","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 05-25-2019\par
+Experimenter: Siyu\par
+Weight: 306\par
+Time: 16:38\par
+\par
+Pick him up for a short walk, Hachi seems a little nervous, he keeps digging into his bedding\par
+\par
+16:38:39.141\tab  -> in cage\par
+ [16:42:40.81\tab ] Timer1:(0:4:2) -> \par
+\par
+Bucket trainnig\par
+\cf0\par
+[861878748]  17:2:7.942\tab  -> Start Sleep1\par
+\par
+ [[863049937]  17:21:39.92\tab ] Timer1:(0:22:42) -> \par
+[863053065]  17:21:42.219\tab  -> Stop Sleep1\cf1\par
+\par
+He seems nervous, made noise when i picked him up from the bucket. Hid in the tunnel after getting back to his cage.\par
+\par
+Stayed in cage until Tianqi finished his training (30 minutes)\cf0\par
+}
+",0
+0,#2019-05-26 19:52:32#,#2019-05-27 16:49:50#,"(day 3) bucket training - day 2","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 05-26-2019\par
+Experimenter: Siyu\par
+Time: 19:52\par
+Weight: 310\par
+\par
+Pick him up for a short walk, Hachi seems okay\par
+\par
+19:53:23.11\tab  -> Start Sleep1\par
+\cf0\par
+ [20:2:3.91\tab ] Timer1:(0:10:1) ->  10 minites with LED lights on (main lights off)\par
+\par
+put him on my lap for a few minutes, he seemed to try to jump to the ground from my lap, i stopped him. He sniffed around, put his front paws on my arms. Put him back on the bucket\par
+\par
+\par
+ [20:25:41.209\tab ] Timer1:(0:27:31) ->  15 more minutes on bucket\par
+\par
+Stay in cage until Tianchi finishes his training.\par
+\par
+\par
+20:44:6.823\tab  -> Back to colony room\par
+}
+",0
+0,#2019-05-27 16:45:15#,#2019-05-28 19:53:06#,"(day 4) bucket training - day 3","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 05-27-2019\par
+Experimenter: Siyu\par
+Time: 16:44\par
+Weight: 309\par
+\par
+Stayed in room for an hour while Tianchi gets bucket training\par
+\par
+\par
+16:45:23.476\tab  -> Start Sleep1\par
+\par
+ [16:53:39.155\tab ] Timer1:(0:7:26) -> On bucket for 7 minutes\par
+\par
+Tried to put belt on, he is okay, but didn't end up putting on the belt:\par
+1. Put on once, but too tight for him, he made sound, so i took it off\par
+2. Too loose, he escaped from the belt\par
+\par
+He seemed very relaxed on my lap\par
+\par
+ [17:25:54.378\tab ] Timer1:(0:39:41) -> pour sugar water on plate, 5 & 7 constantly flashing\par
+\par
+Switched to 3 lights flashing\par
+\par
+pour sugar water on plate, 2, 5 & 7 constantly flashing\par
+\par
+He didn't seem to be interested in sugar water, stayed against the wall and stayed still. I was going in and out,maybe that freaked him out. But hopefully he will be relaxed again.\par
+\par
+put him back to his cage.\par
+\par
+Put him out of cage for a few minutes\par
+\par
+ [17:55:4.297\tab ] Timer1 ~30:00 -> \par
+\par
+Put him on bucket\par
+\par
+17:55:4.297\tab  -> Start Sleep1\par
+\par
+\par
+17:59:35.648\tab  -> Stop Sleep1 (get in trying to put the belt on again)\par
+\par
+Tried again to put on the belt, he managed to get out of it twice\par
+\par
+\b\f1\par
+18:20:2.336\tab  -> Start Task\b0  \par
+\f0 Without belt\par
+3 lights flashing, with lots of sugar water on the boat, have him freely explored\par
+\par
+He explored the field pretty well this time.\par
+\par
+after 10 minutes, stayed at one corner and stops moving\par
+\par
+Stayed near feeder 7 most of the time with tail towards feeder 7\par
+\par
+\b\f1\par
+18:45:55.823\tab  -> Stop Task\b0  \par
+\par
+\f0\par
+}
+",0
+0,#2019-05-28 19:52:43#,#2019-05-28 20:58:02#,"random train","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 05-28-2019\par
+Experimenter: Siyu\par
+Time: 19:52\par
+Weight: 311\f1\par
+\par
+\f0 Put on jacket\f1\par
+19:52:33.250\tab  -> Start Sleep1\par
+\par
+20:2:25.824\tab  -> Stop Sleep1\par
+\par
+\par
+\cf0\b\par
+20:19:49.209\tab  -> Start Task\b0  \cf1\par
+\par
+\f0 Tried to take the jacket off, tried to pull the belt off at the beinging\par
+\par
+Data somehow saved to TrackEvents.txt & TrackData.txt\par
+\par
+He is not interested in the light or the water, stayed around feeder 7 for a while\par
+\par
+He really liked the area near by feeder 7, that may be a problem later on as a bias...\par
+\par
+Followed a few lights, really good!\par
+\par
+Messed with the belt again...\par
+\par
+He runs to a few feeders after a long delay in between, and go back to his favorite spot (feeder 7-8 ish)\par
+\par
+\par
+\par
+He explored 11 feeders in total in 30 minutes\par
+\cf0\b\f1\par
+20:54:28.486\tab  -> Stop Task\b0  \cf1\par
+20:54:30.406\tab  -> Start Sleep2\f0  - \par
+\par
+\cf0\par
+20:57:58.782\tab  -> Stop Sleep2\par
+}
+",0
+0,#2019-05-29 19:23:59#,#2019-05-29 20:38:57#,"random train day 2","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 05-29-2019\par
+Experimenter: Siyu\par
+Time: 19:24\par
+Weight: 302\f1\par
+\par
+\cf0\f0 19:24:4.438\tab  -> Start Sleep1\par
+\par
+ [19:31:2.93\tab ] Timer1:(0:6:40) -> \par
+19:31:3.437\tab  -> Stop Sleep1\cf1\par
+\par
+\b\f1\par
+19:33:33.532\tab  -> Start Task\b0  \par
+\f0 He explored several feeders, \par
+\par
+he sometimes go to the wrong feeder and just wait there. But i think he did much better than yesterday.\par
+\par
+\par
+ [19:43:36.996\tab ] Timer2:(0:0:0) -> He Stopped back to feeder 2\par
+\par
+He was drinking water (good)\par
+\par
+ [19:49:9.244\tab ] Timer2:(0:0:1) -> He took his jacket off, I put it back on...\par
+\cf0\par
+He sticks with feeder 7 \par
+\par
+He stopped at feeder 7 again after exploring feeder 5 (the big arc 7-8-1-2-..-5)\par
+\par
+\par
+ [20:2:43.699\tab ] Timer2:(0:13:35) -> He made sound when i picked him up and put him in the middle\par
+\par
+He finally explored 5, waited there for a while, then go to 7, waited there\par
+\par
+(He definitely knows that 7 has reward sometimes, he tasted the sugar water but hasn't learned the association between light and reward)\par
+\par
+ [20:22:38.874\tab ] Timer2:(0:33:30) -> Stayed between 7 and 8 again\par
+\par
+\par
+ [20:24:39.411\tab ] Timer2:(0:35:31) -> Put him in the centre again\par
+\par
+He moved to a place between 3 and 2\par
+\par
+\par
+ [20:32:44.26\tab ] Timer2:(0:43:35) -> Put him back on the bucket\b\f1\par
+20:32:46.74\tab  -> Stop Task\b0  \par
+\par
+20:32:54.90\tab  -> Start Sleep2\cf1\par
+\cf0\f0\par
+20:38:50.802\tab  -> Stop Sleep2\cf1\par
+ [20:38:52.506\tab ] Timer3:(0:5:51) -> \cf0\par
+}
+",0
+0,#2019-05-30 11:23:57#,#2019-05-31 16:34:19#,"random train day 3","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 05-30-2019\par
+Experimenter: Siyu\par
+Time: 11:24\par
+Weight: 298(ish)\par
+\f1\par
+11:22:20.559\tab  -> Start Sleep1\par
+\par
+ [11:25:32.119\tab ] Timer1:(0:3:10) -> \par
+11:25:35.199\tab  -> Stop Sleep1\b\par
+11:26:24.782\tab  -> Start Task\b0  \par
+\par
+\f0 10 shuttle trials in the beginning\par
+\par
+\cf0 Hachi is exploring the field quite well.\par
+\par
+He got feeder 5 and 7 and then waited at feeder 2\par
+\par
+Waited by feeder 3-4 for a long time, i guided him to go between 5 and 7, he got to explore 7 and then stayed at 7\par
+\par
+\b\f1\par
+11:54:28.445\tab  -> Stop Task\b0  \cf1\par
+11:54:30.277\tab  -> Start Sleep2\par
+11:55:29.125\tab  -> Stop Sleep2\cf0\f0\par
+}
+",0
+0,#2019-05-31 16:28:11#,#2019-05-31 17:37:18#,"random train day 4","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 05-31-2019\par
+Experimenter: Siyu\par
+Time: 16:29\par
+Weight: 289\par
+\f1\par
+[1378240139]  16:28:9.338\tab  -> Start Sleep1\par
+\cf0\f0\par
+ [[1378572912]  16:33:52.345\tab ] Timer1:(0:5:40) -> \par
+[1378572912]  16:33:54.439\tab  -> Stop Sleep1\par
+\par
+\b\f1\par
+[1378782982]  16:37:12.162\tab  -> Start Task\b0  \cf1\par
+\par
+\f0 Ran for 5 minutes, and stopped at feeder 7, just stuck there\par
+\par
+took the belt off, put if back on, he stopped at 7 again\par
+\par
+Draw him to feeder 4, he ran to feeder 5...\par
+\par
+He definitely knows there is a reward at feeder 7.\par
+\par
+Goes to feeder 7 and stopped there again.\par
+\par
+Draw him to feeder 5, goes to 7 and stayed there,\par
+\par
+Draw him to 5 again, goes to 7 and stayed there.\par
+\par
+Then leaves 7 and goes to between 7 and 8\par
+\par
+\cf0 Draw him to 4,  he went to 5, then quickly 7, then wait between 7 and 8\par
+\par
+05.06- put the belt off, reput it on\par
+\par
+Stayed between 6 and 7 to mess with the belt\par
+\par
+\par
+ [[1380816769]  17:11:5.960\tab ] Timer2:(0:0:0) -> Stayed between 6 and 7\par
+\par
+\par
+ [[1381050153]  17:14:59.311\tab ] Timer2:(0:0:0) -> Accidentally closed the tracker, restart shuttle learning....\par
+\par
+He came back to 7 again, don't want to move.\par
+\par
+\par
+\par
+ [[1381271741]  17:18:40.894\tab ] Timer2:(0:0:0) -> Lead Hachi to feeder 5, the tracker lost track of it. didn't give reward, hachi didn't stop either, just walked past feeder 5 \par
+\par
+He returned to it and got one drop.\par
+\par
+Stayed between 5 and 7, led him to 7, then he stopped there.\par
+\par
+....\par
+\par
+Put him in the center and then\par
+\par
+Lead him to feeder 5 again, rewarded, he stopped at feeder 5. \par
+\par
+\par
+\par
+\b\f1\par
+17:33:32.64\tab  -> Stop Task\b0  \cf1\par
+17:33:32.502\tab  -> Start Sleep2\par
+17:37:17.182\tab  -> Stop Sleep2\cf0\f0\par
+}
+",0
+0,#2019-06-03 21:28:16#,#2019-06-03 22:01:27#,"random train day 5","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 06-03-2019\par
+Experimenter: Siyu\par
+Time: 21:28\par
+Weight: 281\par
+\f1\par
+\par
+21:28:2.258\tab  -> Start Sleep1\par
+\cf0\f0\par
+21:34:46.383\tab  -> Stop Sleep1\cf1\b\f1\par
+21:36:16.224\tab  -> Start Task\b0  \par
+\par
+\f0 He clearly remembers the reward feeder 5 and 7, after that went straight to 2...\par
+\par
+To 5, and then stayed at 5 for a second, go to 7, stayed at 7\cf0\par
+ [21:39:18.728\tab ] Timer1:(0:2:8) -> Not sure what he is doing at 7, stayed there for a while, stops back towards 7 between 6 and 7\par
+ [21:41:12.728\tab ] Timer1:(0:4:2) -> Back towards 7 again, looks like he is awaiting rewards from 7, goes beyond 7 and towards 8, stopped between 7 and 8\par
+\par
+ [21:41:55.392\tab ] Timer1:(0:4:45) -> Go by feeder 2, stayed for a little while and left to the middle of the field\par
+\par
+Go back to 7, did not go to 5. Goes 6-7 (between 6 and 7), then straight to 2 again.\par
+\par
+\par
+ [21:43:9.303\tab ] Timer1:(0:5:59) -> Left 2, finally explored 5\par
+\par
+\par
+ [21:44:18.568\tab ] Timer1:(0:7:8) -> 7, again stayed there at 7, for a shorter amount of time, 7-8, stayed\par
+\par
+\par
+\par
+\par
+\par
+\b\f1\par
+21:50:59.32\tab  -> Stop Task\b0  \cf1\par
+\par
+\cf0\f0\par
+21:51:38.32\tab  -> Start Sleep2\par
+\par
+Gave him a boat of sugar water, he drank it up.\par
+\par
+22:1:25.406\tab  -> Stop Sleep2\par
+}
+",0
+0,#2019-06-04 22:32:06#,#2019-06-04 23:07:34#,"random train day 5","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 06-04-2019\par
+Experimenter: Siyu\par
+Time: 22:32\par
+Weight: 272\par
+\f1\par
+\par
+22:32:16.780\tab  -> Start Sleep1\par
+\par
+ [22:36:44.715\tab ] Timer1:(0:4:23) -> \par
+22:36:47.465\tab  -> Stop Sleep1\b\par
+22:37:31.242\tab  -> Start Task\b0  \par
+\par
+\f0 He goes straight to feeder 7 and just stayed there.\par
+\par
+\par
+ [22:39:17.546\tab ] Timer1:(0:0:59) -> Still in feeder 7, not sure what he is doing there\par
+\par
+\par
+ [22:39:36.34\tab ] Timer1:(0:1:17) -> Leave feeder 7, go to feeder 1 location and just stayed there.\par
+\par
+\par
+ [22:40:11.10\tab ] Timer1:(0:1:52) -> Passed feeder 2\par
+\par
+\par
+ [22:40:23.194\tab ] Timer1:(0:2:5) -> 5\par
+\par
+\f1\par
+ [22:40:51.338\tab ] Timer1:(0:2:33) -> \f0 Straight to 7 and stayed there.\par
+\par
+\par
+ [22:42:14.609\tab ] Timer1:(0:3:56) -> Left feeder 7, \par
+\par
+There are problems with feeder 7 (it released all the sugar water when i came in), hachi is not drinking all of it,....\par
+\par
+\par
+\par
+\par
+\f1\par
+}
+",0
+0,#2019-06-05 14:32:06#,#2019-06-05 15:30:36#,"random train day 6","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 06-05-2019\par
+Experimenter: Siyu\par
+Time: 14:32\par
+Weight: 272\par
+\f1\par
+14:31:55.205\tab  -> Start Sleep1\par
+\par
+\f0 Use 7-2 random130 (change sugar water amount to 130ms, and then change the shuttle from 2-5, 2-7)\par
+\par
+\par
+ [14:44:55.780\tab ] Timer1:(0:12:58) -> \par
+14:44:59.323\tab  -> Stop Sleep1\b\f1\par
+14:46:53.171\tab  -> Start Task\b0  \par
+\par
+ [14:47:37.340\tab ] Timer2:(0:0:42) -> \f0 He stopped on 7 again, even though no reward is there after 2 and 5\par
+\par
+\par
+ [14:51:23.155\tab ] Timer2:(0:4:28) -> Took off the belt, put it back on\par
+\par
+\par
+ [14:56:24.859\tab ] Timer2:(0:9:29) -> Took off the belt again, put it back on\par
+\par
+\cf0\par
+ [15:1:2.371\tab ] Timer2:(0:14:7) -> stopped at 2 for a long time, and moved a bit, stopped moving again\par
+\par
+\par
+ [15:3:14.546\tab ] Timer2:(0:16:19) -> Still in feeder 2, not moving, go to between 3 and 2, finally left 2\par
+\par
+ [15:4:30.691\tab ] Timer2:(0:17:35) -> Got feeder 5, \par
+\par
+\par
+ [15:5:31.826\tab ] Timer2:(0:18:36) -> Go to 2\par
+\par
+\par
+ [15:6:12.347\tab ] Timer2:(0:19:17) -> Go to 7, and stopped there\par
+\par
+ [15:10:53.67\tab ] Timer2:(0:23:57) -> Take the belt off\par
+He puts his paws on the tube, he really knows there is sugar water, he hasn't learned the rule of light\b\f1\par
+\par
+15:11:22.722\tab  -> Stop Task\b0  \cf1\par
+15:11:23.635\tab  -> Start Sleep2\par
+ [15:16:15.234\tab ] Timer2:(0:29:19) -> \par
+15:16:18.274\tab  -> Stop Sleep2\par
+\par
+\b\par
+15:19:32.954\tab  -> Start Task\b0  \par
+\f0 Put his belt on, and put him back on the table.\par
+\par
+He did not drink the sugar water on feeder 5\par
+\par
+\b\f1\par
+15:28:1.434\tab  -> Stop Task\b0  \par
+15:28:59.434\tab  -> Start Sleep2\par
+15:30:33.306\tab  -> Stop Sleep2\cf0\f0\par
+}
+",0
+0,#2019-06-17 18:06:20#,#2019-06-17 19:19:32#,"random","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 06-17-2019\par
+Experimenter: Siyu\par
+Time: 18:00\par
+Weight: 277\par
+\par
+\par
+18:16:55.329\tab  -> Start Sleep1\par
+ [18:27:10.799\tab ] Timer1:(0:10:12) -> \par
+18:27:12.670\tab  -> Stop Sleep1\b\f1\par
+18:27:16.958\tab  -> Start Task\b0  \par
+\f0 Go to 5, then 2, get reward, then 7... stays there...\par
+\par
+ [18:29:12.726\tab ] Timer2:(0:0:6) -> Leave, go back to 7, and leave again, stay at 8\par
+\par
+\par
+ [18:29:54.517\tab ] Timer2:(0:0:48) -> Returns to 7 and stayed there...\par
+\par
+\par
+ [18:30:6.854\tab ] Timer2:(0:1:0) -> Leave 7, got 5\par
+\par
+\par
+ [18:30:47.542\tab ] Timer2:(0:1:41) -> Go back to 7... didn't stay for long, go to 8\par
+\par
+ [18:31:18.966\tab ] Timer2:(0:2:12) -> Go to 2\par
+\par
+\par
+ [18:31:42.318\tab ] Timer2:(0:2:36) -> Go to 5 again, no reward... \par
+ [18:32:7.358\tab ] Timer2:(0:3:1) -> cross to 2... no reward\par
+\par
+ [18:32:19.814\tab ] Timer2:(0:3:13) -> go to center, cross to 5, no reward...\par
+\par
+ [18:32:38.198\tab ] Timer2:(0:3:32) -> got 7\par
+\par
+ [18:32:53.997\tab ] Timer2:(0:3:47) -> go to 8...stayed there not for long...go back to 7... to 6.....\par
+\par
+ [18:33:57.806\tab ] Timer2:(0:4:51) -> 5 no light, waited...\par
+\par
+ [18:34:22.574\tab ] Timer2:(0:5:16) -> Go to 6... stayed against the wall...\par
+\par
+ [18:35:12.270\tab ] Timer2:(0:6:6) -> move to 7 again, no light, wait\par
+\par
+ [18:36:33.998\tab ] Timer2:(0:7:27) -> stayed at 7...\par
+\par
+ [18:38:58.725\tab ] Timer2:(0:9:52) -> Waited at feeder 7 for 2 minute....\par
+\par
+\par
+ [18:43:26.469\tab ] Timer2:(0:14:20) --> Checked in with him-> May be uncomfortable with belt, but his belt back on... go to 2\par
+\par
+ [18:43:54.492\tab ] Timer2:(0:14:48) -> stayed at 2, not sure what he is doing...\par
+\par
+\par
+ [18:45:19.748\tab ] Timer2:(0:16:13) -> Checked in with him, stayed at 2\par
+\par
+ [18:46:24.316\tab ] Timer2:(0:17:18) -> Keeps staying at 2, \par
+\par
+ [18:49:0.684\tab ] Timer2:(0:19:54) -> check in with him again\par
+\par
+\par
+ [18:50:15.604\tab ] Timer2:(0:21:9) -> Lured him to 5 with paper towel, he came to 2 afterwards.\par
+\par
+ [18:50:32.507\tab ] Timer2:(0:21:26) -> Stayed between 1 and 2 and then return to 2... Messing with belt....\par
+\par
+\par
+ [18:52:2.403\tab ] Timer2:(0:22:56) -> check in with him again\par
+ [18:56:54.139\tab ] Timer2:(0:27:47) -> Took off his belt, put it on again, got to 2, with a delay...\par
+\par
+\par
+ [18:57:16.499\tab ] Timer2:(0:28:10) -> Go to 5, stayed at 5pm\par
+\par
+\par
+ [18:58:3.684\tab ] Timer2:(0:28:57) -> Back to 2, good job... (not crossing against the wall)\par
+\par
+ [18:58:37.354\tab ] Timer2:(0:29:31) -> seem to mess with the belt again...\par
+\par
+\b\f1\par
+18:59:29.675\tab  -> Stop Task\b0  \par
+18:59:31.467\tab  -> Start Sleep1\par
+\par
+ [19:19:21.969\tab ] Timer3:(0:17:16) -> \par
+\par
+19:19:28.801\tab  -> Stop Sleep1\f0\par
+}
+",0
+0,#2019-06-18 19:27:57#,#2019-06-18 20:19:16#,"random","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 06-18-2019\par
+Experimenter: Siyu\par
+Time: 19:27\par
+Weight: 271\par
+Randomfile: allfeedersrandom10-130\par
+#19, 17 rewards in 33 minutes\par
+\par
+Feeder 1 was weird, no sugar water at first, and then a full boat was filled... seem to work now...\par
+\cf0\par
+19:27:42.117\tab  -> Start Sleep1\par
+\par
+ [19:31:23.892\tab ] Timer1:(0:3:39) -> Hachi peeks over the edge\par
+\par
+ [19:32:47.979\tab ] Timer1:(0:5:3) -> \par
+19:32:54.539\tab  -> Stop Sleep1\cf1\par
+\b\f1\par
+19:35:32.68\tab  -> Start Task\b0  \par
+ [19:37:34.523\tab ] Timer2:(0:0:2) -> \f0 Take the belt off, put it back on....\par
+\par
+ [19:37:49.483\tab ] Timer2:(0:0:17) -> He shows memory of feeder 7...5... went  to those location...\par
+\par
+\par
+ [19:38:34.635\tab ] Timer2:(0:1:2) -> Seem to mess with the belt...\par
+\par
+ [19:38:53.794\tab ] Timer2:(0:1:21) -> 8x, wait\par
+\par
+ [19:39:10.899\tab ] Timer2:(0:1:38) -> 1\par
+\par
+\par
+ [19:39:47.699\tab ] Timer2:(0:2:15) -> 8x\par
+\par
+ [19:39:54.515\tab ] Timer2:(0:2:22) -> 7 (autofeed too soon)\par
+\par
+\par
+ [19:40:47.347\tab ] Timer2:(0:3:15) -> stayed at 7,.... leave\par
+\par
+\par
+ [19:40:57.67\tab ] Timer2:(0:3:24) -> 6x\par
+\par
+ [19:41:4.355\tab ] Timer2:(0:3:32) -> 5(feeder release a little soon)\par
+ [19:41:19.34\tab ] Timer2:(0:3:46) -> 4x\par
+ [19:41:28.187\tab ] Timer2:(0:3:56) -> 3x\par
+ [19:41:37.858\tab ] Timer2:(0:4:5) -> 2x\par
+ [19:41:55.730\tab ] Timer2:(0:4:23) -> 3x\par
+ [19:42:17.330\tab ] Timer2:(0:4:45) -> 4x\par
+ [19:42:29.483\tab ] Timer2:(0:4:57) -> 4x\par
+ [19:42:43.370\tab ] Timer2:(0:5:11) -> 5x\par
+ [19:43:9.851\tab ] Timer2:(0:5:37) -> 1x (cross)\par
+ [19:43:21.3\tab ] Timer2:(0:5:48) -> 2x\par
+ [19:43:43.411\tab ] Timer2:(0:6:11) -> 1x\par
+ [19:43:49.306\tab ] Timer2:(0:6:17) -> 8\par
+ [19:43:56.570\tab ] Timer2:(0:6:24) -> 7x waited\par
+ [19:44:7.506\tab ] Timer2:(0:6:35) -> \par
+ [19:44:58.458\tab ] Timer2:(0:7:26) -> stay between 7 and 6\par
+ [19:45:31.674\tab ] Timer2:(0:7:59) -> 6x\par
+ [19:45:41.298\tab ] Timer2:(0:8:9) -> 7x\par
+ [19:45:46.594\tab ] Timer2:(0:8:14) -> wait at 7\par
+ [19:46:0.18\tab ] Timer2:(0:8:27) -> \par
+ [19:47:5.746\tab ] Timer2:(0:9:33) -> checked on him, still has belt on, waiting at 7\par
+ [19:48:12.67\tab ] Timer2:(0:10:40) -> still wait at 7\par
+ [19:48:18.897\tab ] Timer2:(0:10:46) -> check on him again\par
+ [19:49:56.346\tab ] Timer2:(0:12:24) -> Lured him to 1, go back to 7\par
+ [19:50:10.842\tab ] Timer2:(0:12:38) -> lured him again to 2, he tried to bite the napkiin\par
+ [19:50:24.730\tab ] Timer2:(0:12:52) -> 7x, wait\par
+ [19:50:32.777\tab ] Timer2:(0:13:0) -> between 6 and 7\par
+ [19:50:44.385\tab ] Timer2:(0:13:12) -> stayed, mess with belt?\par
+ [19:52:5.585\tab ] Timer2:(0:14:33) -> 7x\par
+ [19:52:13.218\tab ] Timer2:(0:14:41) -> cross to 3x\par
+ [19:52:35.497\tab ] Timer2:(0:15:3) -> 4x\par
+ [19:52:39.905\tab ] Timer2:(0:15:7) -> 3x\par
+ [19:52:54.553\tab ] Timer2:(0:15:22) -> 8x cross\par
+ [19:53:2.650\tab ] Timer2:(0:15:30) -> 7x (stayed between 7 and 8, then stay at 7)\par
+ [19:53:27.585\tab ] Timer2:(0:15:55) ->\par
+ [19:54:10.881\tab ] Timer2:(0:16:38) -> stay between 7 and 8\par
+ [19:54:18.466\tab ] Timer2:(0:16:46) -> \par
+ [19:54:35.9\tab ] Timer2:(0:17:2) -> check on him\par
+ [19:56:38.993\tab ] Timer2:(0:19:6) -> Lured him to 6 then 1 ( i thought 8, lnr said 1)\par
+ [19:56:50.504\tab ] Timer2:(0:19:18) -> back to 7, waiting\par
+ [19:57:48.449\tab ] Timer2:(0:20:16) -> he leaves 7, stay between 7 and 8...\par
+ [19:58:12.497\tab ] Timer2:(0:20:40) -> \par
+ [19:58:35.41\tab ] Timer2:(0:21:2) -> facing against wall? messing with belt\par
+ [19:58:52.1\tab ] Timer2:(0:21:19) -> still there\par
+ [19:59:27.344\tab ] Timer2:(0:21:55) -> check on him again, \par
+ [20:1:49.969\tab ] Timer2:(0:24:17) -> Lured him to a few correct feeders, he really hates paper towel\par
+ [20:2:7.360\tab ] Timer2:(0:24:35) -> stay at 7 again\par
+ [20:3:13.528\tab ] Timer2:(0:25:41) -> Lured him to 4, \par
+ [20:3:22.992\tab ] Timer2:(0:25:50) -> 5x\par
+ [20:3:25.832\tab ] Timer2:(0:25:53) -> 6x\par
+ [20:3:29.432\tab ] Timer2:(0:25:57) -> 7x stay again\par
+ [20:3:37.296\tab ] Timer2:(0:26:5) -> \par
+ [20:4:48.352\tab ] Timer2:(0:27:16) -> messing with belt\par
+ [20:5:6.800\tab ] Timer2:(0:27:34) -> facing wall again, not sure what he is doing\par
+ [20:5:36.976\tab ] Timer2:(0:28:4) -> stayed at 7\par
+ [20:6:0.272\tab ] Timer2:(0:28:28) -> \par
+ [20:6:11.823\tab ] Timer2:(0:28:39) -> 8\par
+ [20:6:30.183\tab ] Timer2:(0:28:58) -> 1x\par
+ [20:6:35.840\tab ] Timer2:(0:29:3) -> 2x, stay a little\par
+ [20:6:50.831\tab ] Timer2:(0:29:18) -> 3x\par
+ [20:6:56.999\tab ] Timer2:(0:29:24) -> 4\par
+ [20:7:5.984\tab ] Timer2:(0:29:33) -> 5x\par
+ [20:7:10.960\tab ] Timer2:(0:29:38) -> 6x\par
+ [20:7:16.144\tab ] Timer2:(0:29:43) -> 7x, stayed\par
+ [20:7:36.96\tab ] Timer2:(0:30:3) -> leave 7\par
+ [20:7:47.151\tab ] Timer2:(0:30:14) -> 8\par
+ [20:7:53.663\tab ] Timer2:(0:30:21) -> 7x, stayed\par
+ [20:8:6.336\tab ] Timer2:(0:30:34) -> \par
+ [20:8:44.327\tab ] Timer2:(0:31:12) -> still at 7\par
+\par
+ [20:8:57.640\tab ] Timer2:(0:31:25) -> checked in\par
+ [20:10:10.703\tab ] Timer2:(0:32:38) -> lure him to 4, 7 blinks next, skipped 7\par
+ [20:10:37.983\tab ] Timer2:(0:33:5) -> stay between 7 and 8\par
+\par
+ [20:10:55.959\tab ] Timer2:(0:33:22) -> \b\f1\par
+20:10:57.407\tab  -> Stop Task\b0  \par
+20:11:0.679\tab  -> Start Sleep2\par
+\f0 when i tried to pick him up, he seems more anxious than usual (i think the paper towel annoys him)\par
+ [20:15:0.927\tab ] Timer1:(0:0:52) -> belt still on him... good\par
+ [20:19:12.527\tab ] Timer1:(0:5:4) -> \par
+20:19:14.222\tab  -> Stop Sleep2\par
+}
+",0

@@ -1,0 +1,13 @@
+"Ver1.2",5,"","C:\Users\LabMember\AppData\Local\LabBook\ButtonConfig.txt","C:\Users\LabMember\AppData\Local\LabBook\SoundConfig.txt","C:\Users\LabMember\AppData\Local\LabBook\Announce.txt","C:\Users\LabMember\AppData\Local\LabBook\DefaultNoteBookConfig.txt"
+1
+0,#2020-06-01 16:52:38#,#2020-06-01 17:59:44#,"day 0, room adaptation","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 06-01-2020\par
+Experimenter: Siyu\par
+Time: 16:54\par
+Weight: 286 (0.888198757763975 %, 322g)\par
+ [17:53:42.508\tab ] Timer1:(0:57:12) -> \par
+17:53:43.452\tab  -> Stop Sleep1\par
+\par
+}
+",0

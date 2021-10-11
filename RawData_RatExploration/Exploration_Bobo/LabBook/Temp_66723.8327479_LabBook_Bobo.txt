@@ -1,0 +1,10 @@
+"Ver1.2",5,"","C:\Users\LabMember\AppData\Local\LabBook\ButtonConfig.txt","C:\Users\LabMember\AppData\Local\LabBook\SoundConfig.txt","C:\Users\LabMember\AppData\Local\LabBook\Announce.txt","C:\Users\LabMember\AppData\Local\LabBook\DefaultNoteBookConfig.txt"
+1
+0,#2020-09-23 16:49:04#,#2020-09-23 18:32:02#,"room adaptation","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil Arial;}{\f1\fnil\fcharset0 Arial;}}
+{\colortbl ;\red144\green238\blue144;\red255\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs24\par
+16:49:2.338\tab  -> Start Sleep1\par
+ [18:31:59.522\tab ] Timer1:(1:42:59) -> \cf2\par
+18:32:0.609\tab  -> Stop Sleep1\cf0\f1\par
+}
+",0

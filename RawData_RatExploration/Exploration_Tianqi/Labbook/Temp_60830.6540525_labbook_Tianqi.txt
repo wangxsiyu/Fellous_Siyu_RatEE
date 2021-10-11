@@ -1,0 +1,29 @@
+"Ver1.2",5,"","C:\Users\LabMember\AppData\Local\LabBook\ButtonConfig.txt","C:\Users\LabMember\AppData\Local\LabBook\SoundConfig.txt","C:\Users\LabMember\AppData\Local\LabBook\Announce.txt","C:\Users\LabMember\AppData\Local\LabBook\DefaultNoteBookConfig.txt"
+2
+0,#2019-05-24 14:04:14#,#2019-05-25 16:39:40#,"(day 1) room adaptation","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;\red144\green238\blue144;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 05-24-2019\par
+Experimenter: Siyu\par
+\cf0\par
+\cf2 14:2:17.177\tab  -> Room adaptation with main lights and overhead LED lights on, together with Hachi\par
+\cf0  [14:10:1.895\tab ] Timer1:(0:6:35) -> Turn the main lights off\par
+\par
+ [15:8:1.125\tab ] Timer2:(0:57:39) -> End recording\par
+\par
+\cf2\par
+\cf0\par
+}
+",0
+0,#2019-05-25 16:41:04#,#2019-05-25 16:44:24#,"(day 2) bucket training","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 05-24-2019\par
+Experimenter: Siyu\par
+Time: 16:38\par
+\par
+Pick him up for a short walk first, he seems okay\par
+\par
+\pard 16:38:39.141\tab  -> Start Sleep1\par
+\pard  [16:42:40.81\tab ] Timer1:(0:4:2) -> \cf0\par
+\pard\par
+}
+",0

@@ -1,0 +1,8 @@
+Tuesday, August 27, 2019	2:06:55 PM	Game1.txt	66171555
+cued	now	66185736
+1	BlinkStart	66185817
+1	BlinkEnd	67050007
+0	NoFeed	67050087
+4	BlinkStart	67050317
+4	BlinkEnd	67050588
+0	NoFeed	67050669

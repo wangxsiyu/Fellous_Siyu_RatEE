@@ -1,0 +1,4 @@
+509659767	Sunday, October 4, 2020	4:45:20 PM	E:\BehavioralExperiments\Bobo\RawData\100420A\TrackData-Events.txt	509659771	640 X 480
+509677195	StartFile	0	509677195
+509700138	Start Sleep1	0	509700138
+511131662	Stop Sleep1	0	511131662

@@ -1,0 +1,37 @@
+"Ver1.2",5,"","C:\Users\LabMember\AppData\Local\LabBook\ButtonConfig.txt","C:\Users\LabMember\AppData\Local\LabBook\SoundConfig.txt","C:\Users\LabMember\AppData\Local\LabBook\Announce.txt","C:\Users\LabMember\AppData\Local\LabBook\DefaultNoteBookConfig.txt"
+2
+0,#2019-05-24 14:03:00#,#2019-05-25 16:38:09#,"(day 1) room adaptation","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;\red144\green238\blue144;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 05-24-2019\par
+Experimenter: Siyu\par
+\par
+\cf2\par
+14:2:17.177\tab  -> Room adaptation with main lights and overhead LED lights on, together with Tianqi\cf0\par
+ [14:10:1.895\tab ] Timer1:(0:6:35) -> Turn the main lights off\par
+\par
+ [15:8:1.125\tab ] Timer2:(0:57:39) -> End recording\par
+}
+",0
+0,#2019-05-25 16:38:57#,#2019-05-25 17:30:14#,"(day 2) bucket training","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 05-24-2019\par
+Experimenter: Siyu\par
+Time: 16:38\par
+\par
+Pick him up for a short walk, Hachi seems a little nervous, he keeps digging into his bedding\par
+\par
+16:38:39.141\tab  -> in cage\par
+ [16:42:40.81\tab ] Timer1:(0:4:2) -> \par
+\par
+Bucket trainnig\par
+\cf0\par
+[861878748]  17:2:7.942\tab  -> Start Sleep1\par
+\par
+ [[863049937]  17:21:39.92\tab ] Timer1:(0:22:42) -> \par
+[863053065]  17:21:42.219\tab  -> Stop Sleep1\cf1\par
+\par
+He seems nervous, made noise when i picked him up from the bucket. Hid in the tunnel after getting back to his cage.\par
+\par
+Stayed in cage until Tianqi finished his training (30 minutes)\cf0\par
+}
+",0

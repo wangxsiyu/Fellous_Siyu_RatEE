@@ -1,0 +1,2 @@
+Missing Game2.txt
+Copy paste Game1.txt to Game2.txt (hope this is the case that the same game is loaded twice)

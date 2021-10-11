@@ -1,0 +1,8 @@
+"Ver1.2",5,"","C:\Users\LabMember\AppData\Local\LabBook\ButtonConfig.txt","C:\Users\LabMember\AppData\Local\LabBook\SoundConfig.txt","C:\Users\LabMember\AppData\Local\LabBook\Announce.txt","C:\Users\LabMember\AppData\Local\LabBook\DefaultNoteBookConfig.txt"
+1
+0,#2019-12-17 21:10:46#,#2019-12-17 21:10:46#,"bucket training, day 1","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil Arial;}{\f1\fnil\fcharset0 Arial;}}
+{\colortbl ;\red144\green238\blue144;}
+\viewkind4\uc1\pard\cf1\f0\fs24\par
+21:10:23.132\tab  -> Start Sleep1\cf0\f1\par
+}
+",0

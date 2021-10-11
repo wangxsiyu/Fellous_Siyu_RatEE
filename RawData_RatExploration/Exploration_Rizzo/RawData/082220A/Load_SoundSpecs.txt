@@ -1,0 +1,19 @@
+Set of Sample sounds (Vogt)
+NoSound, Null ,1,1,40
+PureTone-1kHz , a*sin((w-w*t/2)*t) , 1000, 1000, 40
+PureTone-2kHz , a*sin((w-w*t/2/2)*t) , 1000, 2000, 40
+PureTone-3kHz , a*sin((w-w*t/3/2)*t) , 1000, 3000, 40
+PureTone-5kHz , a*sin((w-w*t/5)*t) , 1000, 5000, 40
+PureTone-7kHz , a*sin((w-w*t/7)*t) , 1000, 7000, 40
+PureTone-9kHz , a*sin((w-w*t/9)*t) , 1000, 9000, 40
+PureTone-11kHz , a*sin((w-w*t/11)*t) , 1000, 11000, 40
+Noise, 2*(rand(-1)-0.5) , 10000, 1000, 40
+File_GuidedSound, D:\BackupArea\SoundPlayerConfigurationFiles\SiyuSound\Guided.wav , 500, 1000, 40
+File_StopSound, D:\BackupArea\SoundPlayerConfigurationFiles\SiyuSound\Stop.wav , 500, 1000, 40
+StopSoundShort , a*sin(w*t/2*t/8) , 8000, 2000, 40
+StopSoundLong , a*sin(w*t/2*t/8) , 8000, 11000, 40
+File_beep1, D:\BackupArea\SoundPlayerConfigurationFiles\SiyuSound\Stop.wav , 100, 1000, 40
+File_beep2, D:\BackupArea\SoundPlayerConfigurationFiles\SiyuSound\Stop.wav , 200, 1000, 40
+File_beep3, D:\BackupArea\SoundPlayerConfigurationFiles\SiyuSound\Stop.wav , 300, 1000, 40
+File_beep4, D:\BackupArea\SoundPlayerConfigurationFiles\SiyuSound\Stop.wav , 400, 1000, 40
+File_beep5, D:\BackupArea\SoundPlayerConfigurationFiles\SiyuSound\Stop.wav , 500, 1000, 40

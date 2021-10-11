@@ -1,0 +1,30 @@
+"Ver1.2",5,"","C:\Users\LabMember\AppData\Local\LabBook\ButtonConfig.txt","C:\Users\LabMember\AppData\Local\LabBook\SoundConfig.txt","C:\Users\LabMember\AppData\Local\LabBook\Announce.txt","C:\Users\LabMember\AppData\Local\LabBook\DefaultNoteBookConfig.txt"
+2
+0,#2020-06-01 16:52:38#,#2020-06-01 19:50:33#,"day 0, room adaptation","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 06-01-2020\par
+Experimenter: Siyu\par
+Time: 16:54\par
+Weight: 286 (0.888198757763975 %, 322g)\par
+ [17:53:42.508\tab ] Timer1:(0:57:12) -> \par
+17:53:43.452\tab  -> Stop Sleep1\par
+\par
+[1702506340]  18:40:1.548\tab  -> Start Sleep2\par
+ [[1702822329]  18:45:17.562\tab ] Timer1:(0:5:13) -> jumped picked him up\par
+ [[1702886527]  18:46:21.722\tab ] Timer1:(0:6:17) -> tried again, stopped him\par
+ [[1702980505]  18:47:55.698\tab ] Timer2:(0:1:31) -> added glass\par
+[1706734728]  19:50:29.967\tab  -> Stop Sleep2\par
+ [[1706735811]  19:50:31.24\tab ] Timer1:(1:10:26) -> \par
+}
+",0
+0,#2020-06-02 11:45:56#,#2020-06-02 12:24:37#,"day 0, room adaptation 2","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 06-02-2020\par
+Experimenter: Blake\par
+Time: 11:50\par
+Weight: 283 (0.87888198757764%, 322g)\par
+[1764551161]  11:54:6.378\tab  -> Start Sleep1\par
+ [[1766361609]  12:24:16.794\tab ] Timer1:(0:30:8) -> \par
+[1766372198]  12:24:27.417\tab  -> Stop Sleep1\cf0\par
+}
+",0

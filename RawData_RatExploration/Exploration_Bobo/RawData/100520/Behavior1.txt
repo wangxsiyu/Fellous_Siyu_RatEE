@@ -1,0 +1,12 @@
+Monday, October 5, 2020	7:58:20 PM	Game1.txt	607639209
+Cued	Now	607645989
+9	BlinkStart	607646090
+9	BlinkEnd	607647868
+2,4,6,8	BlinkStart	607647984
+2,4,6,8	BlinkEnd	612211405
+2	Feed	612211485
+0	StopTraining	612211565
+0	StopTraining	612211566
+0	StopTraining	612211566
+0	StopTraining	612211567
+0	StopTraining	612211568

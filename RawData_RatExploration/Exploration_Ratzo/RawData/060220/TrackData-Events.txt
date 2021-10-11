@@ -1,0 +1,8 @@
+7490509	Tuesday, June 2, 2020	3:32:42 PM	E:\BehavioralExperiments\Ratzo\RatData_Ratzo\Rawdata\060220\TrackData-Events.txt	7490513	640 X 480
+7530590	StartFile	0	7530590
+7562104	Start Sleep1	0	7562104
+7927611	Stop Sleep1	0	7927611
+7966418	Start Task	0	7966418
+10982224	Stop Task	0	10982224
+11030537	Start Sleep2	0	11030537
+11429676	Stop Sleep2	0	11429676

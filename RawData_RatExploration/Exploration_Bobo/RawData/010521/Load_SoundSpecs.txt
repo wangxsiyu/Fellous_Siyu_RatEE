@@ -1,0 +1,7 @@
+Set of Sample sounds (Vogt)
+NoSound, Null ,1,1,40
+File_beep1, D:\BackupArea\SoundPlayerConfigurationFiles\SiyuSound\Stop.wav , 100, 1000, 40
+File_beep2, D:\BackupArea\SoundPlayerConfigurationFiles\SiyuSound\Stop.wav , 200, 1000, 40
+File_beep3, D:\BackupArea\SoundPlayerConfigurationFiles\SiyuSound\Stop.wav , 300, 1000, 40
+File_beep4, D:\BackupArea\SoundPlayerConfigurationFiles\SiyuSound\Stop.wav , 400, 1000, 40
+File_beep5, D:\BackupArea\SoundPlayerConfigurationFiles\SiyuSound\Stop.wav , 500, 1000, 40

@@ -1,0 +1,3 @@
+273337421	Sunday, April 19, 2020	8:48:16 PM	E:\BehavioralExperiments\Tianqi\Horizon\RawData\041920D\TrackData-Events.txt	273337425	640 X 480
+273354770	StartFile	0	273354770
+273397377	Start Sleep1	0	273397377

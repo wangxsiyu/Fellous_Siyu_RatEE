@@ -1,0 +1,3 @@
+550318887	Friday, July 5, 2019	9:33:15 PM	E:\BehavioralExperiments\Hachi\RawData\070519\TrackEvents.txt	550318895	640 X 480
+550318945	StartFile	0	550318945
+550338981	EndFile	Friday, July 5, 2019	9:33:35 PM	550338984

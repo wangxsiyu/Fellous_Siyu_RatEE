@@ -1,0 +1,6 @@
+2886335	Saturday, June 29, 2019	1:29:22 PM	E:\BehavioralExperiments\Hachi\RawData\062919\testtrack-Events.txt	2886343	640 X 480
+2949278	StartFile	0	2949278
+2969421	Start Sleep1	0	2969421
+2974114	Start Task	0	2974114
+2977604	Stop Task	0	2977604
+11506678	EndFile	Saturday, June 29, 2019	3:53:03 PM	11506716

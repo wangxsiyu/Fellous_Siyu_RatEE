@@ -1,0 +1,10 @@
+5027681	Monday, June 29, 2020	12:42:51 AM	E:\BehavioralExperiments\Rizzo\RatData_Rizzo\Rawdata\062820\TrackData-Events.txt	5027685	640 X 480
+5049705	StartFile	0	5049705
+5079184	Start Sleep1	0	5079184
+6150196	Stop Sleep1	0	6150196
+6180819	Start Task	0	6180820
+6308673	Stop Task	0	6308673
+6877361	Start Task	0	6877361
+9532541	Stop Task	0	9532541
+9565031	Start Sleep2	0	9565031
+9888422	Stop Sleep2	0	9888422

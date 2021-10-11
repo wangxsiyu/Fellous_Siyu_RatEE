@@ -1,0 +1,7 @@
+"Ver1.2",5,"","C:\Users\LabMember\AppData\Local\LabBook\ButtonConfig.txt","C:\Users\LabMember\AppData\Local\LabBook\SoundConfig.txt","C:\Users\LabMember\AppData\Local\LabBook\Announce.txt","C:\Users\LabMember\AppData\Local\LabBook\DefaultNoteBookConfig.txt"
+1
+0,#2020-06-01 16:52:38#,#2020-06-01 16:53:17#," ","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil Arial;}}
+{\colortbl ;\red144\green238\blue144;}
+\viewkind4\uc1\pard\cf1\f0\fs24\par
+}
+",0

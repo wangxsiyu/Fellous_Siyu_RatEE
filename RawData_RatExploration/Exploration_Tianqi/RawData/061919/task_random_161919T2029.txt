@@ -1,0 +1,13 @@
+Wednesday, June 19, 2019	8:29:02 PM	allfeeders-random4-130.txt	701222769
+CueDelayChanged	6	701239706
+cued	now	701239712
+3	BlinkStart	701239786
+3	BlinkEnd	701355429
+3	Feed	701355510
+CueDelayChanged	0	701355660
+6	BlinkStart	701355741
+6	BlinkEnd	702370857
+6	Feed	702370937
+5	BlinkStart	702371169
+5	BlinkEnd	702371440
+5	Feed	702371521

@@ -1,0 +1,4 @@
+180541829	Thursday, June 4, 2020	3:36:53 PM	E:\BehavioralExperiments\Gerald\RawData\060420\TrackData-Events.txt	180541832	640 X 480
+180582196	StartFile	0	180582196
+180598502	Start Sleep1	0	180598502
+182527475	Stop Sleep1	0	182527475

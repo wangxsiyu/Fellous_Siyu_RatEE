@@ -1,0 +1,41 @@
+Ver1.2	664809551	StartFile	1/23/2020	1:07:34 PM	E:\BehavioralExperiments\Rizzo\RatData_Rizzo\Rawdata\012320\SoundData.txt	664809551
+664836541	Triggered	1	 Modulated Tone	25	2	664836541
+664923626	Triggered	4	 NoSound	50	2	664923626
+664952373	Triggered	1	 Modulated Tone	25	2	664952373
+664956719	Triggered	6	 NoSound	50	2	664956719
+664981779	Triggered	1	 Modulated Tone	25	2	664981779
+664986396	Triggered	4	 NoSound	50	2	664986396
+665005311	Triggered	1	 Modulated Tone	25	2	665005311
+665009389	Triggered	6	 NoSound	50	2	665009389
+665032177	Triggered	1	 Modulated Tone	25	2	665032177
+665036656	Triggered	4	 NoSound	50	2	665036656
+665049627	Triggered	1	 Modulated Tone	25	2	665049627
+665054171	Triggered	6	 NoSound	50	2	665054171
+665081773	Triggered	1	 Modulated Tone	25	2	665081773
+665086049	Triggered	6	 NoSound	50	2	665086049
+665107306	Triggered	1	 Modulated Tone	25	2	665107306
+665112852	Triggered	4	 NoSound	50	2	665112852
+665123685	Triggered	1	 Modulated Tone	25	2	665123685
+665128360	Triggered	6	 NoSound	50	2	665128360
+665153572	Triggered	1	 Modulated Tone	25	2	665153572
+665159441	Triggered	6	 NoSound	50	2	665159441
+665183236	Triggered	1	 Modulated Tone	25	2	665183236
+665188250	Triggered	6	 NoSound	50	2	665188250
+665210708	Triggered	1	 Modulated Tone	25	2	665210708
+665225083	Triggered	5	 Modulated Tone	25	2	665225083
+665230362	Triggered	8	 NoSound	50	2	665230362
+665244736	Triggered	1	 Modulated Tone	25	2	665244736
+665253560	Triggered	5	 Modulated Tone	25	2	665253560
+665258098	Triggered	2	 NoSound	50	2	665258098
+665290048	Triggered	5	 Modulated Tone	25	2	665290048
+665295997	Triggered	8	 NoSound	50	2	665295997
+665306356	Triggered	1	 Modulated Tone	25	2	665306356
+665411097	Triggered	5	 Modulated Tone	25	2	665411097
+665415575	Triggered	2	 NoSound	50	2	665415575
+665454542	Triggered	5	 Modulated Tone	25	2	665454542
+665460090	Triggered	8	 NoSound	50	2	665460090
+665473526	Triggered	5	 Modulated Tone	25	2	665473526
+665479684	Triggered	2	 NoSound	50	2	665479684
+665508617	Triggered	5	 Modulated Tone	25	2	665508617
+665541774	Triggered	8	 NoSound	50	2	665541774
+665561888	Triggered	1	 Modulated Tone	25	2	665561889

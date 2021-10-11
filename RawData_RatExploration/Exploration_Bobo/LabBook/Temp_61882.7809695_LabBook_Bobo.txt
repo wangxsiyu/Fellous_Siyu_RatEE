@@ -1,0 +1,33 @@
+"Ver1.2",5,"","C:\Users\LabMember\AppData\Local\LabBook\ButtonConfig.txt","C:\Users\LabMember\AppData\Local\LabBook\SoundConfig.txt","C:\Users\LabMember\AppData\Local\LabBook\Announce.txt","C:\Users\LabMember\AppData\Local\LabBook\DefaultNoteBookConfig.txt"
+3
+0,#2020-09-23 16:49:04#,#2020-09-23 18:32:02#,"room adaptation","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil Arial;}{\f1\fnil\fcharset0 Arial;}}
+{\colortbl ;\red144\green238\blue144;\red255\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs24\par
+16:49:2.338\tab  -> Start Sleep1\par
+ [18:31:59.522\tab ] Timer1:(1:42:59) -> \cf2\par
+18:32:0.609\tab  -> Stop Sleep1\cf0\f1\par
+}
+",0
+0,#2020-10-03 18:07:53#,#2020-10-04 16:45:54#,"bucket training, session 1","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 10-3-2020\par
+Experimenter: Siyu\par
+Time: 18:07\par
+Weight: 293 (0.844380403458213 %, 347g) \par
+[428500069]  18:12:40.469\tab  -> Start Sleep1\par
+ [[430996349]  18:54:16.727\tab ] Timer1:(0:40:35) -> \par
+[430999898]  18:54:20.278\tab  -> Stop Sleep1\cf0\par
+}
+",0
+0,#2020-10-04 16:46:32#,#2020-10-04 17:10:52#,"bucket training, session 2","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 10-4-2020\par
+Experimenter: Siyu\par
+Time: 16:46\par
+Weight: 285 (0.821325648414986 %, 347g) \par
+[509700017]  16:46:0.446\tab  -> Start Sleep1\par
+ [[510493544]  16:59:13.941\tab ] Timer1:(0:13:11) -> tried to jump off the bucket, stopped him on the way down...\par
+ [[511128293]  17:9:48.669\tab ] Timer1:(0:23:46) -> \par
+[511131602]  17:9:52.4\tab  -> Stop Sleep1\cf0\par
+}
+",0

@@ -1,0 +1,192 @@
+"Ver1.2",5,"","C:\Users\LabMember\AppData\Local\LabBook\ButtonConfig.txt","C:\Users\LabMember\AppData\Local\LabBook\SoundConfig.txt","C:\Users\LabMember\AppData\Local\LabBook\Announce.txt","C:\Users\LabMember\AppData\Local\LabBook\DefaultNoteBookConfig.txt"
+9
+0,#2019-12-17 17:35:40#,#2019-12-17 21:16:39#,"bucket trainig, day 1","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;\red144\green238\blue144;\red255\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 12-17-2019\par
+Experimenter: Siyu\par
+Time: 17:35\par
+Weight: 335 (0.96264367816092 %, 348g)\cf2\par
+[3021645155]  17:35:55.747\tab  -> Start Sleep1\par
+ [[3021706104]  17:36:53.259\tab ] Timer1:(0:0:2) -> jumped off the bucket twice\par
+ [[3022670318]  17:52:57.473\tab ] Timer1:(0:16:6) -> he climbed out of the edge of the glass and jumped off again...\par
+ [[3025480844]  18:39:48.23\tab ] Timer1:(1:2:56) -> \cf3\par
+[3025483383]  18:39:50.559\tab  -> Stop Sleep1\cf0\par
+}
+",0
+0,#2019-12-18 21:40:15#,#2019-12-18 22:38:52#,"bucket trainig, day 2","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 12-18-2019\par
+Experimenter: Siyu\par
+Time: 21:40\par
+Weight: 329 (0.945402298850575 %, 348g)\par
+21:38:43.741\tab  -> Start Sleep1\par
+ [21:39:51.812\tab ] Timer1:(0:1:4) -> jumped again, put the glass wall on\par
+ [21:40:2.618\tab ] Timer1:(0:1:15) -> he is a bit too fat for the belt, didn't put it on....\par
+ [22:38:43.166\tab ] Timer1:(0:59:56) -> \par
+22:38:46.368\tab  -> Stop Sleep1\cf0\par
+}
+",0
+0,#2019-12-19 18:24:26#,#2019-12-19 19:10:24#,"bucket trainig, day 3","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 12-19-2019\par
+Experimenter: Siyu\par
+Time: 18:24\par
+Weight: 336 (0.96551724137931  %, 348g)\par
+18:24:32.542\tab  -> Start Sleep1\par
+[3197412690]  18:26:19.925\tab  -> Start Sleep1\par
+ [[3197444037]  18:26:51.269\tab ] Timer1:(0:2:14) -> check in\par
+ [[3200045184]  19:10:12.387\tab ] Timer1:(0:45:35) -> \par
+ [[3200047593]  19:10:14.803\tab ] Timer2:(0:43:50) -> \par
+[3200054209]  19:10:21.411\tab  -> Stop Sleep1\cf0\par
+}
+",0
+0,#2019-12-20 19:38:24#,#2019-12-20 22:10:55#,"light, day 0","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 12-20-2019\par
+Experimenter: Siyu\par
+Time: 19:38\par
+Weight: 330 (0.948275862068966 %, 348g)\par
+[3291276254]  20:30:43.476\tab  -> Start Sleep1\par
+ [[3291279195]  20:30:46.395\tab ] Timer1:(0:0:1) -> forgot to turn timer on, the rat is on the bucket for almost an hour.\par
+ [[3291303859]  20:31:11.35\tab ] Timer1:(0:0:25) -> just removed glass wall\par
+ [[3291766934]  20:38:54.146\tab ] Timer1:(0:8:9) ->jumped off the ground 3 times, put the glass back on...\b\f1\par
+[3292077810]  20:44:4.994\tab  -> Start Task\b0  \par
+ [[3292485807]  20:50:53.9\tab ] Timer2:(0:6:45) -> \f0 he triggered a few rewards, i thought he didn't drink them, but he did. Because of it's approaching 9pm, has to stop him today.\par
+\b\f1 [3292506194]  20:51:13.425\tab  -> Stop Task\b0  \par
+[3292585666]  20:52:32.857\tab  -> Start Sleep2\par
+ [[3292591081]  20:52:38.290\tab ] Timer2:(0:0:4) -> \par
+ [[3292647695]  20:53:34.897\tab ] Timer2:(0:1:0) -> \par
+[3292649032]  20:53:36.218\tab  -> Stop Sleep2\par
+ [[3292652040]  20:53:41.498\tab ] Timer1:(0:22:56) -> \f0 No reward was released, wrong task file.\cf0\par
+\par
+}
+",0
+0,#2019-12-26 18:18:56#,#2019-12-26 19:04:53#,"light, day 1","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 12-26-2019\par
+Experimenter: Siyu\par
+Time: 18:19\par
+Weight: 311 (0.89367816091954  %, 348g)\par
+[330016163]  18:18:46.397\tab  -> Start Sleep1\par
+ [[330569872]  18:28:0.99\tab ] Timer1:(0:9:12) -> \par
+[330570941]  18:28:1.179\tab  -> Stop Sleep1\b\f1\par
+[330659306]  18:29:29.530\tab  -> Start Task\b0  \par
+ [[330673076]  18:29:43.314\tab ] Timer2:(0:0:16) -> \lang2052\f0 didn't check whether there are left over juice from last session, probably not...\par
+ [[330709771]  18:30:19.987\tab ] Timer2:(0:0:52) -> got first juice...  let him explore hiimself before going in.\par
+ [[330999993]  18:35:10.234\tab ] Timer2:(0:5:43) -> check in...\par
+ [[331171842]  18:38:2.50\tab ] Timer2:(0:8:34) -> tracker jumped once...\par
+ [[331781699]  18:48:11.922\tab ] Timer2:(0:18:44) -> give him a few more minutes, have to pick him up...\par
+ [[331826147]  18:48:56.355\tab ] Timer2:(0:19:29) -> just 19 rewards...\par
+ [[331856361]  18:49:26.610\tab ] Timer2:(0:19:59) -> let it released 3 rewards... 1 at 2 where the rat is...\par
+ [[331870666]  18:49:40.898\tab ] Timer2:(0:20:13) -> call it a day...\b\f1\par
+[331878751]  18:49:48.978\tab  -> Stop Task\b0  \par
+[331975672]  18:51:25.906\tab  -> Start Sleep2\par
+ [[332411206]  18:58:41.419\tab ] Timer2:(0:7:14) -> \par
+[332412410]  18:58:42.602\tab  -> Stop Sleep2\par
+ [[332413747]  18:58:43.939\tab ] Timer1:(0:39:55) -> \cf0\lang1033\f0\par
+}
+",0
+0,#2019-12-27 14:13:08#,#2019-12-27 15:44:38#,"light, day 2","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 12-27-2019\par
+Experimenter: Siyu\par
+Time: 14:13\par
+Weight: 315 (0.905172413793103  %, 348g)\par
+[401669166]  14:12:59.399\tab  -> Start Sleep1\par
+ [[402168131]  14:21:18.365\tab ] Timer1:(0:8:17) -> jumped off the bucket, tried another 2 times, pulled his tail before he jumped. use the glass for 5 minutes...\par
+ [[402525467]  14:27:15.708\tab ] Timer2:(0:5:31) -> remove the glass for another 5 minutes...\par
+ [[402735077]  14:30:45.293\tab ] Timer2:(0:2:29) ->jumped again\par
+ [[402782000]  14:31:32.252\tab ] Timer2:(0:3:16) -> jumped again\par
+ [[403518522]  14:43:48.781\tab ] Timer2:(0:15:32) -> jumped again more than once, stayed inside with him, changed his belt...\par
+ [[403741434]  14:47:31.669\tab ] Timer2:(0:19:15) -> checked in again\par
+ [[403788691]  14:48:18.917\tab ] Timer2:(0:20:2) -> \par
+[403790696]  14:48:20.901\tab  -> Stop Sleep1\b\f1\par
+[403851187]  14:49:21.436\tab  -> Start Task\b0  \par
+ [[404626007]  15:2:16.253\tab ] Timer2:(0:12:57) -> \lang2052\f0 check in to work with him...\par
+ [[404723394]  15:3:53.597\tab ] Timer2:(0:14:34) -> put him back on bucket, do shuttle training first...\b\f1\par
+[404742979]  15:4:13.181\tab  -> Stop Task\b0  \par
+[404822386]  15:5:32.621\tab  -> Start Sleep1\par
+ [[404947045]  15:7:37.292\tab ] Timer2:(0:2:6) -> \par
+[404948648]  15:7:38.852\tab  -> Stop Sleep1\b\par
+[405043563]  15:9:13.813\tab  -> Start Task\b0  \par
+ [[405048444]  15:9:18.701\tab ] Timer2:(0:0:2) -> \f0 check in...\par
+ [[405774601]  15:21:24.813\tab ] Timer2:(0:12:8) -> he is not too interested in moving... give him a few minutes...\par
+ [[405881346]  15:23:11.549\tab ] Timer2:(0:13:55) -> check in again...\par
+ [[406403442]  15:31:53.676\tab ] Timer2:(0:22:37) -> give him a break, lead to 12 rewards, not moving on his own...\par
+ [[406728423]  15:37:18.660\tab ] Timer2:(0:28:2) -> \b\f1\par
+[406730361]  15:37:20.621\tab  -> Stop Task\b0  \par
+[406793324]  15:38:23.556\tab  -> Start Sleep2\par
+ [[407159815]  15:44:30.68\tab ] Timer2:(0:6:9) -> \b\par
+[407162753]  15:44:32.972\tab  -> Stop Task\b0  \par
+ [[407164090]  15:44:34.340\tab ] Timer1:(1:31:33) -> \cf0\lang1033\f0\par
+}
+",0
+0,#2019-12-28 16:52:48#,#2019-12-28 18:01:51#,"light, day 3","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 12-28-2019\par
+Experimenter: Siyu\par
+Time: 16:53\par
+Weight: 308 (0.885057471264368 %, 348g)\par
+[497681284]  16:53:11.503\tab  -> Start Sleep1\par
+ [[498192149]  17:1:42.366\tab ] Timer1:(0:8:29) -> \par
+[498193285]  17:1:43.509\tab  -> Stop Sleep1\b\f1\par
+[498294083]  17:3:24.310\tab  -> Start Task\b0  \par
+ [[498787235]  17:11:37.445\tab ] Timer2:(0:8:15) -> \lang2052\f0 voluntarily walked across to 6 once, but now staying at feeder 4, not moving...\par
+ [[499525091]  17:23:55.301\tab ] Timer2:(0:20:33) -> check in again...\par
+ [[500416682]  17:38:46.925\tab ] Timer2:(0:35:24) -> lured him to a few more, he is not interested in moving...\par
+ [[501160020]  17:51:10.237\tab ] Timer2:(0:47:48) -> \b\f1\par
+[501163629]  17:51:13.837\tab  -> Stop Task\b0  \par
+[501271645]  17:53:1.885\tab  -> Start Sleep2\par
+ [[501440285]  17:55:50.540\tab ] Timer2:(0:2:50) -> \f0 picked him from the side of the bucket before he tried to jump down...\par
+ [[501568820]  17:57:59.85\tab ] Timer2:(0:4:58) -> add glass\par
+ [[501796213]  18:1:46.460\tab ] Timer2:(0:8:46) -> \par
+[501797949]  18:1:48.181\tab  -> Stop Sleep2\par
+ [[501798952]  18:1:49.205\tab ] Timer1:(1:8:36) -> \cf0\lang1033\par
+}
+",0
+0,#2019-12-31 13:39:08#,#2019-12-31 14:40:49#,"alter-shuttle, day 1","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 12-31-2019\par
+Experimenter: Siyu\par
+Time: 13:39\par
+Weight: 296 (0.850574712643678 %, 348g)\par
+[745258601]  13:39:28.827\tab  -> Start Sleep1\par
+ [[745583782]  13:44:54.42\tab ] Timer1:(0:5:22) -> \par
+[745584919]  13:44:55.177\tab  -> Stop Sleep1\b\f1\par
+[745663522]  13:46:13.745\tab  -> Start Task\b0  \par
+ [[745670408]  13:46:20.626\tab ] Timer2:(0:0:9) -> \lang2052\f0 put him down for a few minutes...\par
+ [[746043781]  13:52:34.18\tab ] Timer2:(0:6:22) -> check in..\par
+ [[746666137]  14:2:56.378\tab ] Timer2:(0:16:45) -> rewear belt, he walked to 2, but seems to stay there...\par
+ [[746713192]  14:3:43.417\tab ] Timer2:(0:17:32) -> check in...\par
+ [[747028415]  14:8:58.657\tab ] Timer2:(0:22:47) -> still not interested in moving...\par
+ [[747158554]  14:11:8.817\tab ] Timer2:(0:24:57) -> check in again...\par
+ [[747820011]  14:22:10.242\tab ] Timer2:(0:35:59) -> he is at the center not moving.... (after I used the fence to move him to the center a few times..)\par
+ [[747896878]  14:23:27.105\tab ] Timer2:(0:37:15) -> he went to #2, learned location 2, but already switch to pair 4 and 8...\par
+ [[748027819]  14:25:38.33\tab ] Timer2:(0:39:26) -> check in again...\par
+ [[748346052]  14:30:56.305\tab ] Timer2:(0:44:45) -> grooming in the middle, went to 4 himself...\par
+ [[748560676]  14:34:30.889\tab ] Timer2:(0:48:19) -> call it a day...\b\f1\par
+[748568963]  14:34:39.169\tab  -> Stop Task\b0  \par
+[748633064]  14:35:43.273\tab  -> Start Sleep2\par
+ [[748934851]  14:40:45.89\tab ] Timer2:(0:5:2) -> \par
+[748936120]  14:40:46.330\tab  -> Stop Sleep2\par
+ [[748937125]  14:40:47.377\tab ] Timer1:(1:1:16) -> \cf0\lang1033\f0\par
+}
+",0
+0,#2020-01-01 21:39:11#,#2020-01-01 22:07:51#,"bucket training...","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 01-01-2020\par
+Experimenter: Siyu\par
+Time: 21:40\par
+Weight: 289 (0.830459770114943 %, 348g)\par
+[860346540]  21:37:36.786\tab  -> Start Sleep1\par
+ [[860608983]  21:41:59.185\tab ] Timer2:(0:0:8) -> jumped to the ground.... picked him up, do another 5 minutes of baseline...\par
+ [[860776544]  21:44:46.737\tab ] Timer2:(0:2:55) -> jumped again... put him  back\par
+ [[860846697]  21:45:56.904\tab ] Timer3:(0:0:37) -> tried again, opened door\par
+ [[860966790]  21:47:57.24\tab ] Timer3:(0:2:37) -> jumped again... picked him up. dropped him accidentally, picked him up again...\par
+ [[861073343]  21:49:43.593\tab ] Timer3:(0:4:24) -> \par
+ [[861078757]  21:49:48.953\tab ] Timer1:(0:12:9) -> jump\par
+ [[861145180]  21:50:55.392\tab ] Timer1:(0:13:16) -> jumped again... should do bucket training for him more...\par
+ [[862149288]  22:7:39.520\tab ] Timer1:(0:30:0) -> \par
+[862155906]  22:7:46.152\tab  -> Stop Sleep1\cf0\par
+}
+",0

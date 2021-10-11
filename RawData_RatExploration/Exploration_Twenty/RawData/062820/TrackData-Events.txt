@@ -1,0 +1,8 @@
+2575654	Monday, June 29, 2020	12:01:59 AM	E:\BehavioralExperiments\Twenty\RawData\062820\TrackData-Events.txt	2575659	640 X 480
+2591953	StartFile	0	2591953
+2663017	Start Sleep1	0	2663017
+2869444	Stop Sleep1	0	2869444
+2908132	Start Task	0	2908132
+4369863	Stop Task	0	4369863
+4425996	Start Sleep2	0	4425996
+4749448	Stop Sleep2	0	4749448

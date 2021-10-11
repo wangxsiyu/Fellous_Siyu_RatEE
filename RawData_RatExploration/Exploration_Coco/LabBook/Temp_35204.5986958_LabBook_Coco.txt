@@ -1,0 +1,520 @@
+"Ver1.2",5,"","C:\Users\LabMember\AppData\Local\LabBook\ButtonConfig.txt","C:\Users\LabMember\AppData\Local\LabBook\SoundConfig.txt","C:\Users\LabMember\AppData\Local\LabBook\Announce.txt","C:\Users\LabMember\AppData\Local\LabBook\DefaultNoteBookConfig.txt"
+27
+0,#2020-09-23 16:49:59#,#2020-09-23 18:32:10#,"room adaptation","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil Arial;}{\f1\fnil\fcharset0 Arial;}}
+{\colortbl ;\red144\green238\blue144;\red0\green0\blue0;\red255\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs24\par
+16:49:1.396\tab  -> Start Sleep1\cf2\par
+ [18:32:5.299\tab ] Timer1:(1:43:9) -> \cf3\par
+18:32:6.609\tab  -> Stop Sleep1\cf0\f1\par
+}
+",0
+0,#2020-10-03 19:01:49#,#2020-10-04 17:17:14#,"bucket training, session 1","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 10-3-2020\par
+Experimenter: Siyu\par
+Time: 19:01\par
+Weight: 292 (0.887537993920973 %, 329g) \par
+[431441997]  19:1:42.384\tab  -> Start Sleep1\par
+ [[436351350]  20:23:31.713\tab ] Timer1:(1:21:47) -> \par
+[436352492]  20:23:32.888\tab  -> Stop Sleep1\cf0\par
+}
+",0
+0,#2020-10-04 17:17:31#,#2020-10-04 17:44:33#,"bucket training, session 2","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 10-4-2020\par
+Experimenter: Siyu\par
+Time: 17:17\par
+Weight: 283 (0.860182370820669 %, 329g) \par
+[511572113]  17:17:15.168\tab  -> Start Sleep1\par
+ [[511572113]  17:20:24.999\tab ] Timer1:(0:3:7) -> tried to jump off the bucket, opened the door, he stopped...\par
+ [[511572113]  17:23:2.621\tab ] Timer1:(0:5:45) -> he jumped, picked him up...\par
+ [[511572113]  17:26:7.638\tab ] Timer1:(0:8:50) -> jumped twice, tried to jump 3 times\par
+ [[511572113]  17:36:42.182\tab ] Timer1:(0:19:25) -> jumped one more time, picked him up immediately\par
+ [[511572113]  17:40:17.469\tab ] Timer1:(0:23:0) -> \par
+[511572113]  17:40:19.476\tab  -> Stop Sleep1\cf0\par
+}
+",0
+0,#2020-10-04 20:51:17#,#2020-10-04 21:11:03#,"bucket training, session 3","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 10-4-2020\par
+Experimenter: Siyu\par
+Time: 20:51\par
+Weight: 279 (0.848024316109423 %, 329g) \par
+[524377252]  20:50:37.674\tab  -> Start Sleep1\par
+ [[525005505]  21:1:5.889\tab ] Timer1:(0:10:26) -> tracker attracted the edge...\par
+ [[525596516]  21:10:56.904\tab ] Timer1:(0:20:17) -> \par
+[525597718]  21:10:58.137\tab  -> Stop Sleep1\cf0\par
+}
+",0
+0,#2020-10-05 18:53:04#,#2020-10-05 19:46:08#,"water boat training","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 10-5-2020\par
+Experimenter: Siyu\par
+Time: 18:52\par
+Weight: 286 (0.869300911854103 %, 329g) \par
+[603705496]  18:52:45.912\tab  -> Start Sleep1\par
+ [[603972393]  18:57:12.783\tab ] Timer1:(0:4:23) -> forget to prepare the sugar water, come in while purge...\par
+ [[604159079]  19:0:19.487\tab ] Timer1:(0:7:30) -> water is ready, put him down....\par
+ [[604190093]  19:0:50.527\tab ] Timer1:(0:8:1) -> \par
+[604191630]  19:0:52.46\tab  -> Stop Sleep1\b\f1\par
+[604240290]  19:1:40.686\tab  -> Start Task\b0  \par
+ [[606568359]  19:40:28.783\tab ] Timer2:(0:38:46) -> \b\par
+[606569629]  19:40:30.39\tab  -> Stop Task\b0  \par
+[606602850]  19:41:3.254\tab  -> Start Sleep2\par
+ [[606902096]  19:46:2.527\tab ] Timer3:(0:5:0) -> \par
+[606904770]  19:46:5.143\tab  -> Stop Sleep2\par
+ [[606906107]  19:46:6.535\tab ] Timer1:(0:53:17) -> \cf0\f0\par
+}
+",0
+0,#2020-11-27 12:20:38#,#2020-12-01 10:45:04#,"Light training Day 1","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 11-30-2020\par
+Experimenter: Blake\par
+Time: 18:52\par
+Weight:348  ( %, 363g) \par
+\par
+[1712952285]  14:19:48.670\tab  -> Start Sleep1\par
+ [[1713316949]  14:25:53.295\tab ] Timer1:(0:5:56) -> \par
+[1713318513]  14:25:54.870\tab  -> Stop Sleep1\b\f1\par
+[1713390231]  14:27:6.598\tab  -> Start Task\b0  \par
+[1713446847]  14:28:3.223\tab  -> 2 lights and 5 drops with 40 radius\par
+ [[1714205719]  14:40:42.55\tab ] Timer2:(0:13:32) -> \b\par
+[1715622864]  15:4:19.198\tab  -> Stop Task\b0  \par
+ [[1715624910]  15:4:21.246\tab ] Timer2:(0:37:12) -> \par
+[1715629965]  15:4:26.350\tab  -> Start Sleep2\par
+ [[1716110989]  15:12:27.334\tab ] Timer3:(0:7:58) -> \par
+[1716113517]  15:12:29.893\tab  -> Stop Sleep2\par
+ [[1716115923]  15:12:32.262\tab ] Timer1:(0:52:35) -> \cf0\f0\par
+}
+",0
+0,#2020-12-01 09:29:47#,#2020-12-02 14:01:44#,"Light Training Day 2","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 12-01-2020\par
+Experimenter: Blake\par
+Time: 09:35\par
+Weight:342 (0.942148760330578 %, 363g) \par
+\f1  2 lights and 5 drops with 40 radius\cf0\f0\par
+[24831037]  9:37:7.394\tab  -> Start Sleep1\cf1\par
+ [[26559661]  10:5:56.0\tab ] Timer1:(0:28:45) -> \par
+[26560984]  10:5:57.320\tab  -> Stop Sleep1\b\f1\par
+[26596963]  10:6:33.295\tab  -> Start Task\b0  \par
+ [[28346404]  10:35:42.766\tab ] Timer2:(0:29:4) -> \b\par
+[28348391]  10:35:44.742\tab  -> Stop Task\b0  \par
+ [[28350496]  10:35:46.830\tab ] Timer1:(0:58:36) -> \f0 pooped at 5 and at center\par
+[28402299]  10:36:38.662\tab  -> Start Sleep2\par
+ [[28889100]  10:44:45.430\tab ] Timer3:(0:8:5) -> \par
+[28890364]  10:44:46.733\tab  -> Stop Sleep2\par
+ [[28895177]  10:44:51.502\tab ] Timer1:(1:7:41) -> \cf0\par
+}
+",0
+0,#2020-12-02 13:51:42#,#2020-12-03 12:18:22#,"Light Training Day 3","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 12-02-2020\par
+Experimenter: Blake\par
+Time: 13:50\par
+Weight:335 (0.922865013774105 %, 363g) \par
+\f1  2 lights and 5 drops with 40 radius\par
+\cf0\f0\par
+[126998906]  13:59:55.289\tab  -> Start Sleep1\par
+ [[127345221]  14:5:41.568\tab ] Timer1:(0:5:44) -> \par
+[127347086]  14:5:43.440\tab  -> Stop Sleep1\cf1\b\f1\par
+[127395459]  14:6:31.840\tab  -> Start Task\b0  \par
+ [[129445248]  14:40:41.630\tab ] Timer2:(0:24:50) -> \par
+ [[130347253]  14:55:43.590\tab ] Timer2:(0:39:52) -> \f0 7\b\f1\par
+[130349359]  14:55:45.733\tab  -> Stop Task\b0  \par
+ [[130355015]  14:55:51.358\tab ] Timer1:(0:55:54) -> \par
+ [[130793142]  15:3:9.486\tab ] Timer3:(0:6:16) -> \par
+[130794406]  15:3:10.773\tab  -> Stop Sleep2\par
+ [[130795729]  15:3:12.94\tab ] Timer1:(1:3:14) -> \cf0\f0\par
+}
+",0
+0,#2020-12-03 12:18:54#,#2020-12-03 13:44:19#,"Light Training Day 4","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 12-03-2020\par
+Experimenter: Julia\par
+Time: 12:50\par
+Weight: 330 (0.909090909090909 %, 363g) \par
+\par
+\f1  2 lights and 5 drops with 40 radius\par
+\par
+[209526520]  12:55:22.887\tab  -> Start Sleep1\par
+ [[209790828]  12:59:47.175\tab ] Timer1:(0:4:22) -> \par
+[209793113]  12:59:49.486\tab  -> Stop Sleep1\b\par
+[209857311]  13:0:53.645\tab  -> Start Task\b0  \par
+ [[210138105]  13:5:34.438\tab ] Timer2:(0:4:40) -> \f0 go in to guide, doesn't respond to tissue that well and doesn't seem to be licking the sugar water\f1\par
+ [[211130840]  13:22:7.189\tab ] Timer2:(0:21:12) -> \f0 12\par
+ [[211633286]  13:30:29.644\tab ] Timer2:(0:29:35) -> go in again\par
+ [[212055470]  13:37:31.828\tab ] Timer2:(0:36:37) -> 14\b\f1\par
+[212061546]  13:37:37.932\tab  -> Stop Task\b0  \par
+[212135730]  13:38:52.116\tab  -> Start Sleep2\par
+ [[212459003]  13:44:15.348\tab ] Timer3:(0:5:25) -> \par
+[212460324]  13:44:16.692\tab  -> Stop Sleep2\par
+ [[212461649]  13:44:18.20\tab ] Timer1:(0:48:52) -> \cf0\f0\par
+}
+",0
+0,#2020-12-04 10:22:11#,#2020-12-04 11:38:49#,"Light Training Day 5","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 12-04-2020\par
+Experimenter: Blake\par
+Time: 10:30\par
+Weight: 333 (0.917355371900827 %, 363g) \par
+\par
+\f1  2 lights and 5 drops with 40 radius\par
+\cf0\f0\par
+[287464809]  10:34:21.168\tab  -> Start Sleep1\par
+ [[287820669]  10:40:16.999\tab ] Timer1:(0:5:0) -> \par
+[287822275]  10:40:18.614\tab  -> Stop Sleep1\cf1\b\f1\par
+[287861443]  10:40:57.774\tab  -> Start Task\b0  \par
+ [[288866529]  10:57:42.893\tab ] Timer2:(0:16:41) -> \par
+ [[290821693]  11:30:18.52\tab ] Timer2:(0:49:16) -> \f0 gave him a little weigh boat of sugar water\b\f1\par
+[290858122]  11:30:54.476\tab  -> Stop Task\b0  \par
+ [[290865675]  11:31:2.59\tab ] Timer1:(0:55:46) -> \par
+[290911527]  11:31:47.861\tab  -> Start Sleep2\par
+ [[291309700]  11:38:26.68\tab ] Timer3:(0:6:37) -> \par
+[291311772]  11:38:28.148\tab  -> Stop Sleep2\par
+ [[291313911]  11:38:30.300\tab ] Timer1:(1:3:14) -> \cf0\f0\par
+}
+",0
+0,#2020-12-07 13:11:37#,#2020-12-07 14:46:20#,"Light Training Day 6","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 12-07-2020\par
+Experimenter: Blake\par
+Time: 13:20\par
+Weight: 314 (0.865013774104683 %, 363g) \par
+\cf0\par
+[243780594]  13:24:32.975\tab  -> Start Sleep1\par
+ [[244182561]  13:31:14.902\tab ] Timer1:(0:6:38) -> \par
+[244184127]  13:31:16.485\tab  -> Stop Sleep1\b\f1\par
+[244226603]  13:31:58.957\tab  -> Start Task\b0  \cf1\par
+ [[247793892]  14:31:26.268\tab ] Timer2:(0:59:26) -> \f0 is drinking sugar water but doesnt like the light \par
+ [[248276663]  14:39:29.36\tab ] Timer2:(1:7:28) -> 11\b\f1\par
+[248281354]  14:39:33.691\tab  -> Stop Task\b0  \par
+ [[248283401]  14:39:35.731\tab ] Timer1:(1:14:59) -> \par
+[248357947]  14:40:50.291\tab  -> Start Sleep2\par
+ [[248672372]  14:46:4.730\tab ] Timer3:(0:5:12) -> \par
+[248677969]  14:46:10.347\tab  -> Stop Sleep2\par
+ [[248685849]  14:46:18.227\tab ] Timer1:(1:21:42) -> \cf0\f0\par
+}
+",0
+0,#2020-12-08 09:21:52#,#2020-12-08 10:51:14#,"Light Training Day 7","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 12-08-2020\par
+Experimenter: Blake\par
+Time: 09:35\par
+Weight: 316 (0.870523415977961 %, 363g) \par
+\cf0\par
+[316499166]  9:36:31.508\tab  -> Start Sleep1\par
+ [[316743802]  9:40:36.178\tab ] Timer1:(0:4:2) -> Jumped off\par
+ [[316806031]  9:41:38.394\tab ] Timer1:(0:5:5) -> Placed glass around him\par
+[317160621]  9:47:32.977\tab  -> Stop Sleep1\cf1\b\f1\par
+[317202865]  9:48:15.194\tab  -> Start Task\b0  \par
+ [[318908777]  10:16:41.153\tab ] Timer1:(0:40:8) -> \par
+ [[320541766]  10:43:54.96\tab ] Timer1:(1:7:20) -> \par
+ [[320542835]  10:43:55.168\tab ] Timer2:(0:43:54) -> \f0 12\b\f1\par
+[320544707]  10:43:57.88\tab  -> Stop Task\b0  \par
+ [[320559011]  10:44:11.400\tab ] Timer1:(1:7:38) -> \par
+[320617163]  10:45:9.520\tab  -> Start Sleep2\par
+ [[320977369]  10:51:9.712\tab ] Timer3:(0:5:59) -> \par
+[320978638]  10:51:11.23\tab  -> Stop Sleep2\par
+ [[320980644]  10:51:13.31\tab ] Timer1:(1:14:39) -> \cf0\f0\par
+}
+",0
+0,#2020-12-09 13:26:55#,#2020-12-10 13:18:11#,"Light Training Day 8","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 12-09-2020\par
+Experimenter: Blake\par
+Time: 13:35\par
+Weight: 308 (0.848484848484849 %, 363g) \par
+\cf0\par
+[417322028]  13:36:54.410\tab  -> Start Sleep1\par
+ [[417692594]  13:43:4.953\tab ] Timer1:(0:6:6) -> \par
+[417694732]  13:43:7.120\tab  -> Stop Sleep1\cf1\b\f1\par
+[417753418]  13:44:5.785\tab  -> Start Task\b0  \par
+ [[421248728]  14:42:21.119\tab ] Timer2:(0:58:13) -> \b\par
+[421255412]  14:42:27.782\tab  -> Stop Task\b0  \par
+ [[421256615]  14:42:28.982\tab ] Timer1:(1:5:30) -> \par
+[421330340]  14:43:42.702\tab  -> Start Sleep2\par
+ [[421570232]  14:47:42.591\tab ] Timer3:(0:3:58) -> \f0 jumped\par
+ [[421878568]  14:52:50.958\tab ] Timer3:(0:9:6) -> \par
+[421880642]  14:52:52.983\tab  -> Stop Sleep2\par
+ [[421882847]  14:52:55.230\tab ] Timer1:(1:15:57) -> \cf0\par
+}
+",0
+0,#2020-12-10 13:17:48#,#2020-12-10 14:14:00#,"Light Training Day 9","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 12-10-2020\par
+Experimenter: Julia\par
+Time: 13:20\par
+Weight: 311 (0.856749311294766 %, 363g) \par
+\par
+[68614895]  13:28:13.247\tab  -> Start Sleep1\par
+ [[68965475]  13:34:3.845\tab ] Timer1:(0:5:48) -> \par
+[68966812]  13:34:5.149\tab  -> Stop Sleep1\b\f1\par
+[69010124]  13:34:48.493\tab  -> Start Task\b0  \par
+ [[69574194]  13:44:12.572\tab ] Timer2:(0:9:25) -> \f0 did first two on his own then stopped, go in to guide\par
+ [[70412779]  13:58:11.163\tab ] Timer2:(0:23:24) -> 18\par
+ [[70982464]  14:7:40.858\tab ] Timer2:(0:32:53) -> 20\b\f1\par
+[70994293]  14:7:52.626\tab  -> Stop Task\b0  \par
+[71051510]  14:8:49.858\tab  -> Start Sleep2\par
+ [[71354232]  14:13:52.618\tab ] Timer3:(0:5:4) -> \par
+[71355770]  14:13:54.162\tab  -> Stop Sleep2\cf0\f0\par
+}
+",0
+0,#2020-12-12 12:09:57#,#2020-12-12 14:06:47#,"Light Training Day 10","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 12-12-2020\par
+Experimenter: Blake\par
+Time: 12:10\par
+Weight: 311 (0.856749311294766 %, 363g) \par
+\cf0\par
+[237000560]  12:14:38.946\tab  -> Start Sleep1\cf1\par
+ [[237152756]  12:17:11.137\tab ] Timer1:(0:2:30) -> jumped\par
+ [[237686547]  12:26:4.888\tab ] Timer1:(0:11:24) -> \par
+[237688351]  12:26:6.688\tab  -> Stop Sleep1\b\f1\par
+[237726584]  12:26:44.984\tab  -> Start Task\b0  \par
+ [[238349541]  12:37:7.903\tab ] Timer2:(0:10:21) -> \par
+ [[243283527]  13:59:21.920\tab ] Timer2:(1:32:35) -> \f0 65\b\f1\par
+[243288206]  13:59:26.561\tab  -> Stop Task\b0  \par
+[243337736]  14:0:16.128\tab  -> Start Sleep2\par
+ [[243342547]  14:0:20.921\tab ] Timer1:(1:44:0) -> \f0 peed at 3 and 4\par
+ [[243698140]  14:6:16.520\tab ] Timer3:(0:5:59) -> \par
+[243699611]  14:6:18.8\tab  -> Stop Sleep2\par
+ [[243706897]  14:6:25.256\tab ] Timer1:(1:37:55) -> \cf0\par
+}
+",0
+0,#2020-12-14 09:52:41#,#2020-12-14 15:35:49#,"Light Training Day 11","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 12-14-2020\par
+Experimenter: Julia and Blake\par
+Time: 12:45\par
+Weight: (%, 363g) \par
+\par
+[411683919]  12:46:2.263\tab  -> Start Sleep1\par
+ [[411951776]  12:50:30.140\tab ] Timer1:(0:4:26) -> \par
+[411953702]  12:50:32.52\tab  -> Stop Sleep1\b\f1\par
+[411990583]  12:51:8.948\tab  -> Start Task\b0  \par
+ [[421443281]  15:28:41.640\tab ] Timer2:(2:37:34) -> \f0 101\b\f1\par
+[421480703]  15:29:19.80\tab  -> Stop Task\b0  \par
+ [[421482208]  15:29:20.575\tab ] Timer1:(2:43:16) -> \par
+[421483952]  15:29:22.312\tab  -> Start Sleep2\par
+ [[421860110]  15:35:38.464\tab ] Timer3:(0:6:13) -> \par
+[421865042]  15:35:43.431\tab  -> Stop Sleep2\par
+ [[421867389]  15:35:45.736\tab ] Timer1:(2:49:41) -> \cf0\f0\par
+}
+",0
+0,#2020-12-30 10:18:10#,#2021-01-02 12:33:22#,"Light with sound Day 1","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 01-02-2021\par
+Experimenter: Blake \par
+Time: 11:30\par
+Weight:302 (0.831955922865014 %, 363g) \par
+[770227102]  11:33:42.457\tab  -> Start Sleep1\par
+ [[770568058]  11:39:23.447\tab ] Timer1:(0:5:33) -> \par
+[770583097]  11:39:38.462\tab  -> Stop Sleep1\b\f1\par
+[770648201]  11:40:43.598\tab  -> Start Task\b0  \par
+ [[772163082]  12:5:58.430\tab ] Timer2:(0:25:16) -> \f0 went in to guide again\f1\par
+ [[772312738]  12:8:28.125\tab ] Timer2:(0:27:46) -> \f0 pooped at 5\par
+ [[773421294]  12:26:56.668\tab ] Timer2:(0:46:14) -> 24\b\f1\par
+[773429849]  12:27:5.245\tab  -> Stop Task\b0  \par
+ [[773461531]  12:27:36.877\tab ] Timer1:(0:53:46) -> \par
+[773465143]  12:27:40.493\tab  -> Start Sleep2\par
+ [[773781633]  12:32:57.20\tab ] Timer3:(0:5:18) -> \par
+[773787915]  12:33:3.253\tab  -> Stop Sleep2\par
+ [[773792061]  12:33:7.453\tab ] Timer1:(0:59:17) -> \cf0\f0\par
+}
+",0
+0,#2021-01-04 10:42:27#,#2021-01-04 14:07:10#,"Light no sound Day 1","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 01-04-2021\par
+Experimenter: Blake \par
+Time: 13:05\par
+Weight:309 (0.831955922865014 %, 363g) \par
+\cf0\par
+[948514726]  13:5:10.115\tab  -> Start Sleep1\par
+ [[948819453]  13:10:14.810\tab ] Timer1:(0:5:1) -> \par
+[948821592]  13:10:16.985\tab  -> Stop Sleep1\cf1\b\f1\par
+[948871388]  13:11:6.746\tab  -> Start Task\b0  \par
+ [[951839526]  14:0:34.880\tab ] Timer2:(0:49:29) -> \f0 33\b\f1\par
+[951845473]  14:0:40.855\tab  -> Stop Task\b0  \par
+ [[951847211]  14:0:42.616\tab ] Timer1:(0:55:29) -> \par
+[951898813]  14:1:34.168\tab  -> Start Sleep2\par
+ [[952216507]  14:6:51.872\tab ] Timer3:(0:5:16) -> \par
+[952218044]  14:6:53.440\tab  -> Stop Sleep2\par
+ [[952233017]  14:7:8.360\tab ] Timer1:(1:1:55) -> \cf0\f0\par
+}
+",0
+0,#2021-01-05 09:25:09#,#2021-01-05 11:07:01#,"Light no sound Day 2","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 01-05-2021\par
+Experimenter: Blake \par
+Time: 09:30\par
+Weight:306 (0.84297520661157%, 363g) \par
+[1022126452]  9:32:1.848\tab  -> Start Sleep1\par
+ [[1022428305]  9:37:3.670\tab ] Timer1:(0:5:0) -> \par
+[1022430511]  9:37:5.911\tab  -> Stop Sleep1\b\f1\par
+[1022472354]  9:37:47.742\tab  -> Start Task\b0  \par
+ [[1022698342]  9:41:33.679\tab ] Timer2:(0:3:44) -> \par
+ [[1023409930]  9:53:25.270\tab ] Timer2:(0:15:36) -> \par
+ [[1027376534]  10:59:31.876\tab ] Timer2:(1:21:42) -> \f0 48\b\f1\par
+[1027382883]  10:59:38.220\tab  -> Stop Task\b0  \par
+ [[1027385423]  10:59:40.772\tab ] Timer1:(1:27:37) -> \par
+[1027470379]  11:1:5.716\tab  -> Start Sleep2\par
+ [[1027805986]  11:6:41.340\tab ] Timer3:(0:5:33) -> \par
+[1027810932]  11:6:46.308\tab  -> Stop Sleep2\par
+ [[1027814876]  11:6:50.276\tab ] Timer1:(1:34:47) -> \cf0\f0\par
+}
+",0
+0,#2021-01-06 10:13:39#,#2021-01-06 14:36:07#,"Light no sound Day 3","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 01-06-2021\par
+Experimenter: Blake \par
+Time: 13:10\par
+Weight:306 (0.84297520661157%, 363g) \par
+[1121661712]  13:10:57.103\tab  -> Start Sleep1\par
+ [[1121739205]  13:12:14.543\tab ] Timer1:(0:1:15) -> jumped\par
+ [[1121770611]  13:12:45.999\tab ] Timer1:(0:1:46) ->  placed glass around him\par
+ [[1121966330]  13:16:1.687\tab ] Timer1:(0:5:2) -> \par
+[1121968438]  13:16:3.823\tab  -> Stop Sleep1\b\f1\par
+[1122003874]  13:16:39.255\tab  -> Start Task\b0  \par
+ [[1123044801]  13:34:0.150\tab ] Timer2:(0:17:23) -> \par
+ [[1124593709]  13:59:49.54\tab ] Timer2:(0:43:11) -> \par
+ [[1126411979]  14:30:7.317\tab ] Timer2:(1:13:30) -> \f0 49\b\f1\par
+[1126418236]  14:30:13.596\tab  -> Stop Task\b0  \par
+ [[1126420463]  14:30:15.845\tab ] Timer1:(1:19:16) -> \f0 peed at 4\f1\par
+[1126462037]  14:30:57.413\tab  -> Start Sleep2\par
+ [[1126764190]  14:35:59.549\tab ] Timer3:(0:5:0) -> \par
+[1126765513]  14:36:0.892\tab  -> Stop Sleep2\par
+ [[1126767559]  14:36:2.901\tab ] Timer1:(1:25:3) -> \cf0\f0\par
+}
+",0
+0,#2021-01-07 09:26:20#,#2021-01-07 11:10:29#,"Light no sound Day 4","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 01-07-2021\par
+Experimenter: Blake \par
+Time: 09:30\par
+Weight: 316 (0.870523415977961%, 363g) \par
+\cf0\par
+[1194968904]  9:32:44.269\tab  -> Start Sleep1\par
+ [[1195324363]  9:38:39.700\tab ] Timer1:(0:5:42) -> \par
+[1195327705]  9:38:43.60\tab  -> Stop Sleep1\cf1\b\f1\par
+[1195365270]  9:39:20.635\tab  -> Start Task\b0  \par
+ [[1200057632]  10:57:33.26\tab ] Timer2:(1:18:15) -> \f0 68\b\f1\par
+[1200079622]  10:57:55.2\tab  -> Stop Task\b0  \par
+ [[1200081628]  10:57:57.18\tab ] Timer1:(1:24:59) -> \par
+[1200131691]  10:58:47.25\tab  -> Start Sleep2\par
+ [[1200742416]  11:8:57.809\tab ] Timer3:(0:10:16) -> \par
+[1200811263]  11:10:6.626\tab  -> Stop Sleep2\par
+ [[1200814003]  11:10:9.370\tab ] Timer1:(1:37:12) -> \cf0\f0\par
+}
+",0
+0,#2021-01-08 14:03:31#,#2021-01-09 10:38:09#,"Light no sound Day 5","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 01-08-2021\par
+Experimenter: Blake \par
+Time: 14:40\par
+Weight: 304 (0.837465564738292 %, 363g) \par
+[1300218825]  14:46:54.219\tab  -> Start Sleep1\par
+ [[1300609977]  14:53:25.346\tab ] Timer1:(0:6:24) -> \par
+[1300611916]  14:53:27.306\tab  -> Stop Sleep1\b\f1\par
+[1300663116]  14:54:18.450\tab  -> Start Task\b0  \par
+ [[1303574637]  15:42:50.0\tab ] Timer2:(0:48:34) -> \f0 110\b\f1\par
+[1303582257]  15:42:57.648\tab  -> Stop Task\b0  \par
+ [[1303583863]  15:42:59.249\tab ] Timer1:(0:55:58) -> \par
+[1303639472]  15:43:54.848\tab  -> Start Sleep2\par
+ [[1304030693]  15:50:26.89\tab ] Timer3:(0:6:29) -> \par
+[1304033032]  15:50:28.376\tab  -> Stop Sleep2\par
+ [[1304052015]  15:50:47.353\tab ] Timer1:(1:3:46) -> \cf0\f0\par
+}
+",0
+0,#2021-01-09 10:37:33#,#2021-01-11 09:32:18#,"Light no sound Day 6","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 01-09-2021\par
+Experimenter: Blake \par
+Time: 10:40\par
+Weight: 316 (0.870523415977961%, 363g) \par
+[1371913766]  10:41:49.129\tab  -> Start Sleep1\par
+ [[1372310867]  10:48:26.256\tab ] Timer1:(0:6:33) -> \par
+[1372313073]  10:48:28.479\tab  -> Stop Sleep1\b\f1\par
+[1372381518]  10:49:36.919\tab  -> Start Task\b0  \par
+ [[1377993209]  12:23:8.589\tab ] Timer2:(1:33:29) -> \f0 99\b\f1\par
+[1378005241]  12:23:20.605\tab  -> Stop Task\b0  \par
+ [[1378006779]  12:23:22.173\tab ] Timer1:(1:41:29) -> \f0 peed at center and 4\f1\par
+[1378091668]  12:24:47.53\tab  -> Start Sleep2\par
+ [[1378406353]  12:30:1.709\tab ] Timer3:(0:5:3) -> \par
+[1378408425]  12:30:3.829\tab  -> Stop Sleep2\par
+ [[1378411633]  12:30:7.5\tab ] Timer1:(1:48:13) -> \cf0\f0\par
+}
+",0
+0,#2021-01-11 09:20:46#,#2021-01-11 10:54:08#,"Light no sound Day 7","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 01-11-2021\par
+Experimenter: Blake \par
+Time: 09:30\par
+Weight: 306 (0.84297520661157 %, 363g) \par
+\cf0\par
+Used legos \par
+\par
+[1540477793]  9:31:13.185\tab  -> Start Sleep1\par
+ [[1541113785]  9:41:49.160\tab ] Timer1:(0:10:35) -> \par
+[1541115523]  9:41:50.864\tab  -> Stop Sleep1\cf1\b\f1\par
+[1541147606]  9:42:22.951\tab  -> Start Task\b0  \par
+\par
+ [[1545072835]  10:47:48.229\tab ] Timer2:(1:5:24) -> \f0 112\b\f1\par
+[1545081526]  10:47:56.893\tab  -> Stop Task\b0  \par
+ [[1545087540]  10:48:2.918\tab ] Timer1:(1:16:48) -> \f0 peed at 1, 2 and 8\f1\par
+[1545123234]  10:48:38.582\tab  -> Start Sleep2\par
+ [[1545438187]  10:53:53.558\tab ] Timer3:(0:5:12) -> \par
+[1545440460]  10:53:55.829\tab  -> Stop Sleep2\par
+ [[1545443534]  10:53:58.870\tab ] Timer1:(1:22:44) -> \cf0\f0\par
+}
+",0
+0,#2021-01-12 11:07:31#,#2021-01-12 13:03:46#,"Light no sound Day 8","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 01-12-2021\par
+Experimenter: Blake and Julia\par
+Time: 12:05\par
+Weight: 309 (0.851239669421488 %, 363g) \par
+\cf0\par
+[1636147746]  12:5:43.84\tab  -> Start Sleep1\cf1\par
+ [[1636190524]  12:6:25.906\tab ] Timer1:(0:0:35) -> Jumped\par
+ [[1636221271]  12:6:56.627\tab ] Timer1:(0:1:6) -> Glass placed around him\par
+ [[1636554605]  12:12:29.954\tab ] Timer1:(0:6:39) -> \par
+[1636556879]  12:12:32.274\tab  -> Stop Sleep1\b\f1\par
+[1636579135]  12:12:54.481\tab  -> Start Task\b0  \par
+ [[1639114477]  12:55:9.865\tab ] Timer2:(0:42:14) -> \f0 104\b\f1\par
+[1639120893]  12:55:16.249\tab  -> Stop Task\b0  \par
+[1639175101]  12:56:10.440\tab  -> Start Sleep2\par
+ [[1639468065]  13:1:3.424\tab ] Timer3:(0:4:51) -> \par
+[1639469804]  13:1:5.192\tab  -> Stop Sleep2\par
+ [[1639471407]  13:1:6.761\tab ] Timer1:(0:55:16) -> \f0 peed at 4\cf0\par
+}
+",0
+0,#2021-01-13 10:12:07#,#2021-01-14 09:46:34#,"Light with sound Day 1","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 01-13-2021\par
+Experimenter: Blake\par
+Time: 10:20\par
+Weight: 311 (0.856749311294766 %, 363g) \par
+\cf0\par
+[38994887]  10:20:27.293\tab  -> Start Sleep1\cf1\par
+ [[39304693]  10:25:37.75\tab ] Timer1:(0:5:8) -> \par
+[39307232]  10:25:39.579\tab  -> Stop Sleep1\b\f1\par
+[39353620]  10:26:25.995\tab  -> Start Task\b0  \par
+[39393391]  10:27:5.755\tab  -> skipped first feeder since there was no reward\par
+ [[41161598]  10:56:33.978\tab ] Timer2:(0:30:10) -> \f0 104\b\f1\par
+[41181918]  10:56:54.312\tab  -> Stop Task\b0  \par
+ [[41184858]  10:56:57.201\tab ] Timer1:(0:36:28) -> \par
+[41233452]  10:57:45.801\tab  -> Start Sleep2\par
+ [[41597400]  11:3:49.761\tab ] Timer3:(0:6:5) -> \par
+[41599540]  11:3:51.889\tab  -> Stop Sleep2\par
+ [[41601610]  11:3:53.969\tab ] Timer1:(0:43:24) -> \cf0\f0\par
+}
+",0
+0,#2021-01-14 09:46:28#,#2021-01-14 09:46:44#,"Light with sound Day 2","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 01-14-2021\par
+Experimenter: Julia\par
+Time: \par
+Weight: (%, 363g) \cf0\par
+}
+",0

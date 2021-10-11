@@ -1,0 +1,122 @@
+"Ver1.2",5,"","C:\Users\LabMember\AppData\Local\LabBook\ButtonConfig.txt","C:\Users\LabMember\AppData\Local\LabBook\SoundConfig.txt","C:\Users\LabMember\AppData\Local\LabBook\Announce.txt","C:\Users\LabMember\AppData\Local\LabBook\DefaultNoteBookConfig.txt"
+4
+0,#2019-05-24 14:03:00#,#2019-05-27 16:49:25#,"(day 1) room adaptation","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;\red144\green238\blue144;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 05-24-2019\par
+Experimenter: Siyu\par
+Weight: 310\par
+\cf2\par
+14:2:17.177\tab  -> Room adaptation with main lights and overhead LED lights on, together with Tianqi\cf0\par
+ [14:10:1.895\tab ] Timer1:(0:6:35) -> Turn the main lights off\par
+\par
+ [15:8:1.125\tab ] Timer2:(0:57:39) -> End recording\par
+}
+",0
+0,#2019-05-25 16:38:57#,#2019-05-27 16:49:40#,"(day 2) bucket training","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 05-25-2019\par
+Experimenter: Siyu\par
+Weight: 306\par
+Time: 16:38\par
+\par
+Pick him up for a short walk, Hachi seems a little nervous, he keeps digging into his bedding\par
+\par
+16:38:39.141\tab  -> in cage\par
+ [16:42:40.81\tab ] Timer1:(0:4:2) -> \par
+\par
+Bucket trainnig\par
+\cf0\par
+[861878748]  17:2:7.942\tab  -> Start Sleep1\par
+\par
+ [[863049937]  17:21:39.92\tab ] Timer1:(0:22:42) -> \par
+[863053065]  17:21:42.219\tab  -> Stop Sleep1\cf1\par
+\par
+He seems nervous, made noise when i picked him up from the bucket. Hid in the tunnel after getting back to his cage.\par
+\par
+Stayed in cage until Tianqi finished his training (30 minutes)\cf0\par
+}
+",0
+0,#2019-05-26 19:52:32#,#2019-05-27 16:49:50#,"(day 3) bucket training - day 2","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 05-26-2019\par
+Experimenter: Siyu\par
+Time: 19:52\par
+Weight: 310\par
+\par
+Pick him up for a short walk, Hachi seems okay\par
+\par
+19:53:23.11\tab  -> Start Sleep1\par
+\cf0\par
+ [20:2:3.91\tab ] Timer1:(0:10:1) ->  10 minites with LED lights on (main lights off)\par
+\par
+put him on my lap for a few minutes, he seemed to try to jump to the ground from my lap, i stopped him. He sniffed around, put his front paws on my arms. Put him back on the bucket\par
+\par
+\par
+ [20:25:41.209\tab ] Timer1:(0:27:31) ->  15 more minutes on bucket\par
+\par
+Stay in cage until Tianchi finishes his training.\par
+\par
+\par
+20:44:6.823\tab  -> Back to colony room\par
+}
+",0
+0,#2019-05-27 16:45:15#,#2019-05-27 18:45:58#,"(day 4) bucket training - day 3","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 05-26-2019\par
+Experimenter: Siyu\par
+Time: 16:44\par
+Weight: 309\par
+\par
+Stayed in room for an hour while Tianchi gets bucket training\par
+\par
+\par
+16:45:23.476\tab  -> Start Sleep1\par
+\par
+ [16:53:39.155\tab ] Timer1:(0:7:26) -> On bucket for 7 minutes\par
+\par
+Tried to put belt on, he is okay, but didn't end up putting on the belt:\par
+1. Put on once, but too tight for him, he made sound, so i took it off\par
+2. Too loose, he escaped from the belt\par
+\par
+He seemed very relaxed on my lap\par
+\par
+ [17:25:54.378\tab ] Timer1:(0:39:41) -> pour sugar water on plate, 5 & 7 constantly flashing\par
+\par
+Switched to 3 lights flashing\par
+\par
+pour sugar water on plate, 2, 5 & 7 constantly flashing\par
+\par
+He didn't seem to be interested in sugar water, stayed against the wall and stayed still. I was going in and out,maybe that freaked him out. But hopefully he will be relaxed again.\par
+\par
+put him back to his cage.\par
+\par
+Put him out of cage for a few minutes\par
+\par
+ [17:55:4.297\tab ] Timer1 ~30:00 -> \par
+\par
+Put him on bucket\par
+\par
+17:55:4.297\tab  -> Start Sleep1\par
+\par
+\par
+17:59:35.648\tab  -> Stop Sleep1 (get in trying to put the belt on again)\par
+\par
+Tried again to put on the belt, he managed to get out of it twice\par
+\par
+\b\f1\par
+18:20:2.336\tab  -> Start Task\b0  \par
+\f0 Without belt\par
+3 lights flashing, with lots of sugar water on the boat, have him freely explored\par
+\par
+He explored the field pretty well this time.\par
+\par
+after 10 minutes, stayed at one corner and stops moving\par
+\par
+Stayed near feeder 7 most of the time with tail towards feeder 7\par
+\par
+\b\f1\par
+18:45:55.823\tab  -> Stop Task\b0  \par
+\par
+\f0\par
+}
+",0

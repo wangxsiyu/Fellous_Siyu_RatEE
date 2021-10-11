@@ -1,0 +1,52 @@
+"Ver1.2",5,"","C:\Users\LabMember\AppData\Local\LabBook\ButtonConfig.txt","C:\Users\LabMember\AppData\Local\LabBook\SoundConfig.txt","C:\Users\LabMember\AppData\Local\LabBook\Announce.txt","C:\Users\LabMember\AppData\Local\LabBook\DefaultNoteBookConfig.txt"
+4
+0,#2020-06-01 16:55:24#,#2020-06-01 18:32:00#,"day 0, room adaptation/bucket training","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;\red144\green238\blue144;\red255\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 06-01-2020\par
+Experimenter: Siyu\par
+Time: 16:54\par
+Weight: 296 (0.880952380952381 %, 336g)\cf2\par
+ [17:53:39.389\tab ] Timer1:(0:57:7) -> \cf3\par
+17:53:47.355\tab  -> Stop Sleep1\par
+[1700113168]  18:0:8.421\tab  -> Start Sleep2\par
+\par
+ [[1702019202]  18:31:54.435\tab ] Timer1:(0:31:48) -> \par
+[1702020538]  18:31:55.746\tab  -> Stop Sleep2\par
+}
+",0
+0,#2020-06-02 11:09:56#,#2020-06-02 11:45:04#,"day 0, room adaptation/bucket training 2","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;\red144\green238\blue144;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 06-02-2020\par
+Experimenter: Blake\par
+Time: 10:10\par
+Weight: 294 (0.875 %, 336g)\cf2\par
+\cf0\par
+[1762151403]  11:14:6.596\tab  -> Start Sleep1\par
+ [[1764002226]  11:44:57.434\tab ] Timer1:(0:30:49) -> \par
+[1764004565]  11:44:59.761\tab  -> Stop Sleep1\par
+}
+",0
+0,#2020-06-03 10:02:27#,#2020-06-04 15:06:03#,"day 0, room adaptation 3","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;\red144\green238\blue144;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 06-03-2020\par
+Experimenter: Blake\par
+Time: 10:35\par
+Weight: 295 (0.87797619047619 %, 336g)\cf2\par
+\cf0\par
+[76232221]  10:38:23.452\tab  -> Start Sleep1\cf1\par
+ [[78047600]  11:8:38.825\tab ] Timer1:(0:30:13) -> \par
+[78050007]  11:8:41.249\tab  -> Stop Sleep1\cf0\par
+}
+",0
+0,#2020-06-04 15:02:30#,#2020-06-04 16:10:04#,"day 0, room adaptation 4","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;\red144\green238\blue144;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 06-04-2020\par
+Experimenter: Blake\par
+Time: 15:35\par
+Weight: 282 (0.839285714285714 %, 336g)\cf2\par
+\cf0\par
+[180598443]  15:37:49.669\tab  -> Start Sleep1\cf1\par
+ [[182525911]  16:9:57.147\tab ] Timer1:(0:32:6) -> \par
+[182527415]  16:9:58.634\tab  -> Stop Sleep1\cf0\par
+}
+",0

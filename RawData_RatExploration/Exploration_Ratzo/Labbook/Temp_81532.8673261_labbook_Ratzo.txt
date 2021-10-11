@@ -1,0 +1,28 @@
+"Ver1.2",5,"","C:\Users\LabMember\AppData\Local\LabBook\ButtonConfig.txt","C:\Users\LabMember\AppData\Local\LabBook\SoundConfig.txt","C:\Users\LabMember\AppData\Local\LabBook\Announce.txt","C:\Users\LabMember\AppData\Local\LabBook\DefaultNoteBookConfig.txt"
+2
+0,#2019-12-17 17:35:40#,#2019-12-17 21:16:39#,"bucket trainig, day 1","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;\red144\green238\blue144;\red255\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 12-17-2019\par
+Experimenter: Siyu\par
+Time: 17:35\par
+Weight: 335 (0.96264367816092 %, 348g)\cf2\par
+[3021645155]  17:35:55.747\tab  -> Start Sleep1\par
+ [[3021706104]  17:36:53.259\tab ] Timer1:(0:0:2) -> jumped off the bucket twice\par
+ [[3022670318]  17:52:57.473\tab ] Timer1:(0:16:6) -> he climbed out of the edge of the glass and jumped off again...\par
+ [[3025480844]  18:39:48.23\tab ] Timer1:(1:2:56) -> \cf3\par
+[3025483383]  18:39:50.559\tab  -> Stop Sleep1\cf0\par
+}
+",0
+0,#2019-12-18 21:40:15#,#2019-12-18 22:38:52#,"bucket trainig, day 2","{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs24 Date: 12-18-2019\par
+Experimenter: Siyu\par
+Time: 21:40\par
+Weight: 329 (0.945402298850575 %, 348g)\par
+21:38:43.741\tab  -> Start Sleep1\par
+ [21:39:51.812\tab ] Timer1:(0:1:4) -> jumped again, put the glass wall on\par
+ [21:40:2.618\tab ] Timer1:(0:1:15) -> he is a bit too fat for the belt, didn't put it on....\par
+ [22:38:43.166\tab ] Timer1:(0:59:56) -> \par
+22:38:46.368\tab  -> Stop Sleep1\cf0\par
+}
+",0

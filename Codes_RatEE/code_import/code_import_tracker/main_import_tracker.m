@@ -2,7 +2,7 @@
 datadir = '../../../RawData_RatExploration';
 folders = dir(fullfile(datadir, 'Exploration*'));
 outputdir = '../../../data_processed';
-isoverwrite = false;
+isoverwrite = true;
 %% get all folders
 xfolders = table;
 for fi = 1:length(folders)

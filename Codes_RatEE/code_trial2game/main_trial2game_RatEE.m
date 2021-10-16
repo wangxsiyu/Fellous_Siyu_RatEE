@@ -6,7 +6,7 @@ data.homebase15 = all((ismember(data.feeders,[1 4 6]) | isnan(data.feeders))')' 
 data.n_lights = sum(~isnan(data.feeders)')';
 data.releasetime = data.feeders*0 + data.releasetime;
 rats = unique(data.rat);
-isoverwrite = false;
+isoverwrite = true;
 %% 
 if ~exist('../../data_processed/info_RatEE.csv', 'file') || isoverwrite
     %% get all sessions

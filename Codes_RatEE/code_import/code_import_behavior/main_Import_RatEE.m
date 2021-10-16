@@ -2,7 +2,7 @@
 datadir = '../../../RawData_RatExploration';
 folders = dir(fullfile(datadir, 'Exploration*'));
 outputdir = '../../../data_processed';
-isoverwrite = false;
+isoverwrite = true;
 %% load maze
 maze = importRat_mazelayout(fullfile(datadir, 'Room1_063020_correctedbySiyu.txt'));
 %% get all folders

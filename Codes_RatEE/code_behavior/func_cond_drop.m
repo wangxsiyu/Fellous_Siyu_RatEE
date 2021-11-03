@@ -6,5 +6,5 @@ function g = func_cond_drop(g)
         vv = arrayfun(@(x)num2str(x), sort(W.horz(W.unique(unq))));
     end
     g = W.tab_fill(g, 'cond_drop', vv);
-    vv = g.cond_drop;
+%     vv = g.cond_drop;
 end

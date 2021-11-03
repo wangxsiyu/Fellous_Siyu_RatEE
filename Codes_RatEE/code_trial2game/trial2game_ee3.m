@@ -29,4 +29,6 @@ function tab = trial2game_ee3(g)
     % this doesn't work for earlier versions (assume a constant release
     % time)
     tab.releasetime = nanmean(W.unique(g.releasetime(id_free,:),  'rows'));
+    tab.time_blinkEnd_blinkStart = W.horz((g.timestamp_BlinkEnd(id_cue | id_free) - g.timestamp_BlinkStart(id_cue | id_free))/1000);
+
 end

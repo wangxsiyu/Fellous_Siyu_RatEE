@@ -9,25 +9,50 @@ function g = preprocess_RatEE(g)
     else
         g.is_free1stchoice(:,1) = 0;
     end
+    if (ng == 0 && nf == 2)
+        nf = 1;
+    end
+    if (ng == 0 && nf == 7)
+        nf = 6;
+    end
+    if nf >= 15
+        nf = 15;
+    end
+    g.cond_horizon(:,1) = nf;
     if  nf == 1 || (ng == 0 && nf == 2)
-        g.cond_horizon(:,1) = 1; % short
-%     elseif nf == 2
-%         g.cond_horizon(:,1) = 2;
-%     elseif nf == 5 % ??
-%         g.cond_horizon(:,1) = 4;
+        g.bayes_horizon(:,1) = 1; % short
+    elseif nf == 2
+        g.bayes_horizon(:,1) = 2;
+    elseif nf == 5 % human
+        g.bayes_horizon(:,1) = 3;
     elseif nf <= 7 && nf >=6
-        g.cond_horizon(:,1) = 2; % long
-%     elseif nf == 9 %??
-%         g.cond_horizon(:,1) = 4;
+        g.bayes_horizon(:,1) = 3; % long
+    elseif nf == 10 % human
+        g.bayes_horizon(:,1) = 4;
     elseif nf >= 15
-        g.cond_horizon(:,1) = 3; % extra long
+        g.bayes_horizon(:,1) = 4; % extra long
+    elseif ng == 0 && nf == 8
+        g.bayes_horizon(:,1) = 3;
+        g.cond_horizon(:,1) = 6;    
+        g.c(:,8:end) = NaN;    
+        g.r(:,8:end) = NaN;
+        g.is_guided(:,8:end) = NaN;
+    elseif ng == 0 && nf == 3
+        g.bayes_horizon(:,1) = 1;
+        g.cond_horizon(:,1) = 1;   
+        g.c(:,3:end) = NaN;    
+        g.r(:,3:end) = NaN;
+        g.is_guided(:,3:end) = NaN;
     else
         warning(sprintf('cond %d', nf));
 %         error('check')
     end
+
+
+    g.cond_guided(:,1) = ng;
     %% get idx_free, idx_guided
-    idg = mean(g.is_guided == 1) == 1;
-    idf = mean(g.is_guided == 0) == 1;
+    idg = mean(g.is_guided == 1) > 0.9;
+    idf = mean(g.is_guided < 1) > 0.9;
     %% compute 
     g.r_guided = W.funccol('nanmean',g.r(:,idg)')';    % r_guided
     g.c_guided = W.funccol('nanmean',g.c(:,idg)')';    % c_guided

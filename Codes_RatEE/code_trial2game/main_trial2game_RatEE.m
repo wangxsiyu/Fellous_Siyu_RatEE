@@ -1,5 +1,5 @@
 %% load trials
-data = W.readtable('../../data_processed/raw_RatEE.csv');
+data = W.readtable('../../data_processed/compiled/raw_RatEE.csv');
 data.is37 = sum(ismember(data.feeders,[3 7])')';
 data.homebase15 = all((ismember(data.feeders,[1 4 6]) | isnan(data.feeders))')' + ...
     all((ismember(data.feeders,[2 5 8]) | isnan(data.feeders))')' * 2;
@@ -8,7 +8,7 @@ data.releasetime = data.feeders*0 + data.releasetime;
 rats = unique(data.rat);
 isoverwrite = true;
 %% 
-if ~exist('../../data_processed/info_RatEE.csv', 'file') || isoverwrite
+if ~exist('../../data_processed/compiled/info_RatEE.csv', 'file') || isoverwrite
     %% get all sessions
     sessions = W_sub.selectsubject(data, {'foldername', 'filename'});
     % get basic session info
@@ -41,7 +41,7 @@ if ~exist('../../data_processed/info_RatEE.csv', 'file') || isoverwrite
             tp(si) = "ee_3lights";
         elseif mean(idx2 == 2) > 0.7
             tp(si) = "early_2lights";
-        elseif sum(tdata.is37) > 3 % 7 is the escape for earlier versions
+        elseif sum(tdata.is37) > 3 % 7 is the escape for earlier versions, this selects homebase 7
             tp(si) = 'ee_randhb';
         elseif all(ismember([1 2], tdata.homebase15(idx2 == 1)))
             tp(si) = "ee_alterhb";
@@ -53,17 +53,17 @@ if ~exist('../../data_processed/info_RatEE.csv', 'file') || isoverwrite
     disp(sprintf('Unclassified percentage %.2f%%', mean(tp == "")*100));
     info.version = W.vert(tp);
     %% save info
-    writetable(info, '../../data_processed/info_RatEE.csv');
+    writetable(info, '../../data_processed/compiled/info_RatEE.csv');
 else
     %% load info
-    info = readtable('../../data_processed/info_RatEE.csv');
+    info = readtable('../../data_processed/compiled/info_RatEE.csv');
 end
 %% exclude sessions with very few trials (did not implement here)
 % figure, hist(info.n_games, 100)
 %% load existing games.csv
 infos = string(fullfile(info.foldername, info.filename));
-if exist('../../data_processed/games_EE.csv') && ~isoverwrite
-    g0 = readtable('../../data_processed/games_EE.csv');
+if exist('../../data_processed/compiled/games_EE.csv') && ~isoverwrite
+    g0 = readtable('../../data_processed/compiled/games_EE.csv');
     games = W.tab_autofieldcombine(g0);
     gs = unique(string(fullfile(games.foldername,games.filename)));
     slists = find(arrayfun(@(x)~any(gs == x), infos));
@@ -131,7 +131,7 @@ disp('Complete');
 %% needs check
 % 341 - homebase is 7
 %% save
-writetable(games, '../../data_processed/games_EE.csv');
+writetable(games, '../../data_processed/compiled/games_EE.csv');
 %% bug
 % Earlier, maybe Hachi and Tianqi did versions that 
 % guide - free - guide - free repeat more than once, 

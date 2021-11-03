@@ -1,7 +1,7 @@
 %% set up directory list
 datadir = '../../../RawData_RatExploration';
 folders = dir(fullfile(datadir, 'Exploration*'));
-outputdir = '../../../data_processed';
+outputdir = '../../../data_processed/compiled';
 isoverwrite = true;
 %% load maze
 maze = importRat_mazelayout(fullfile(datadir, 'Room1_063020_correctedbySiyu.txt'));
@@ -53,4 +53,7 @@ if ~isempty(raw_rat0)
     raw_rat = W.tab_vertcat(raw_rat0, raw_rat);
 end
 %% save this file
+if ~exist(outputdir)
+    mkdir(outputdir);
+end
 writetable(raw_rat, fullfile(outputdir, 'raw_RatEE.csv'));

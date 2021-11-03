@@ -34,4 +34,5 @@ function tab = trial2game_ee_3lights(d)
         ttab = trial2game_ee3(tg);
         tab = W.tab_vertcat(tab, ttab);
     end
+    
 end

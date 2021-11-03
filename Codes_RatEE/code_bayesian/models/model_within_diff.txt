@@ -1,0 +1,29 @@
+model{
+			dthres_mu ~ dnorm(0,0.01);
+			dthres_sigma ~ dexp(0.01);
+			dnoise_mu ~ dnorm(0,0.01);
+			dnoise_sigma ~ dexp(0.01);
+			for (r in 1:nR){
+				tdnoise[r] ~ dnorm(dnoise_mu, 1/dnoise_sigma);
+				tdthres[r] ~ dnorm(dthres_mu, 1/dthres_sigma);
+			}
+
+	    for (gi in 1:ngd) {
+							noise_k[gi] ~ dexp(0.01);
+							noise_lambda[gi] ~ dexp(10);
+							noise[gi] <- noise_k[gi]/noise_lambda[gi];
+				    	thres_mu[gi] ~ dnorm(0,0.01);
+							thres_sigma[gi] ~ dexp(0.01);
+							for (r in 1:nR){
+				        tnoise[gi, 1, r] ~ dgamma(noise_k[gi], noise_lambda[gi]);
+								tthres[gi, 1, r] ~ dnorm(thres_mu[gi], 1/thres_sigma[gi]);
+								tnoise[gi, 2, r] <- tnoise[gi, 1, r] + tdnoise[r];
+								tthres[gi, 2, r] <- tthres[gi, 1, r] + tdthres[r];
+							}
+			}
+      for (t in 1:nG) {
+						dQ[t] <- r[t] - tthres[gd[t], h[t], rats[t]];
+						P[t]  <- 1 - 1/(1 + exp(-dQ[t]/tnoise[gd[t], h[t], rats[t]]))
+						c[t] ~ dbern( P[t] );
+			}
+}

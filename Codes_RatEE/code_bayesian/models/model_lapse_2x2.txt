@@ -1,0 +1,29 @@
+model{
+	    for (gi in 1:ngd) {
+					for (hi in 1:nH){
+							noise_k[gi, hi] ~ dexp(0.01);
+							noise_lambda[gi, hi] ~ dexp(10);
+							noise[gi, hi] <- noise_k[gi, hi]/noise_lambda[gi, hi];
+				    	thres_mu[gi, hi] ~ dnorm(0,0.01);
+							thres_sigma[gi, hi] ~ dexp(0.01);
+							u[gi, hi] ~ dunif(0,1);
+							v[gi, hi] ~ dgamma(1, 20);
+							a[gi, hi] <- u[gi, hi] * v[gi, hi];
+							b[gi, hi] <- v[gi, hi] - a[gi, hi];
+							for (r in 1:nR){
+				        tnoise[gi, hi, r] ~ dgamma(noise_k[gi, hi], noise_lambda[gi, hi]);
+								tthres[gi, hi, r] ~ dnorm(thres_mu[gi, hi], 1/thres_sigma[gi, hi]);
+								tlapse[gi, hi, r] ~ dbeta(a[gi, hi], b[gi, hi]);
+							}
+					}
+					dthres[gi] = thres_mu[gi, 2] - thres_mu[gi, 1];
+					dnoise[gi] = noise[gi, 2] - noise[gi, 1];
+					dlapse[gi] = u[gi, 2] - u[gi, 1];
+			}
+      for (t in 1:nG) {
+						dQ[t] <- r[t] - tthres[gd[t], h[t], rats[t]];
+						Pexp[t]  <- 1 - 1/(1 + exp(-dQ[t]/tnoise[gd[t], h[t], rats[t]]))
+						P[t] <- Pexp[t] * (1-tlapse[gd[t], h[t], rats[t]]) + tlapse[gd[t], h[t], rats[t]]
+						c[t] ~ dbern( P[t] );
+			}
+}

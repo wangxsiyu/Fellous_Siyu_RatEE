@@ -33,7 +33,10 @@ for i = 1:nrat
 end
 %%
 acs = nanmean(tac.av_cc_best,2);
-tid = find(acs < 0.4);
+% tid = find(acs < 0.4);
+tid1 = find(tac.datetime < datetime(2020, 10, 30) & ismember(tac.rat,{'Gerald','Twenty'}) & tac.av_n_free >= 15);
+tid2 = find(acs < 0.4 & ismember(tac.rat,{'Ratzo','Rizzo'}) & tac.av_n_free == 6);
+tid = [tid1; tid2];
 ses_exclude = tac(tid,:).foldername;
 mean(~contains(data.foldername, ses_exclude))
 data = data(~contains(data.foldername, ses_exclude),:);

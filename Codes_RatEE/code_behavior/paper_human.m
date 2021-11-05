@@ -18,7 +18,7 @@ tac = W_sub.analysis_group(data, {'rat', 'foldername'});
 % tac_ses =  W_sub.tab_trial2game(tac, tses);
 % %%
 % tac = tac(tac.av_n_free > 1,:);
-data = data(contains(data.filename, tac.filename(nanmean(tac.av_cc_best,2) > 0.5)),:);
+data = data(contains(data.filename, tac.filename(nanmean(tac.av_cc_best,2) > 0.6)),:);
 %% basic analysis
 sessions = W_sub.selectsubject(data, {'rat', 'n_guided','cond_horizon'});
 tsub = W_sub.analysis_sub(data, sessions, 'behavior_RatEE');

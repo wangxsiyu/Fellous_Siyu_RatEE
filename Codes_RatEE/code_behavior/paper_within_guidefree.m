@@ -30,7 +30,7 @@ for i = 1:nrat
     end
 end
 %%
-tid = find(tac.av_cc_best(:,end) < 0.4);
+tid = find(tac.av_cc_best(:,end) < 0.3);
 ses_exclude = tac(tid,:).foldername;
 mean(~contains(data.foldername, ses_exclude))
 data = data(~contains(data.foldername, ses_exclude),:);
@@ -42,7 +42,7 @@ data = data(~contains(data.foldername, ses_exclude),:);
 % tac = tac(tac.av_n_free > 1,:);
 % data = data(contains(data.foldername, tac.foldername(tac.av_cc_best_smoothed > 0.5)),:);
 %% include only horizon 3
-% data = data(ismember(data.n_guided,[1, 3]), :);
+data = data(ismember(data.n_guided,[0, 1, 3]), :);
 %% basic analysis
 sessions = W_sub.selectsubject(data, {'rat', 'n_guided','cond_horizon'});
 tsub = W_sub.analysis_sub(data, sessions, 'behavior_RatEE');

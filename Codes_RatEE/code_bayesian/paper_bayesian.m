@@ -43,7 +43,7 @@ plt.setfig('color', {'AZblue','AZred'}, ...
     'xlabel', {'threshold', 'threshold', 'threshold', 'noise', 'noise', 'noise'}, ...
     'ylabel', {'density', '','','density', '',''});
 plt.setup_pltparams('linewidth',1)
-[ty, tm] = W_plt_JAGS.density(sp.thres_mu, rgr2)
+[ty, tm] = W_plt_JAGS.density(sp.thres, rgr2)
 for i =  [4 2 1]
 plt.new;
 % plt.setfig_ax('xlabel','');
@@ -122,6 +122,25 @@ spt(:,:,4) = squeeze(spt(:,:,2)) + sp.dthres_mu;
 plt.lineplot(ty,[],tm);
 plt.update;
 plt.save('guidefree');
+%%
+file = fullfile(hbidir, 'HBI_model_within_H_within_all_samples.mat');
+sp = importdata(file);
+%%
+plt.figure(2,2);
+plt.setfig('xlim', {[0 5],[0 20],[0 20],[0 1]});
+plt.new;
+[ty, tm] = W_plt_JAGS.density(sp.thres_mu, [-1:0.01:6])
+plt.lineplot(ty ,[],tm);
+plt.new;
+[ty, tm] = W_plt_JAGS.density(sp.noise, [-1:0.01:50])
+plt.lineplot(ty,[],tm);
+plt.new;
+[ty, tm] = W_plt_JAGS.density(sp.prior, [-1:0.01:50])
+plt.lineplot(ty ,[],tm);
+plt.new;
+[ty, tm] = W_plt_JAGS.density(sp.alpha, [-2:0.001:2])
+plt.lineplot(ty,[],tm);
+plt.update;
 %%
 % subplot(2,2,1);
 % violin(reshape(sp2.thres_mu, [],4))

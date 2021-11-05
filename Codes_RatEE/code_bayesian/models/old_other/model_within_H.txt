@@ -1,0 +1,39 @@
+model{
+			for (h in 1:nH){
+					a0[h] ~ dunif(0.1, 10) #dexp(0.001)
+					b0[h] ~ dunif(0.1, 10) #dexp(0.0001)
+					alpha[h] <- a0[h]/(a0[h] + b0[h])
+					noise_k[h] ~ dexp(0.01);
+					noise_lambda[h] ~ dexp(10);
+					noise[h] <- noise_k[h]/noise_lambda[h];
+					thres_mu[h] ~ dnorm(0,0.01);
+					thres_sigma[h] ~ dexp(0.01);
+
+					for (r in 1:nR){
+						talpha[h, r] ~ dbeta(a0[h], b0[h])
+						tnoise[h, r] ~ dgamma(noise_k[h], noise_lambda[h]);
+						tthres[h, r] ~ dnorm(thres_mu[h], 1/thres_sigma[h]);
+						#tprior[h, r] ~ dnorm(prior_mu[h], 1/prior_sigma[h])
+					}
+			}
+			prior_a ~ dunif(0.1, 10) # dnorm(0,0.01);
+			prior_b ~ dunif(0.5, 10) # dexp(0.01);
+			prior = prior_a/(prior_a + prior_b) * 5
+			for (r in 1:nR){
+				 tprior[r] ~ dbeta(prior_a, prior_b)
+	 			#	 tprior[r] ~ dnorm(prior_mu, 1/prior_sigma)
+			}
+
+			dnoise <- noise[2] - noise[1]
+			dthres <- thres_mu[2] - thres_mu[1]
+			#dprior <- prior_mu[2] - prior_mu[1]
+			dalpha <- alpha[2] - alpha[1]
+			for (t in 1:nG){
+						texp[t] <- ifelse(gd[t] <= 1, 1, gd[t])
+						ratio[t] <- (1 - talpha[h[t], rats[t]]) ^ texp[t]
+						v[t] <- (1-ratio[t]) * r[t] + ratio[t] * tprior[rats[t]] * 5
+						dQ[t] <- v[t] - tthres[h[t], rats[t]];
+						P[t]  <- 1 - 1/(1 + exp(-dQ[t]/tnoise[h[t], rats[t]]))
+						c[t] ~ dbern( P[t] );
+			}
+}

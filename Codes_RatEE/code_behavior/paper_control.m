@@ -15,9 +15,6 @@ data = W_sub.preprocess_subxgame(data, sessions, 'performance_RatEE');
 tac = W_sub.analysis_group(data, {'rat', 'foldername','cond_horizon'});
 tac = tac(tac.av_cond_horizon > 1,:);
 %%
-plt = W_plt('fig_dir', '../../figures','fig_projectname', 'control');
-plt.setuserparam('param_setting', 'isshow', 1);
-%%
 cols = {'AZblue', 'AZred', 'AZcactus', 'AZsand','AZbrick'};
 syms = strcat('-', {'o','+','+','+','x','d','^'});
 ww = W_colors;
@@ -34,11 +31,10 @@ for i = 1:nrat
     end
 end
 %%
-tid = find(tac.av_cc_best(:,end) < 0.4);
-ses_exclude = tac(tid,:).foldername;
-mean(~contains(data.foldername, ses_exclude))
-data = data(~contains(data.foldername, ses_exclude),:);
-
+% tid = find(tac.av_cc_best(:,end) < 0.4);
+% ses_exclude = tac(tid,:).foldername;
+% mean(~contains(data.foldername, ses_exclude))
+% data = data(~contains(data.foldername, ses_exclude),:);
 % % %% session plot
 % % tses = W_sub.selectsubject(tac, {'rat', 'foldername'});
 % % tac_ses =  W_sub.tab_trial2game(tac, tses);
@@ -57,15 +53,4 @@ gp = W_sub.analysis_group(sub, {'is_random'});
 [~, od] = sort(gp.av_cond_horizon, 'descend');
 gp = gp(od,:);
 %%
-col = {'AZred', 'AZsand'};
-leg = {'contant reward', 'random reward'};
-plt.setfig_new;
-plt.setfig_loc(2,'xlim', [0.5 6.5], 'ylim', {[0.4 1], [0 1]} , ...
-    'ytick', {0.5:0.1:1, 0:0.2:1}, 'legord', 'reverse', 'legloc', {'SouthEast', 'NorthEast'});
-plt = fig_behavior_gp(plt, gp, 'av', 'trial number', col, ...
-    leg, ['gp_av']);
-plt.setfig_new;
-plt.setfig_loc(2,'xlim', [0.5 6.5], 'xtick', 1:6, 'xticklabel', 0:5, ...
-    'ylim', {[0 1],[0 1]}, 'ytick', {0:0.2:1, 0:0.2:1}, 'legord', 'reverse', 'legloc', 'SouthWest');
-plt = fig_behavior_gp(plt, gp, 'bin_all', 'R guided', col , ...
-    leg, ['gp_rG']);
+save('../../data_processed/output/gp_control.mat', 'sub','gp');

@@ -9,25 +9,29 @@ fullpt = '/Users/wang/WANG/Fellous_Siyu_RatEE/Codes_RatEE/code_bayesian/models';
 outputdir = '/Users/wang/WANG/Fellous_Siyu_RatEE/result_bayes';
 %%
 mi = 0;
-% mi = mi + 1;
-% modelname{mi} = 'model_simple.txt';
+mi = mi + 1;
+modelname{mi} = 'model_simple.txt';
 % params{mi} = {'noise_k','noise_lambda', 'noise', ...
 %     'thres_mu', 'thres_sigma', ...
 %     'tnoise','tthres'};
-% init0{mi} = struct;
-
-mi = mi + 1;
-modelname{mi} = 'model_rat.txt';
 params{mi} = {'noise_k','noise_lambda', 'noise', ...
     'thres_a', 'thres_b', 'thres', ...
-    'dQ', 'P','tnoise','tthres','dthres', 'dnoise'};
+    'tnoise','tthres','bias_mu','bias_sigma','tbias'};
 init0{mi} = struct;
 
 mi = mi + 1;
 modelname{mi} = 'model_rat.txt';
 params{mi} = {'noise_k','noise_lambda', 'noise', ...
     'thres_a', 'thres_b', 'thres', ...
-    'dQ', 'P','tnoise','tthres','dthres', 'dnoise'};
+    'tnoise','tthres','dthres', 'dnoise',...
+    'tbias','dbias','bias_mu','bias_sigma'};
+init0{mi} = struct;
+
+mi = mi + 1;
+modelname{mi} = 'model_human_full.txt';
+params{mi} = {'noise_k','noise_lambda', 'noise', ...
+    'thres_a', 'thres_b', 'thres', ...
+    'tnoise','tthres','bias_mu','bias_sigma','tbias'};
 %     'thres_mu', 'thres_sigma', ...
 init0{mi} = struct;
 % mi = mi + 1;
@@ -55,12 +59,13 @@ init0{mi} = struct;
 % init0{mi} = struct;
 %%
 datalists.modeli(:,1) = 1;
-datalists(datalists.folder_name == "bayes_human_full.mat",:).modeli = 2;
+datalists(datalists.folder_name == "bayes_within_all.mat",:).modeli = 2;
+datalists(datalists.folder_name == "bayes_human_full.mat",:).modeli = 3;
 %% setup JAGS/params
 wj = W_JAGS();
 wj.isoverwrite = true;
 % wj.setup_params;
-wj.setup_params(4, 3000, 5000);
+wj.setup_params(4, 5000, 10000);
 %% run select
 wselect = 2; %mi;%1:mi;
 %% run models
@@ -71,14 +76,14 @@ for di = 1:size(datalists,1)
     %% run
     mmi = datalists.modeli(di);
 %     for mmi = wselect
-        try
+%         try
             disp(sprintf('running dataset %d, model %d: %s', di, mmi,modelname{mmi}));
             outfile = W.file_deext(datalists.folder_name(di));
             outfile = replace(outfile, 'bayes_', replace(modelname{mmi},'.txt','_'));
             wj.setup(fullfile(fullpt, modelname{mmi}), params{mmi}, init0{mmi}, outfile);
             wj.run;
-        catch
-            warning('!!!!!!!!!!!!!!!!!!failed');
-        end
+%         catch
+%             warning('!!!!!!!!!!!!!!!!!!failed');
+%         end
 %     end
 end

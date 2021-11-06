@@ -7,7 +7,7 @@ model{
 							#thres_sigma[hi] ~ dexp(0.01);
 							thres_a[hi] ~ dunif(0.1, 10);
 							thres_b[hi] ~ dunif(0.1, 10);
-							thres[hi] = thres_a[hi]/(thres_a[hi] + thres_b[hi]) * 100
+							thres[hi] = thres_a[hi]/(thres_a[hi] + thres_b[hi]) * 5
 				    	bias_mu[hi] ~ dnorm(0,0.01);
 							bias_sigma[hi] ~ dexp(0.01);
 							for (r in 1:nR){
@@ -17,7 +17,7 @@ model{
 							}
 					}
       for (t in 1:nG) {
-						dQ[t] <- r[t] - tthres[h[t], rats[t]] * 100 + sideguided[t] * tbias[h[t], rats[t]];
+						dQ[t] <- r[t] - tthres[h[t], rats[t]] * 5 + sideguided[t] * tbias[h[t], rats[t]];
 						P[t]  <- 1 - 1/(1 + exp(-dQ[t]/tnoise[h[t], rats[t]]))
 						c[t] ~ dbern( P[t] );
 			}

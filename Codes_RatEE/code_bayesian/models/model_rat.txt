@@ -8,17 +8,21 @@ model{
 							#thres_sigma[gi, hi] ~ dexp(0.01);
 							thres_a[gi, hi] ~ dunif(0.1, 10);
 							thres_b[gi, hi] ~ dunif(0.1, 10);
+				    	bias_mu[gi, hi] ~ dnorm(0,0.01);
+							bias_sigma[gi, hi] ~ dexp(0.01);
 							thres[gi, hi] = thres_a[gi, hi]/(thres_a[gi, hi] + thres_b[gi, hi]) * 5
 							for (r in 1:nR){
-				        tnoise[gi, hi, r] ~ dgamma(noise_k[gi, hi], noise_lambda[gi, hi]);
-								tthres[gi, hi, r] ~ dbeta(thres_a[gi, hi], thres_b[gi, hi]) #dnorm(thres_mu[gi, hi], 1/thres_sigma[gi, hi]);
+								tbias[gi, hi, r] ~ dnorm(bias_mu[gi, hi], bias_sigma[gi, hi]);
+						 		tnoise[gi, hi, r] ~ dgamma(noise_k[gi, hi], noise_lambda[gi, hi]);
+								tthres[gi, hi, r] ~ dbeta(thres_a[gi, hi], thres_b[gi, hi])T(0.001,0.999) #dnorm(thres_mu[gi, hi], 1/thres_sigma[gi, hi]);
 							}
 					}
 					dthres[gi] = thres[gi, 2] - thres[gi, 1];
 					dnoise[gi] = noise[gi, 2] - noise[gi, 1];
+					dbias[gi] = bias_mu[gi,2] - bias_mu[gi, 1];
 			}
       for (t in 1:nG) {
-						dQ[t] <- r[t] - tthres[gd[t], h[t], rats[t]] * 5;
+						dQ[t] <- r[t] - tthres[gd[t], h[t], rats[t]] * 5 + sideguided[t] * tbias[gd[t], h[t], rats[t]];
 						P[t]  <- 1 - 1/(1 + exp(-dQ[t]/tnoise[gd[t], h[t], rats[t]]))
 						c[t] ~ dbern( P[t] );
 			}

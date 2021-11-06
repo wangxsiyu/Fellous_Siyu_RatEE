@@ -6,7 +6,7 @@ function out = behavior_RatEE(g)
     if all(g.r(:,1) <= 5)
         rgr = -0.5:1:5.5;
     else
-        rgr = 0:20:100;
+        rgr = -10:20:110;
     end
     out2 = W.analysis_bincurve(g, behsets, 'r_guided', rgr, 'all');
     out = catstruct(out,out2);

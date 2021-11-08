@@ -1,0 +1,24 @@
+model{
+	    for (gi in 1:ngd) {
+							noise_k[gi] ~ dexp(1);
+							noise_lambda[gi] ~ dexp(10);
+							noise[gi] <- noise_k[gi]/noise_lambda[gi];
+				    	#thres_mu[gi] ~ dnorm(0,0.01);
+							#thres_sigma[gi] ~ dexp(0.01);
+							thres_a[gi] ~ dunif(0.1, 10);
+							thres_b[gi] ~ dunif(0.1, 10);
+				    	bias_mu[gi] ~ dnorm(0,0.0001);
+							bias_sigma[gi] ~ dgamma(1, 0.001);
+							thres[gi] = thres_a[gi]/(thres_a[gi] + thres_b[gi]) * 5
+							for (r in 1:nR){
+								tbias[gi, r] ~ dnorm(bias_mu[gi], 1/bias_sigma[gi]);
+						 		tnoise[gi, r] ~ dgamma(noise_k[gi], noise_lambda[gi]);
+								tthres[gi, r] ~ dbeta(thres_a[gi], thres_b[gi])T(0.00001,0.99999) #dnorm(thres_mu[gi], 1/thres_sigma[gi]);
+							}
+			}
+      for (t in 1:nG) {
+						dQ[t] <- r[t] - tthres[gd[t], rats[t]] * 5 + sideguided[t] * tbias[gd[t], rats[t]];
+						P[t]  <- 1 - 1/(1 + exp(-dQ[t]/tnoise[gd[t], rats[t]]))
+						c[t] ~ dbern( P[t] );
+			}
+}

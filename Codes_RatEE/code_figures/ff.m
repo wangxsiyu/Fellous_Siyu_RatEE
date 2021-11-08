@@ -1,4 +1,3 @@
-
 function y = ff(x)
     if iscell(x)
         y = vertcat(x{:});

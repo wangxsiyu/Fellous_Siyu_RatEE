@@ -24,3 +24,6 @@ gp = W_sub.analysis_group(sub, {'cond_horizon','n_guided'});
 [~, od] = sort(gp.av_cond_horizon, 'descend');
 gp = gp(od,:);
 save('../../data_processed/output/gp_long01.mat','sub','gp');
+%% get bayes
+bayesname = '../../data_processed/bayesdata/bayes_long01';
+get_bayesdata(data, bayesname);

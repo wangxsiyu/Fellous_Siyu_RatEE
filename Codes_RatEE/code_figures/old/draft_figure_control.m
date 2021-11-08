@@ -1,20 +1,4 @@
 
-%%
-plt = W_plt('fig_dir', '../../figures','fig_projectname', 'control');
-plt.setuserparam('param_setting', 'isshow', 1);
-%%
-col = {'AZred', 'AZsand'};
-leg = {'contant reward', 'random reward'};
-plt.setfig_new;
-plt.setfig_loc(2,'xlim', [0.5 6.5], 'ylim', {[0.4 1], [0 1]} , ...
-    'ytick', {0.5:0.1:1, 0:0.2:1}, 'legord', 'reverse', 'legloc', {'SouthEast', 'NorthEast'});
-plt = fig_behavior_gp(plt, gp, 'av', 'trial number', col, ...
-    leg, ['gp_av']);
-plt.setfig_new;
-plt.setfig_loc(2,'xlim', [0.5 6.5], 'xtick', 1:6, 'xticklabel', 0:5, ...
-    'ylim', {[0 1],[0 1]}, 'ytick', {0:0.2:1, 0:0.2:1}, 'legord', 'reverse', 'legloc', 'SouthWest');
-plt = fig_behavior_gp(plt, gp, 'bin_all', 'R guided', col , ...
-    leg, ['gp_rG']);
 
 
 %% long 01

@@ -1,10 +1,12 @@
 fn = '../../data_processed/versions/gameversion_RandR_G3F6.csv';
-data2 = W.readtable(fn);
+data = W.readtable(fn);
+% fn = '../../data_processed/versions_cleaned/final_between_all.csv';
+% data = W.readtable(fn);
+% data = data(data.n_guided == 3 & data.n_free == 6,:);
 %% within/guide 0-1-3
-data = data(data.n_guided == 3 & data.n_free == 6,:);
 % data = data(~ismember(data.n_free, [3 8]),:);
 % data = filter_longRT(data, 0.9);
-data = W.tab_vertcat(data, data2);
+% data = W.tab_vertcat(data, data2);
 %% preprocess
 sessions = W_sub.selectsubject(data, {'rat', 'n_free', 'n_guided','is_random'});
 data = W_sub.preprocess_subxgame(data, sessions, 'preprocess_RatEE');
@@ -54,3 +56,6 @@ gp = W_sub.analysis_group(sub, {'is_random'});
 gp = gp(od,:);
 %%
 save('../../data_processed/output/gp_control.mat', 'sub','gp');
+%% get bayes
+bayesname = '../../data_processed/bayesdata/bayes_control';
+get_bayesdata(data, bayesname);

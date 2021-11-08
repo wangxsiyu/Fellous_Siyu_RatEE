@@ -1,20 +1,20 @@
 model{
 	    for (gi in 1:ngd) {
 					for (hi in 1:nH){
-							noise_k[gi, hi] ~ dexp(0.01);
+							noise_k[gi, hi] ~ dexp(1);
 							noise_lambda[gi, hi] ~ dexp(10);
 							noise[gi, hi] <- noise_k[gi, hi]/noise_lambda[gi, hi];
 				    	#thres_mu[gi, hi] ~ dnorm(0,0.01);
 							#thres_sigma[gi, hi] ~ dexp(0.01);
 							thres_a[gi, hi] ~ dunif(0.1, 10);
 							thres_b[gi, hi] ~ dunif(0.1, 10);
-				    	bias_mu[gi, hi] ~ dnorm(0,0.01);
-							bias_sigma[gi, hi] ~ dexp(0.01);
+				    	bias_mu[gi, hi] ~ dnorm(0,0.0001);
+							bias_sigma[gi, hi] ~ dgamma(1, 0.001);
 							thres[gi, hi] = thres_a[gi, hi]/(thres_a[gi, hi] + thres_b[gi, hi]) * 5
 							for (r in 1:nR){
-								tbias[gi, hi, r] ~ dnorm(bias_mu[gi, hi], bias_sigma[gi, hi]);
+								tbias[gi, hi, r] ~ dnorm(bias_mu[gi, hi], 1/bias_sigma[gi, hi]);
 						 		tnoise[gi, hi, r] ~ dgamma(noise_k[gi, hi], noise_lambda[gi, hi]);
-								tthres[gi, hi, r] ~ dbeta(thres_a[gi, hi], thres_b[gi, hi])T(0.001,0.999) #dnorm(thres_mu[gi, hi], 1/thres_sigma[gi, hi]);
+								tthres[gi, hi, r] ~ dbeta(thres_a[gi, hi], thres_b[gi, hi])T(0.00001,0.99999) #dnorm(thres_mu[gi, hi], 1/thres_sigma[gi, hi]);
 							}
 					}
 					dthres[gi] = thres[gi, 2] - thres[gi, 1];

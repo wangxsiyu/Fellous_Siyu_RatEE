@@ -1,16 +1,17 @@
 function out = behavior_RatEE(g)
     %% r curve
     behsets = {'cc_best','cc_explore','cc_switch','cc_left','ac_guided'};
-    behsets1 = {'c1_cc_best','c1_cc_explore','c1_cc_switch','c1_cc_left'};
+    behsets1 = {'c1_cc_best','c1_cc_explore','c1_cc_switch','c1_cc_left',...
+        'ce_cc_best','ce_cc_explore','ce_cc_switch','ce_cc_left'};
     out = W.analysis_av(g, behsets);
     if all(g.r(:,1) <= 5)
         rgr = -0.5:1:5.5;
     else
         rgr = -10:20:110;
     end
-    out2 = W.analysis_bincurve(g, behsets, 'r_guided', rgr, 'all');
+    out2 = W.analysis_bincurve(g, behsets1, 'r_guided', rgr, 'all');
     out = catstruct(out,out2);
-    out3 = W.analysis_bincurve_bygroup('ac_guided',[0, 1], g, behsets, 'r_guided', rgr, 'all');
+    out3 = W.analysis_bincurve_bygroup('ac_guided',[0, 1], g, behsets1, 'r_guided', rgr, 'all');
     out = catstruct(out,out3);
     out4 = W.analysis_av_bygroup('ac_guided',[0, 1], g, behsets);
     out = catstruct(out,out4); 

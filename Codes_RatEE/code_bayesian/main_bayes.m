@@ -34,6 +34,14 @@ params{mi} = {'noise_k','noise_lambda', 'noise', ...
     'tnoise','tthres','bias_mu','bias_sigma','tbias'};
 %     'thres_mu', 'thres_sigma', ...
 init0{mi} = struct;
+
+mi = mi + 1;
+modelname{mi} = 'model_long01.txt';
+params{mi} = {'noise_k','noise_lambda', 'noise', ...
+    'thres_a', 'thres_b', 'thres', ...
+    'tnoise','tthres',...
+    'tbias','bias_mu','bias_sigma'};
+init0{mi} = struct;
 % mi = mi + 1;
 % modelname{mi} = 'model_within_diff.txt';
 % params{mi} = {'noise_k','noise_lambda', 'noise', ...
@@ -60,14 +68,15 @@ init0{mi} = struct;
 %%
 datalists.modeli(:,1) = 1;
 datalists(datalists.folder_name == "bayes_within_all.mat",:).modeli = 2;
+datalists(datalists.folder_name == "bayes_long01.mat",:).modeli = 4;
 datalists(datalists.folder_name == "bayes_human_full.mat",:).modeli = 3;
 %% setup JAGS/params
 wj = W_JAGS();
 wj.isoverwrite = true;
 % wj.setup_params;
-wj.setup_params(4, 5000, 10000);
+wj.setup_params(4, 10000, 10000);
 %% run select
-wselect = 2; %mi;%1:mi;
+% wselect = 2; %mi;%1:mi;
 %% run models
 for di = 1:size(datalists,1)
     %% load data

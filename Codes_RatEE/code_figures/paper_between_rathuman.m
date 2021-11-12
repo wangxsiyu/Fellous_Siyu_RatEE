@@ -31,57 +31,97 @@ plt.update;
 plt.save('ac_sw');
 %% split by good/bad
 plt.figure(4,4,'matrix_hole',[1 1 1 1; 1 0 1 1;1 1 1 1; 1 0 1 1],'rect',[0 0 0.6 0.9], ...
-    'gap',{[0.05 0.14 0.05],[0.05 0.05 0.05]}, 'margin', [0.1 0.1 0.05 0.02]);
+    'gap',{[0.05 0.14 0.05],[0.05 0.05 0.05]}, 'margin', [0.1 0.1 0.05 0.02],...
+    'ax_ratio', [1 2 6 15;1 2 6 15;1 2 6 15;1 2 6 15]);
+colall = {'AZblue50','AZblue','AZsky50','AZsky','AZred50','AZred','AZcactus50','AZcactus'};
 plt.setup_pltparams('fontsize_leg', 10, 'fontsize_face', 20);
 plt.setfig([1:4 8:11],'ylabel', {{'human';'(high reward)'},'','','',...
     {'human';'p(switch)'},'','',''}, ...
-    'legend', leg_human, 'ylim', {[0 1],[0 1],[0 1],[0.4 1],[0 1],[0 1],[0 1],[0 1]}, ...
-    'xlabel', {'','trial number','','','','trial number','',''}, ...
-    'xlim', [0.5 15.5], ...
+    'ylim', {[0 1],[0 1],[0 1],[0 1],[0 1],[0 1],[0 1],[0 1]}, ...
+    'xlabel', {'','trial #','','','','trial #','',''}, ...
+    'xlim', {[0.5 1.5],[0.5 2.5],[0.5 6.5],[0.5 15.5],[0.5 1.5],[0.5 2.5],[0.5 6.5],[0.5 15.5]}, ...
     'color', {{'AZblue50','AZblue'},{'AZsky50','AZsky'},{'AZred50','AZred'},{'AZcactus50','AZcactus'},...
     {'AZblue50','AZblue'},{'AZsky50','AZsky'},{'AZred50','AZred'},{'AZcactus50','AZcactus'}},...
     'legloc', {'SouthEast','SouthEast','SouthEast','SouthEast','NorthEast','NorthEast','NorthEast','NorthEast'}, ...
-    'legend', {'guided = good', 'guided = bad'}, ...
     'title', {'H = 1', 'H = 2', 'H = 5', 'H = 10','H = 1', 'H = 2', 'H = 5', 'H = 10'}, ...
-    'xtick',5:5:15,'xticklabel',{{},{5:5:15},{},{},{},{5:5:15},{},{}});
+    'xtick',{1, 1:2, 2:2:6, 5:5:15, 1, 1:2, 2:2:6, 5:5:15},'xticklabel',{{},{1:2},{},{},{},{1:2},{},{}});
 plt.setfig([5:7 12:14], 'ylabel', {{'rat';'p(high reward)'},'','',...
     {'rat';'p(switch)'},'',''}, ...
-    'legend', leg_rat, 'ylim', {[0 1],[0 1],[0 1],[0 1],[0 1],[0 1]}, ...
-    'xlabel', 'trial number', ...
-    'xlim', [0.5 15.5], ...
+    'ylim', {[0 1],[0 1],[0 1],[0 1],[0 1],[0 1]}, ...
+    'xlabel', 'trial #', ...
+    'xlim', {[0.5 1.5],[0.5 6.5],[0.5 15.5],[0.5 1.5],[0.5 6.5],[0.5 15.5]}, ...
     'color', {{'AZblue50','AZblue'},{'AZred50','AZred'},{'AZcactus50','AZcactus'},...
     {'AZblue50','AZblue'},{'AZred50','AZred'},{'AZcactus50','AZcactus'}},...
     'legloc', {'SouthEast','SouthEast','SouthEast','NorthEast','NorthEast','NorthEast'}, ...
-    'legend', {'guided = good', 'guided = bad'}, ...
     'title', {'H = 1', 'H = 6', 'H = 15','H = 1', 'H = 6', 'H = 15'}, ...
-    'xtick', 5:5:15,'xticklabel',5:5:15);
+    'xtick', {1, 2:2:6, 5:5:15, 1, 2:2:6, 5:5:15},'xticklabel',{1, 2:2:6, 5:5:15, 1, 2:2:6, 5:5:15});
 tav = ff(human.gp.av_gp_av_cc_best);
 tse = ff(human.gp.ste_gp_av_cc_best);
 for i = 1:4
     rid = [((5-i) * 2 -1),(5-i) * 2];
     plt.new;
+    if i == 4
+        plt.setfig_ax('color',colall);
+        for j = 1:6
+            plt.lineplot(100,1);
+        end
+    end
     plt.lineplot(tav(rid,:), tse(rid,:));
+    if i == 4 
+        [lgd] = columnlegend(4,  {" "," "," "," "," "," ",'guided = bad', 'guided = good'}');
+        lgd.Position = [0.6519 0.6111 0.3681 0.2525]
+    end
 end
 tav = ff(rat.gp.av_gp_av_cc_best);
 tse = ff(rat.gp.ste_gp_av_cc_best);
 for i = 1:3
     rid = [((4-i) * 2 -1),(4-i) * 2];
     plt.new;
+    if i == 3
+        plt.setfig_ax('color',[{'white','white'},colall([1 2 5:8])]);
+        for j = 1:6
+            plt.lineplot(100,1);
+        end
+    end
     plt.lineplot(tav(rid,:), tse(rid,:));
+    if i == 3
+        [lgd] = columnlegend(4,  {" "," "," "," "," "," ",'guided = bad', 'guided = good'}');
+        lgd.Position = [0.6519 0.4111 0.3681 0.2525]
+    end
 end
 tav = ff(human.gp.av_gp_av_cc_switch);
 tse = ff(human.gp.ste_gp_av_cc_switch);
 for i = 1:4
     rid = [((5-i) * 2 -1),(5-i) * 2];
     plt.new;
+    if i == 4
+        plt.setfig_ax('color',colall);
+        for j = 1:6
+            plt.lineplot(100,1);
+        end
+    end
     plt.lineplot(tav(rid,:), tse(rid,:));
+    if i == 4 
+        [lgd] = columnlegend(4,  {" "," "," "," "," "," ",'guided = bad', 'guided = good'}');
+        lgd.Position = [0.6519 0.2011 0.3681 0.2525]
+    end
 end
 tav = ff(rat.gp.av_gp_av_cc_switch);
 tse = ff(rat.gp.ste_gp_av_cc_switch);
 for i = 1:3
     rid = [((4-i) * 2 -1),(4-i) * 2];
     plt.new;
+    if i == 3
+        plt.setfig_ax('color',[{'white','white'},colall([1 2 5:8])]);
+        for j = 1:6
+            plt.lineplot(100,1);
+        end
+    end
     plt.lineplot(tav(rid,:), tse(rid,:));
+    if i == 3
+        [lgd] = columnlegend(4,  {" "," "," "," "," "," ",'guided = bad', 'guided = good'}');
+        lgd.Position = [0.6519 0.0011 0.3681 0.2525]
+    end
 end
 plt.update;
 plt.addABCs([-0.09, 0.04],'A   B  C   D  ');
@@ -114,7 +154,7 @@ plt.barplot(W.nan_get(human.gp.av_av_cc_best(end:-1:1,:),1),W.nan_get(human.gp.s
 
 plt.new;
 plt.setfig_ax('xlabel', 'horizon', 'ylabel', {'p(high reward)','1st choice'}, 'xtick',1:4, 'xticklabel', [1 2 5 10],...
-    'color',col_human(end:-1:1),'xlim', [],'ylim',[.6 .75]);
+    'color',col_human(end:-1:1),'xlim', [],'ylim',[.5 1]);
 plt.barplot(human.gp.av_av_cc_best(end:-1:1,1)',human.gp.ste_av_cc_best(end:-1:1,1)');
 
 plt.new;
@@ -138,7 +178,7 @@ plt.barplot(W.nan_get(rat.gp.av_av_cc_best(end:-1:1,:),1),W.nan_get(rat.gp.ste_a
 
 plt.new;
 plt.setfig_ax('xlabel', 'horizon', 'ylabel', {'p(high reward)','1st choice'}, 'xtick',[1 2 3], 'xticklabel', [1 6 15],...
-    'color', col_rat(end:-1:1),'xlim', [],'ylim',[.6 .75]);
+    'color', col_rat(end:-1:1),'xlim', [],'ylim',[.5 1]);
 plt.barplot(rat.gp.av_av_cc_best(end:-1:1,1)',rat.gp.ste_av_cc_best(end:-1:1,1)',[1 2 3]);
 
 plt.new;
@@ -162,7 +202,7 @@ st2 = importdata(file).stats;
 %%
 plt.figure(2,2, 'istitle','margin',[0.1 0.13 0.05 0.02]);
 % plt.figure(2,4, 'istitle','gap',[0.15 0.06]);
-rgr = {[0 5], [0 10], [0 5], [0 10]};
+rgr = {[0 5], [0 2], [0 5], [0 10]};
 rgr2 = -1:.01:21;
 plt.setfig_new;
 plt.setfig([1:4],'color', {{'AZblue','AZsky', 'AZred','AZcactus'},{'AZblue','AZsky', 'AZred','AZcactus'},...

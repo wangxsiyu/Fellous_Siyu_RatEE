@@ -1,11 +1,11 @@
 human = importdata('../../data_processed/output/gp_human_full.mat');
-hbidir = '/Users/wang/WANG/Fellous_Siyu_RatEE/result_bayes';
+hbidir = '../../result_bayes';
 file = fullfile(hbidir, 'HBI_model_human_full_human_full_samples.mat');
 sp1 = importdata(file);
 file = fullfile(hbidir, 'HBI_model_human_full_human_full_stat.mat');
 st1 = importdata(file).stats.mean;
 %% figure
-plt = W_plt('fig_dir', '../../figures','fig_projectname', 'human');
+plt = W_plt('fig_dir', '../../figures','fig_projectname', 'human','fig_saveformat','fig');
 plt.setuserparam('param_setting', 'isshow', 1);
 %% colors
 col_human = {'AZcactus', 'AZred', 'AZsky','AZblue'};
@@ -28,20 +28,13 @@ plt.lineplot(ff(human.gp.av_av_cc_best), ff(human.gp.ste_av_cc_best));
 plt.new;
 plt.lineplot(ff(human.gp.av_av_cc_switch), ff(human.gp.ste_av_cc_switch));
 
-plt.setfig([3 5 7], 'xlim', [0.5 6.5], 'xtick', 1:2.5:6, 'xticklabel', 0:50:100, ...
+plt.setfig([5 3 7], 'xlim', [0.5 6.5], 'xtick', 1:2.5:6, 'xticklabel', 0:50:100, ...
     'ylim', [0 1], 'ytick', 0:0.5:1, ...
     'legord', 'reverse', 'legloc', 'SouthWest',...
     'color',{col_human,col_human,col_human}, ...
     'legend',{leg_human,leg_human,leg_human}, ...
     'xlabel', {'guided reward', 'guided reward','guided reward'}, ...
     'ylabel', {{'p(high reward)','last choice'},{'p(high reward)','1st choice'},'p(explore)'});
-plt.new;
-plt.lineplot(human.gp.av_bin_all_ce_cc_best, human.gp.ste_bin_all_ce_cc_best);
-
-plt.new;
-plt.setfig_ax('color', col_human(end:-1:1),'xlabel', 'horizon', 'ylabel', {'p(high reward)','last choice'}, 'xtick',1:4, 'xticklabel', [1 2 5 10],...
-    'xlim', [],'ylim',[.5 1]);
-plt.barplot(W.nan_get(human.gp.av_av_cc_best(end:-1:1,:),1),W.nan_get(human.gp.ste_av_cc_best(end:-1:1,:),1));
 
 plt.new;
 plt.lineplot(human.gp.av_bin_all_c1_cc_best, human.gp.ste_bin_all_c1_cc_best);
@@ -50,6 +43,15 @@ plt.new;
 plt.setfig_ax('color', col_human(end:-1:1),'xlabel', 'horizon', 'ylabel', {'p(high reward)','1st choice'}, 'xtick',1:4, 'xticklabel', [1 2 5 10],...
     'xlim', [],'ylim',[.5 .7]);
 plt.barplot(human.gp.av_av_cc_best(end:-1:1,1)',human.gp.ste_av_cc_best(end:-1:1,1)');
+
+plt.new;
+plt.lineplot(human.gp.av_bin_all_ce_cc_best, human.gp.ste_bin_all_ce_cc_best);
+
+plt.new;
+plt.setfig_ax('color', col_human(end:-1:1),'xlabel', 'horizon', 'ylabel', {'p(high reward)','last choice'}, 'xtick',1:4, 'xticklabel', [1 2 5 10],...
+    'xlim', [],'ylim',[.5 1]);
+plt.barplot(W.nan_get(human.gp.av_av_cc_best(end:-1:1,:),1),W.nan_get(human.gp.ste_av_cc_best(end:-1:1,:),1));
+
 
 plt.new;
 plt.lineplot(human.gp.av_bin_all_c1_cc_explore, human.gp.ste_bin_all_c1_cc_explore);
@@ -98,7 +100,7 @@ plt.setup_pltparams('hold','fontsize_face', 18);
 
 
 plt.new;
-[ty, tm] = W_plt_JAGS.density(sp1.thres, -1:.01:101);
+[ty, tm] = W_plt_JAGS.density(sp1.thres, -1:.1:101);
 plt.lineplot(ty ,[],tm);
 
 plt.new;

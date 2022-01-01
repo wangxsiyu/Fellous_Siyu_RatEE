@@ -1,0 +1,22 @@
+model{
+							noise_k ~ dexp(1);
+							noise_lambda ~ dexp(10);
+							noise <- noise_k/noise_lambda;
+				    	#thres_mu ~ dnorm(0,0.01);
+							#thres_sigma ~ dexp(0.01);
+							thres_a ~ dunif(0.1, 10);
+							thres_b ~ dunif(0.1, 10);
+							thres = thres_a/(thres_a + thres_b) * 5
+				    	bias_mu ~ dnorm(0,0.0001);
+							bias_sigma ~ dgamma(1, 0.001);
+							for (r in 1:nR){
+								tbias[r] ~ dnorm(bias_mu, 1/bias_sigma);
+				        tnoise[r] ~ dgamma(noise_k, noise_lambda);
+								tthres[r] ~ dbeta(thres_a, thres_b)T(0.00001,0.99999) #dnorm(thres_mu, 1/thres_sigma);
+							}
+      for (t in 1:nG) {
+						dQ[t] <- r[t] - tthres[rats[t]] * 5 + sideguided[t] * tbias[rats[t]];
+						P[t]  <- 1 - 1/(1 + exp(-dQ[t]/tnoise[rats[t]]))
+						c[t] ~ dbern( P[t] );
+			}
+}

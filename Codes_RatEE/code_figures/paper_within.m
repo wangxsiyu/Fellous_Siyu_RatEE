@@ -1,19 +1,25 @@
-gp = importdata('../../data_processed/output/gp_within.mat').gp;
+dat = importdata('../../data_processed/output/gp_within.mat');
+gp = dat.gp;
+sub = dat.sub;
 %%
-hbidir = '/Users/wang/WANG/Fellous_Siyu_RatEE/result_bayes';
+hbidir = '../../result_bayes';
 file = fullfile(hbidir, 'HBI_model_rat_within_all_samples.mat');
 sp = importdata(file);
 file = fullfile(hbidir, 'HBI_model_rat_within_all_stat.mat');
 st = importdata(file);
 %%
-plt = W_plt('fig_dir', '../../figures','fig_projectname', 'within');
+plt = W_plt('fig_dir', '../../figures','fig_projectname', 'within','fig_saveformat','fig');
 %% horizon difference
+% tstat = ratlinetstat_h16(sub.bin_all_c1_cc_explore, sub.cond_horizon, sub.cond_guided);
 gds = [0 1 3];
 tlt = W.arrayfun(@(x)sprintf('nGuided = %d', x), gds);
 nfig = length(gds);
-plt.figure(3,4, 'matrix_hole', [1 1 1 1; 1 1 1 1; 1 1 1 1], 'istitle','rect', [0 0 0.7 0.9],...
-    'margin', [0.1 0.1 0.06 0.01],'gap',{[0.1 0.1], [0.07 0.07 0.07]});
-plt.setup_pltparams('fontsize_face',20,'fontsize_leg',10);
+% plt.figure(3,4, 'matrix_hole', [1 1 1 1; 1 1 1 1; 1 1 1 1], 'istitle','rect', [0 0 0.7 0.9],...
+%     'margin', [0.1 0.1 0.06 0.01],'gap',{[0.1 0.1], [0.07 0.07 0.07]});
+plt.figure(4,4, 'matrix_hole', [1 1 1 1; 1 1 1 1; 1 1 1 1;1 1 0 0], 'istitle',...
+    'rect', [0 0 0.6 0.9],...
+    'margin', [0.08 0.08 0.03 0.01],'gap',{[0.1 0.1 0.1]-0.01, [0.07 0.07 0.07]});
+plt.setup_pltparams('fontsize_face',18,'fontsize_leg',8,'legend_linewidth',[15 8]);
 % plt.setfig_new;
 rgr = {[0 5], [0 5],[0 5], [0 20],[0 20],[0 20]};
 plt.setfig([4:6, 8:10]+1,'color', {'AZblue','AZred'}, ...
@@ -27,7 +33,8 @@ plt.setfig(1:3,'xlim', [0.5 6.5], 'xtick', 1:6, 'xticklabel', 0:5, ...
     'color', {'AZred', 'AZblue'}, ...
     'xlabel', 'guided reward', ...
     'ylabel', 'p(explore)', 'legend', {'H = 6', 'H = 1'}, ...
-    'title', tlt);
+    'title', tlt, ...
+    'ytick',0:.5:1);
 % tp = gp.av_av_cc_switch;
 % tp_se = gp.ste_av_cc_switch;
 % for i = 1:length(gds)
@@ -46,13 +53,55 @@ for i = 1:length(gds)
     tid = gp.av_cond_guided == gds(i);
     plt.lineplot(tp(tid,:), tp_se(tid,:));
 end
+
+cc = sub.av_cc_explore(:,1);
+hh = sub.cond_horizon;
+gg = sub.cond_guided;
+% [~,pp]=ttest(cc(hh==1 & gg==0)-cc(hh==6 & gg==0))
+% [~,pp]=ttest(cc(hh==1 & gg==1)-cc(hh==6 & gg==1))
+% [~,pp]=ttest(cc(hh==1 & gg==3)-cc(hh==6 & gg==3))
+rid = arrayfun(@(x) find(ismember(unique(sub.rat), x)),sub.rat);
+anovan(cc, [hh gg rid], 'random', 3)
+
+
 tav = gp.av_av_cc_explore([5 2 4 1 6 3],1);
 tse = gp.ste_av_cc_explore([5 2 4 1 6 3],1);
 x = [1 2 4 5 7 8];
 plt.ax(1,4);
 plt.setfig_ax('xlabel','nGuided','ylabel','p(explore)',...
     'color',{'AZblue','AZred','AZblue','AZred','AZblue','AZred'}, ...
-    'xtick',[1.5 4.5 7.5],'xticklabel', [0 1 3],'ylim', [0 0.7]);
+    'xtick',[1.5 4.5 7.5],'xticklabel', [0 1 3],'ylim', [0 .7]);
+plt.barplot(tav', tse', x);
+
+
+plt.ax(2,4);
+tall = [];
+for i = 1:3
+    [tav([2*i-1 2*i]),tse([2*i-1 2*i])] = W.avse(squeeze(st.stats.mean.tthres(i,:,:))');
+    ttee = [reshape(squeeze(st.stats.mean.tthres(i,:,:))',[],1),[ones(4,1);zeros(4,1)], ones(8,1)*i, [1:4,1:4]'];
+    tall = vertcat(tall, ttee);
+end
+anovan(tall(:,1), tall(:,2:4), 'random', 3)
+
+plt.setfig_ax('xlabel','nGuided','ylabel','threshold',...
+    'color',{'AZblue','AZred','AZblue','AZred','AZblue','AZred'}, ...
+    'xtick',[1.5 4.5 7.5],'xticklabel', [0 1 3],'ylim', [0 5]);
+plt.barplot(tav'*5, tse'*5, x);
+
+
+plt.ax(3,4);
+tall = [];
+for i = 1:3
+    [tav([2*i-1 2*i]),tse([2*i-1 2*i])] = W.avse(squeeze(st.stats.mean.tnoise(i,:,:))');
+%     [~,pp(i)]=ttest(diff(squeeze(st.stats.mean.tnoise(i,:,:)))');
+ttee = [reshape(squeeze(st.stats.mean.tnoise(i,:,:))',[],1),[ones(4,1);zeros(4,1)], ones(8,1)*i, [1:4,1:4]'];
+    tall = vertcat(tall, ttee);
+end
+anovan(tall(:,1), tall(:,2:4), 'random', 3)
+
+plt.setfig_ax('xlabel','nGuided','ylabel','noise',...
+    'color',{'AZblue','AZred','AZblue','AZred','AZblue','AZred'}, ...
+    'xtick',[1.5 4.5 7.5],'xticklabel', [0 1 3],'ylim', [0 10]);
 plt.barplot(tav', tse', x);
 
 % plt.figure(3,3,'rect', [0 0 0.6 0.7], 'gap', [0.2 0.1], 'margin', [0.15 0.1 0.05 0.05]);
@@ -87,26 +136,25 @@ rgr = {[-3 3], [-10 10]};
 % str1 = sprintf('%.2f samples < 0', mean(sp.dthres(:,:,1) <= 0, 'all')*100)
 % str2 = sprintf('%.2f samples < 0', mean(sp.dnoise <= 0, 'all')*100)
 % plt.setfig_new;
-plt.setup_pltparams('hold', 'fontsize_leg', 7);
-plt.setfig([7,11]+1, 'color', {'AZsand','AZmesa','black'}, ...
+plt.setfig([13 14], 'color', {'AZsand','AZmesa','black'}, ...
     'xlim', rgr, ...
     'ylabel', 'density', 'xlabel', {'\Delta threshold','\Delta noise'},...
     'ylim', {[0 1], [0 0.25]},...
     'legend', {'nGuided = 0','nGuided = 1','nGuided = 3'});
-plt.ax(2,4);
+plt.ax(4,1);
 [ty, tm] = W_plt_JAGS.density(sp.dthres, -10:.01:10);
 plt.lineplot(ty ,[],tm);
 ylm1 = get(plt.fig.axes(7),'YLim');
 hold on;
 plot([0 0], ylm1,'--r');
-plt.ax(3,4);
+plt.ax(4,2);
 [ty, tm] = W_plt_JAGS.density(sp.dnoise, -11:.04:11);
 plt.lineplot(ty,[],tm);
 ylm2 = get(plt.fig.axes(11),'YLim');
 hold on;
 plot([0 0], ylm2,'--r');
-plt.addABCs([-0.05 0.03],'A  BC  ED  F');
 plt.update;
+plt.addABCs([-0.05 0.03],'A  BC  DE  FGH');
 plt.save('all');
 % %%
 % file = fullfile(hbidir, 'HBI_model_simple_between_all_stat.mat');
@@ -200,7 +248,7 @@ spt = squeeze(spt(:,:,1,:) - spt(:,:,2,:));
 plt.lineplot(ty ,[],tm);
 ylm1 = get(plt.fig.axes(2),'YLim');
 hold on;
-plot([0 0], ylm1,'--r');
+plot([0 0], ylm1,'--k');
 
 plt.new;
 spt = sp.noise(:,:,1:2,:);
@@ -220,7 +268,7 @@ spt = squeeze(spt(:,:,1,:) - spt(:,:,2,:));
 plt.lineplot(ty ,[],tm);
 ylm1 = get(plt.fig.axes(4),'YLim');
 hold on;
-plot([0 0], ylm1,'--r');
+plot([0 0], ylm1,'--k');
 plt.addABCs([- 0.06 0.04]);
 plt.update;
 plt.save('bayes_guidefree');

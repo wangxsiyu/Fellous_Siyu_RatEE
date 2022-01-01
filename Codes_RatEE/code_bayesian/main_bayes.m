@@ -5,8 +5,8 @@ datadir = '../../data_processed/bayesdata';
 % tid = contains(datalists.folder_name, {'within'});
 % datalists = datalists(tid,:);
 %% setup full path
-fullpt = '/Users/wang/WANG/Fellous_Siyu_RatEE/Codes_RatEE/code_bayesian/models';
-outputdir = '/Users/wang/WANG/Fellous_Siyu_RatEE/result_bayes';
+fullpt = '/Users/wang/WANG/A_Plate/Fellous_Siyu_RatEE/Codes_RatEE/code_bayesian/models';
+outputdir = '/Users/wang/WANG/A_Plate/Fellous_Siyu_RatEE/result_bayes';
 %%
 mi = 0;
 mi = mi + 1;
@@ -42,6 +42,17 @@ params{mi} = {'noise_k','noise_lambda', 'noise', ...
     'tnoise','tthres',...
     'tbias','bias_mu','bias_sigma'};
 init0{mi} = struct;
+
+
+mi = mi + 1;
+modelname{mi} = 'model_simple_1H.txt';
+% params{mi} = {'noise_k','noise_lambda', 'noise', ...
+%     'thres_mu', 'thres_sigma', ...
+%     'tnoise','tthres'};
+params{mi} = {'noise_k','noise_lambda', 'noise', ...
+    'thres_a', 'thres_b', 'thres', ...
+    'tnoise','tthres','bias_mu','bias_sigma','tbias'};
+init0{mi} = struct;
 % mi = mi + 1;
 % modelname{mi} = 'model_within_diff.txt';
 % params{mi} = {'noise_k','noise_lambda', 'noise', ...
@@ -70,6 +81,7 @@ datalists.modeli(:,1) = 1;
 datalists(datalists.folder_name == "bayes_within_all.mat",:).modeli = 2;
 datalists(datalists.folder_name == "bayes_long01.mat",:).modeli = 4;
 datalists(datalists.folder_name == "bayes_human_full.mat",:).modeli = 3;
+datalists(datalists.folder_name == "bayes_control.mat",:).modeli = 5;
 %% setup JAGS/params
 wj = W_JAGS();
 wj.isoverwrite = true;

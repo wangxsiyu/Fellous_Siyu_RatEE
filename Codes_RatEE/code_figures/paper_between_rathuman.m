@@ -2,7 +2,7 @@ rat = importdata('../../data_processed/output/gp_between.mat');
 human = importdata('../../data_processed/output/gp_human.mat');
 humanf = importdata('../../data_processed/output/gp_human_full.mat');
 %% figure
-plt = W_plt('fig_dir', '../../figures','fig_projectname', 'between','fig_saveformat','fig');
+plt = W_plt('fig_dir', '../../figures','fig_projectname', 'between','fig_saveformat','emf');
 plt.setuserparam('param_setting', 'isshow', 1);
 %% colors
 col_rat = {'AZcactus', 'AZred', 'AZblue'};

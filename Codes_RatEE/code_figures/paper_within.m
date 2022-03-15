@@ -8,7 +8,7 @@ sp = importdata(file);
 file = fullfile(hbidir, 'HBI_model_rat_within_all_stat.mat');
 st = importdata(file);
 %%
-plt = W_plt('fig_dir', '../../figures','fig_projectname', 'within','fig_saveformat','fig');
+plt = W_plt('fig_dir', '../../figures','fig_projectname', 'within','fig_saveformat','emf');
 %% horizon difference
 % tstat = ratlinetstat_h16(sub.bin_all_c1_cc_explore, sub.cond_horizon, sub.cond_guided);
 gds = [0 1 3];

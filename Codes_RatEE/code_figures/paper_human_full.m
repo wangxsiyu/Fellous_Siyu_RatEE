@@ -5,7 +5,7 @@ sp1 = importdata(file);
 file = fullfile(hbidir, 'HBI_model_human_full_human_full_stat.mat');
 st1 = importdata(file).stats.mean;
 %% figure
-plt = W_plt('fig_dir', '../../figures','fig_projectname', 'human','fig_saveformat','fig');
+plt = W_plt('fig_dir', '../../figures','fig_projectname', 'human','fig_saveformat','emf');
 plt.setuserparam('param_setting', 'isshow', 1);
 %% colors
 col_human = {'AZcactus', 'AZred', 'AZsky','AZblue'};

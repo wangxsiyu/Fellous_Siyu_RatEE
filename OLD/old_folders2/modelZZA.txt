@@ -1,0 +1,36 @@
+model{
+	    for (h in 1:nHorizon) {
+					NoiseRan_k_p[h] ~ dexp(0.01);
+					NoiseRan_lambda_p[h] ~ dexp(10);
+					NoiseRan[h] <- NoiseRan_k_p[h]/NoiseRan_lambda_p[h];
+		    	# InfoBonus_mu_n[h] ~ dnorm(0,0.01);
+					# InfoBonus_sigma_p[h] ~ dexp(0.01);
+					bias_mu_n[h] ~ dnorm(0,0.01);
+					bias_sigma_p[h] ~ dexp(0.01);
+					apre_mu_n[h] ~ dnorm(0,0.01);
+					apre_sigma_p[h] ~ dexp(0.01);
+					aside_mu_n[h] ~ dnorm(0,0.01);
+					aside_sigma_p[h] ~ dexp(0.01);
+					for (s in 1:nSubject) {
+							NoiseRan_sub[h,s] ~ dgamma(NoiseRan_k_p[h], NoiseRan_lambda_p[h]);
+		    	#		Infobonus_sub[h,s] ~ dnorm(InfoBonus_mu_n[h], 1/InfoBonus_sigma_p[h]);
+							bias_sub[h,s] ~ dnorm(bias_mu_n[h], 1/bias_sigma_p[h]);
+							apre_sub[h,s] ~ dnorm(apre_mu_n[h], 1/apre_sigma_p[h]);
+
+							aside_sub[h,s] ~ dnorm(aside_mu_n[h], 1/aside_sigma_p[h]);
+		          NoiseRan_sub_tau[h,s] <- 1/(sqrt(2)*NoiseRan_sub[h,s]);
+		    	}
+
+			}
+			#dNoiseRan = NoiseRan[2] - NoiseRan[1];
+			# dInfoBonus = InfoBonus_mu_n[2] - InfoBonus_mu_n[1];
+			#dbias = bias_mu_n[2] - bias_mu_n[1];
+			for (s in 1:nSubject){
+				#dNoiseRan_sub[s] = NoiseRan_sub[2, s] - NoiseRan_sub[1, s];
+        for (t in 1:nTrial[s]) {
+dQ[s, t] <- dR[s,t] - bias_sub[horizon[s,t],s] + apre_sub[horizon[s,t],s] * dRpre[s,t] + aside_sub[horizon[s,t],s] * side[s,t];
+						p[s,t] <- 1 / ( 1 + exp( - dQ[s,t]/(sqrt(2)* NoiseRan_sub[horizon[s,t],s])))
+						choice[s,t] ~ dbern( p[s,t] )
+			}
+		}
+}

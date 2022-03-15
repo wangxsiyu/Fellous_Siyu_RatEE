@@ -1,0 +1,19 @@
+model{
+	    for (h in 1:nHorizon) {
+					NoiseRan_k_p[h] ~ dexp(0.01);
+					NoiseRan_lambda_p[h] ~ dexp(10);
+					NoiseRan[h] <- NoiseRan_k_p[h]/NoiseRan_lambda_p[h];
+		    	# InfoBonus_mu_n[h] ~ dnorm(0,0.01);
+					# InfoBonus_sigma_p[h] ~ dexp(0.01);
+					bias_mu_n[h] ~ dnorm(0,0.01);
+					bias_sigma_p[h] ~ dexp(0.01);
+
+			}
+			for (s in 1:nSubject){
+        for (t in 1:nTrial[s]) {
+						dQ[s, t] <- dR[s,t] - bias_mu_n[horizon[s,t]];
+						p[s,t] <- 1 / ( 1 + exp( - dQ[s,t]/(sqrt(2)* NoiseRan[horizon[s,t]])))
+						choice[s,t] ~ dbern( p[s,t] )
+			}
+		}
+}

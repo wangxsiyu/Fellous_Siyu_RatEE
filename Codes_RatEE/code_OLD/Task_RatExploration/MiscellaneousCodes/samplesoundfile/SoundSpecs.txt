@@ -1,5 +1,0 @@
-Set of Sample sounds (Vogt)
-NoSound, Null ,1,1,50
-PureTone-5kHz 	, a*sin(w*t) , 250, 5000, 50
-Modulated Tone , a*sin(w*t)*(3-sin(20*pi(1)*t)) , 250, 1000 , 25
-Noisy Tone 		, a*sin(w*t) + 2*(rand(-1)-0.5) , 250, 1000, 60

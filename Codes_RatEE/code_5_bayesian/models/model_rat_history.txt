@@ -1,0 +1,76 @@
+model{
+	    for (gi in 1:ngd) {
+					for (hi in 1:nH){
+							#noise_k[gi, hi] ~ dexp(1);
+							#noise_lambda[gi, hi] ~ dexp(10);
+							#noise[gi, hi] <- noise_k[gi, hi]/noise_lambda[gi, hi];
+							noise_k[gi, hi] ~ dunif(0.1, 10);
+							noise_lambda[gi, hi] ~ dunif(0.1, 10);
+							noise[gi, hi] = noise_k[gi, hi]/(noise_k[gi, hi] + noise_lambda[gi, hi]) * 20
+
+				    		#thres_mu[gi, hi] ~ dnorm(0,0.01);
+							#thres_sigma[gi, hi] ~ dexp(0.01);
+							thres_a[gi, hi] ~ dunif(0.1, 10);
+							thres_b[gi, hi] ~ dunif(0.1, 10);
+							thres[gi, hi] = thres_a[gi, hi]/(thres_a[gi, hi] + thres_b[gi, hi]) * 5
+							
+				    		#bias_mu[gi, hi] ~ dnorm(0,0.0001);
+							#bias_sigma[gi, hi] ~ dgamma(1, 0.001);
+							#bias[gi, hi] = bias_mu[gi, hi]
+							bias_mu[gi, hi] ~ dunif(0.1, 10);
+							bias_sigma[gi, hi] ~ dunif(0.1, 10);
+							bias[gi, hi] = bias_mu[gi, hi]/(bias_mu[gi, hi] + bias_sigma[gi, hi]) * 10 - 5;
+							
+				    		#lr_lastgs_a[gi, hi] ~ dnorm(0,0.0001);
+							#lr_lastgs_b[gi, hi] ~ dgamma(1, 0.001);
+							#lr_lastgs[gi, hi] = lr_lastgs_a[gi, hi];
+							lr_lastgs_a[gi, hi] ~ dunif(0.1, 10);
+							lr_lastgs_b[gi, hi] ~ dunif(0.1, 10);
+				    		lr_lastgs[gi, hi] = lr_lastgs_a[gi, hi]/(lr_lastgs_a[gi, hi] + lr_lastgs_b[gi, hi])
+
+							#lr_last_a[gi, hi] ~ dnorm(0,0.0001);
+							#lr_last_b[gi, hi] ~ dgamma(1, 0.001);
+							#lr_last[gi, hi] = lr_last_a[gi, hi];
+							lr_last_a[gi, hi] ~ dunif(0.1, 10);
+							lr_last_b[gi, hi] ~ dunif(0.1, 10);
+				    		lr_last[gi, hi] = lr_last_a[gi, hi]/(lr_last_a[gi, hi] + lr_last_b[gi, hi])
+							
+							for (r in 1:nR){
+								#tbias[gi, hi, r] ~ dnorm(bias_mu[gi, hi], 1/bias_sigma[gi, hi]);
+								tbias0[gi, hi, r] ~ dbeta(bias_mu[gi, hi], bias_sigma[gi, hi])T(0.00001, 0.99999)
+								tbias[gi, hi, r] = tbias0[gi, hi, r] * 10 - 5
+
+						 		#tnoise[gi, hi, r] ~ dgamma(noise_k[gi, hi], noise_lambda[gi, hi]);
+								tnoise0[gi, hi, r] ~ dbeta(noise_k[gi, hi], noise_lambda[gi, hi])T(0.00001, 0.99999)
+								tnoise[gi, hi, r] = tnoise0[gi, hi, r] * 20
+
+								tthres[gi, hi, r] ~ dbeta(thres_a[gi, hi], thres_b[gi, hi])T(0.00001,0.99999) #dnorm(thres_mu[gi, hi], 1/thres_sigma[gi, hi]);
+								
+									
+								#tlrlast[gi, hi, r] ~ dnorm(lr_last_a[gi, hi], 1/lr_last_b[gi, hi]);
+								#tlrlastgs[gi, hi, r] ~ dnorm(lr_lastgs_a[gi, hi], 1/lr_lastgs_b[gi, hi]);
+								
+								tlrlast[gi, hi, r] ~ dbeta(lr_last_a[gi, hi], lr_last_b[gi, hi])T(0.00001,0.99999); 													
+								tlrlastgs[gi, hi, r] ~ dbeta(lr_lastgs_a[gi, hi], lr_lastgs_b[gi, hi])T(0.00001,0.99999) 
+								
+								#tlrlast[gi, hi, r] = tlrlast0[gi, hi, r] * 2 - 0.5;
+								#tlrlastgs[gi, hi, r] = tlrlastgs0[gi, hi, r] * 2 - 0.5;
+							}
+					}
+					dthres[gi] = thres[gi, 2] - thres[gi, 1];
+					dnoise[gi] = noise[gi, 2] - noise[gi, 1];
+					dbias[gi] = bias[gi, 2] - bias[gi, 1];
+			}
+      for (t in 1:nG) {
+		  				tt[t] = tthres[gd[t], h[t], rats[t]] * 5
+		  				tvlastgame[t] = ifelse(rLastGame[t] == -1, tt[t], rLastGame[t])
+						tvlastsession[t] = ifelse(rLastSession[t] == -1, tt[t], rLastSession[t])
+		  				
+		  				tvOlastgame[t] = ifelse(rOLastGame[t] == -1, tt[t], rOLastGame[t])
+						tvOlastsession[t] = ifelse(rOLastSession[t] == -1, tt[t], rOLastSession[t])
+		  				
+						dQ[t] <- r[t] - tt[t] + tlrlast[gd[t], h[t], rats[t]] * (tvlastgame[t] - tvOlastgame[t]) + tlrlastgs[gd[t], h[t], rats[t]] * (tvlastsession[t] - tvOlastsession[t]) +  sideguided[t] * tbias[gd[t], h[t], rats[t]];
+						P[t]  <- 1 - 1/(1 + exp(-dQ[t]/tnoise[gd[t], h[t], rats[t]]))
+						c[t] ~ dbern( P[t] );
+			}
+}

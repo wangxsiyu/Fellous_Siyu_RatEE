@@ -55,7 +55,8 @@ classdef task_EERat < handle
                         nRep = 4;
                         horizons = [6 6];
                         guideds = [3];
-                        rattask_EEsound_magnitudeG(obj.savedir, ratname{ri}, fdtime, fddrops, homebase, horizons, guideds, nRep);
+                        homebasereward = 1;
+                        rattask_EEsound_magnitudeG(obj.savedir, ratname{ri}, fdtime, fddrops, homebase, horizons, guideds, nRep, homebasereward);
 %                     case 'EEsound_magnitudeGR'
 %                         fddrops = [0 1 2 3 4 5];
 %                         fdtime = 100;

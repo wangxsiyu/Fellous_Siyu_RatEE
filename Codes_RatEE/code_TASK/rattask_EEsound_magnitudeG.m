@@ -1,4 +1,4 @@
-function game = rattask_EEsound_magnitudeG(folder, ratname, fdtime, fddrops, homebases, horizons, guideds, nRep)
+function game = rattask_EEsound_magnitudeG(folder, ratname, fdtime, fddrops, homebases, horizons, guideds, nRep, homebasereward)
     if ~exist('folder')
         folder = './';
     end
@@ -55,7 +55,7 @@ function game = rattask_EEsound_magnitudeG(folder, ratname, fdtime, fddrops, hom
             nF = nF + 1;
         end
         for hi = 1:nGuided
-            fprintf(fileID,'%d\t%d\t0\t0\t1\n', thb, fdtime);
+            fprintf(fileID,'%d\t%d\t%d\t0\t1\n', thb, fdtime, homebasereward);
             od = 1;
             if tr(od) == 0
                 fprintf(fileID,'%d\t%d\t1\t0\t%d\n', tfd(od), fdtime, tr(od));
@@ -64,7 +64,7 @@ function game = rattask_EEsound_magnitudeG(folder, ratname, fdtime, fddrops, hom
             end
         end
         for hi = 1:nF
-            fprintf(fileID,'%c%d\t%d\t1\t0\t10\n', gethbletter(thb, nF + 1 - hi),thb, fdtime);
+            fprintf(fileID,'%c%d\t%d\t1\t0\t1%d\n', gethbletter(thb, nF + 1 - hi),thb, fdtime, homebasereward);
             if tr(1) == 0 && tr(2) == 0
                 fprintf(fileID,'%d%d\t%d\t1\t0\t%d%d\n', tfd(2), tfd(1), fdtime, tr(2), tr(1));
             elseif tr(1) == 0 && tr(2) ~= 0

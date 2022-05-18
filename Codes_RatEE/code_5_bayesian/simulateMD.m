@@ -1,11 +1,11 @@
 function out = simulateMD(d)
     out = [];
     d = d.bayesdata;
-    noise = rand * 10;
+    noise = rand * 5 + 5;
     thres = rand * 5;
     a_lg = 1*rand * 0.5;
     a_lr = 1*rand * 0.5;
-    bias = 1*(rand - 0.5);
+    bias = 5*(rand - 0.5);
     out.paramtruth = {thres, noise, a_lg, a_lr, bias};
     out.bayesdata = simu(d, thres, noise, a_lg, a_lr, bias);
 end

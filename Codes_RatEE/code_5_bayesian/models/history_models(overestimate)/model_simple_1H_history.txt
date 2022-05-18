@@ -1,8 +1,10 @@
 model{
-							noise_k ~ dgamma(1, 0.01);
-							noise_lambda ~ dgamma(1, 0.01);
-							noise <- noise_k/noise_lambda;
-
+							#noise_k ~ dexp(1);
+							#noise_lambda ~ dexp(10);
+							#noise <- noise_k/noise_lambda;
+							noise_k ~ dunif(0.1, 10);
+							noise_lambda ~ dunif(0.1, 10);
+							noise = noise_k/(noise_k + noise_lambda) * 20
 				    		#thres_mu ~ dnorm(0,0.01);
 							#thres_sigma ~ dexp(0.01);
 							thres_a ~ dunif(0.1, 10);
@@ -14,13 +16,14 @@ model{
 							bias_sigma ~ dunif(0.1, 10);
 							bias = bias_mu/(bias_mu + bias_sigma) * 10 - 5;
 
-							lr_lastgs_a ~ dgamma(1, 0.01);
-							lr_lastgs_b ~ dgamma(1, 0.01);
-				    		lr_lastgs = lr_lastgs_a/lr_lastgs_b;
 							
-							lr_last_a ~ dgamma(1, 0.01);
-							lr_last_b ~ dgamma(1, 0.01);
-				    		lr_last = lr_last_a/lr_last_b;
+							lr_lastgs_a ~ dunif(0.1, 10);
+							lr_lastgs_b ~ dunif(0.1, 10);
+				    		lr_lastgs = lr_lastgs_a/(lr_lastgs_a + lr_lastgs_b)
+							
+							lr_last_a ~ dunif(0.1, 10);
+							lr_last_b ~ dunif(0.1, 10);
+				    		lr_last = lr_last_a/(lr_last_a + lr_last_b)
 
 							for (r in 1:nR){
 								#tbias[r] ~ dnorm(bias_mu, 1/bias_sigma);
@@ -30,10 +33,11 @@ model{
 								tbias[r] = tbias0[r] * 10 - 5
 
 								
-				        		tnoise[r] ~ dgamma(noise_k, noise_lambda);
+								tnoise0[r] ~ dbeta(noise_k, noise_lambda)T(0.00001, 0.99999)
+								tnoise[r] = tnoise0[r] * 20
 								
-								tlrlast[r] ~ dgamma(lr_last_a, lr_last_b)
-								tlrlastgs[r] ~ dgamma(lr_lastgs_a, lr_lastgs_b)
+								tlrlast[r] ~ dbeta(lr_last_a, lr_last_b)T(0.00001,0.99999) 
+								tlrlastgs[r] ~ dbeta(lr_lastgs_a, lr_lastgs_b)T(0.00001,0.99999) 
 
 								tthres[r] ~ dbeta(thres_a, thres_b)T(0.00001,0.99999) #dnorm(thres_mu, 1/thres_sigma);
 							}

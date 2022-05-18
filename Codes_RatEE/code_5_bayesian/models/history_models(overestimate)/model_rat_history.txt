@@ -6,7 +6,7 @@ model{
 							#noise[gi, hi] <- noise_k[gi, hi]/noise_lambda[gi, hi];
 							noise_k[gi, hi] ~ dunif(0.1, 10);
 							noise_lambda[gi, hi] ~ dunif(0.1, 10);
-							noise[gi, hi] = noise_k[gi, hi]/(noise_k[gi, hi] + noise_lambda[gi, hi]) * 10
+							noise[gi, hi] = noise_k[gi, hi]/(noise_k[gi, hi] + noise_lambda[gi, hi]) * 20
 
 				    		#thres_mu[gi, hi] ~ dnorm(0,0.01);
 							#thres_sigma[gi, hi] ~ dexp(0.01);
@@ -42,7 +42,7 @@ model{
 
 						 		#tnoise[gi, hi, r] ~ dgamma(noise_k[gi, hi], noise_lambda[gi, hi]);
 								tnoise0[gi, hi, r] ~ dbeta(noise_k[gi, hi], noise_lambda[gi, hi])T(0.00001, 0.99999)
-								tnoise[gi, hi, r] = tnoise0[gi, hi, r] * 10
+								tnoise[gi, hi, r] = tnoise0[gi, hi, r] * 20
 
 								tthres[gi, hi, r] ~ dbeta(thres_a[gi, hi], thres_b[gi, hi])T(0.00001,0.99999) #dnorm(thres_mu[gi, hi], 1/thres_sigma[gi, hi]);
 								

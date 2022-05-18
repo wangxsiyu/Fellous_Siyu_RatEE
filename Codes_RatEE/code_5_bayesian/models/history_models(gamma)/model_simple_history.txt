@@ -3,13 +3,15 @@ model{
 							noise_k[hi] ~ dgamma(1, 0.01);
 							noise_lambda[hi] ~ dgamma(1, 0.01);
 							noise[hi] <- noise_k[hi]/noise_lambda[hi];
-				    		
-							#thres_mu[hi] ~ dnorm(0,0.01);
-							#thres_sigma[hi] ~ dexp(0.01);
+							
 							thres_a[hi] ~ dunif(0.1, 10);
 							thres_b[hi] ~ dunif(0.1, 10);
-							thres[hi] = thres_a[hi]/(thres_a[hi] + thres_b[hi]) * 100
-
+							thres[hi] = thres_a[hi]/(thres_a[hi] + thres_b[hi]) * 5
+				    		
+							bias_mu[hi] ~ dunif(0.1, 10);
+							bias_sigma[hi] ~ dunif(0.1, 10);
+							bias[hi] = bias_mu[hi]/(bias_mu[hi] + bias_sigma[hi]) * 10 - 5;
+							
 							lr_lastgs_a[hi] ~ dgamma(1, 0.01);
 							lr_lastgs_b[hi] ~ dgamma(1, 0.01);
 				    		lr_lastgs[hi] = lr_lastgs_a[hi]/lr_lastgs_b[hi];
@@ -17,16 +19,11 @@ model{
 							lr_last_a[hi] ~ dgamma(1, 0.01);
 							lr_last_b[hi] ~ dgamma(1, 0.01);
 				    		lr_last[hi] = lr_last_a[hi]/lr_last_b[hi];
-				    		
-							#bias_mu[hi] ~ dnorm(0,0.0001);
-							#bias_sigma[hi] ~ dgamma(1, 0.001);
-							bias_mu[hi] ~ dunif(0.1, 10);
-							bias_sigma[hi] ~ dunif(0.1, 10);
-							bias[hi] = bias_mu[hi]/(bias_mu[hi] + bias_sigma[hi]) * 100 - 50;
+
 							for (r in 1:nR){
 								#tbias[hi, r] ~ dnorm(bias_mu[hi], 1/bias_sigma[hi]);
 								tbias0[hi, r] ~ dbeta(bias_mu[hi], bias_sigma[hi])T(0.00001, 0.99999)
-								tbias[hi, r] = tbias0[hi, r] * 100 - 50
+								tbias[hi, r] = tbias0[hi, r] * 10 - 5
 
 				        		tnoise[hi, r] ~ dgamma(noise_k[hi], noise_lambda[hi]);
 
@@ -34,10 +31,11 @@ model{
 								
 								tlrlast[hi, r] ~ dgamma(lr_last_a[hi], lr_last_b[hi])
 								tlrlastgs[hi, r] ~ dgamma(lr_lastgs_a[hi], lr_lastgs_b[hi])
+
 							}
 					}
       for (t in 1:nG) {
-		  				tt[t] = tthres[h[t], rats[t]] * 100
+		  				tt[t] = tthres[h[t], rats[t]] * 5
 		  				tvlastgame[t] = ifelse(rLastGame[t] == -1, tt[t], rLastGame[t])
 						tvlastsession[t] = ifelse(rLastSession[t] == -1, tt[t], rLastSession[t])
 		  				
@@ -45,7 +43,7 @@ model{
 						tvOlastsession[t] = ifelse(rOLastSession[t] == -1, tt[t], rOLastSession[t])
 		  				
 						dQ[t] <- r[t] - tt[t] + tlrlast[h[t], rats[t]] * (tvlastgame[t] - tvOlastgame[t]) + tlrlastgs[h[t], rats[t]] * (tvlastsession[t] - tvOlastsession[t]) +  sideguided[t] * tbias[h[t], rats[t]];	
-
+						
 						P[t]  <- 1 - 1/(1 + exp(-dQ[t]/tnoise[h[t], rats[t]]))
 						c[t] ~ dbern( P[t] );
 			}
